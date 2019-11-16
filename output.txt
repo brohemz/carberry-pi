@@ -1,0 +1,14 @@
+Car Connected
+629.0 revolutions_per_minute
+620.0 revolutions_per_minute
+619.0 revolutions_per_minute
+621.0 revolutions_per_minute
+613.0 revolutions_per_minute
+620.0 revolutions_per_minute
+619.0 revolutions_per_minute
+621.0 revolutions_per_minute
+625.0 revolutions_per_minute
+620.0 revolutions_per_minute
+611.0 revolutions_per_minute
+623.0 revolutions_per_minute
+617.0 revolutions_per_minute
