@@ -1,8 +1,7 @@
-import QtQuick 2.13
-import QtQuick.Window 2.13
-import QtQuick.Controls 2.13
+import QtQuick 2.11
+import QtQuick.Window 2.11
+import QtQuick.Controls 2.11
 import QtQuick.Controls.Styles 1.4
-import QtQuick.Controls.Material 2.13
 import QtQuick.Layouts 1.3
 import QtQuick.Extras 1.4
 import "../js/rectCreation.js" as RectScript
