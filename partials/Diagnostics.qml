@@ -13,7 +13,7 @@ Frame{
     property var time: context.time
     clip: true
 
-    implicitWidth: 550
+    implicitWidth: 700
     implicitHeight: 420
 
     // onTimeChanged: {console.log("hi")}

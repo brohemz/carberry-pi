@@ -10,7 +10,7 @@ import "./js/header_back.js" as HeaderBack
 ApplicationWindow {
     id: root
     visible: true
-    width: 700
+    width: 800
     height: 480
     title: qsTr("Hello World")
 
@@ -29,6 +29,35 @@ ApplicationWindow {
       id: stack
       anchors.fill: parent
       initialItem: view1
+      objectName: "stack"
+
+      Transition {
+        id: transition_enter
+        PropertyAnimation{
+          property: "opacity"
+          from: 0
+          to: 1
+          duration: 500
+        }
+      }
+
+      Transition {
+        id: transition_exit
+        PropertyAnimation{
+          property: "opacity"
+          from: 1
+          to: 0
+          duration: 500
+        }
+      }
+
+      popEnter: transition_enter
+      popExit: transition_exit
+      pushEnter: transition_enter
+      pushExit: transition_exit
+
+
+      signal sig_exit(var exit_code)
 
       Component {
         id: view2
@@ -39,6 +68,15 @@ ApplicationWindow {
             id: settingsPage
             context: main
             parent_stack: stack
+
+            Button {
+              objectName: "exit_button"
+              text: "Exit"
+
+              anchors.horizontalCenter: parent.horizontalCenter
+              anchors.bottom: settingsPage.bottom
+              onClicked: stack.sig_exit(0)
+            }
           }
 
           Component.onCompleted: function(){
@@ -66,6 +104,7 @@ ApplicationWindow {
 
             Item {
               id: firstPage
+
               Dash{
                   Button{
                     text: "Settings"
@@ -91,10 +130,10 @@ ApplicationWindow {
           PageIndicator {
             id: indicator
 
-            count: view.count
-            currentIndex: view.currentIndex
+            count: swipeView.count
+            currentIndex: swipeView.currentIndex
 
-            anchors.bottom: view.bottom
+            anchors.bottom: swipeView.bottom
             anchors.horizontalCenter: parent.horizontalCenter
           }
 

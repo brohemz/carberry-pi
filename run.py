@@ -72,6 +72,9 @@ class Main_Context(QObject):
         self.m_config.update(val)
         self.configChanged.emit(self.m_config)
 
+    def wow(val):
+        sys.exit(val)
+
 
     # @QtCore.pyqtProperty(QtCore.QVariant, notify=diagnosticsChanged)
     # def diagnostics(self):
@@ -236,6 +239,10 @@ def main():
     #     mc.rpmValue = val
     #     app.processEvents()
     #     time.sleep(.5)
+
+    win.showFullScreen()
+
+    win.findChild(QObject, "stack").sig_exit.connect(mc.wow)
 
 
     win.show()

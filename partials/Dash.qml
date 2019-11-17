@@ -13,23 +13,22 @@ Frame{
     property var context: null
     clip: true
 
-    implicitWidth: 550
+    implicitWidth: 700
     implicitHeight: 420
 
-    GridView{
+    Item{
+
+        // anchors.fill: parent
         id: grid
+        anchors.horizontalCenter: parent.horizontalCenter
 
-        flow: GridView.FlowTopToBottom
+        // flow: GridView.FlowTopToBottom  
 
+        // model: context
 
+        // delegate: dashDelegate
 
-        // Material.theme: Material.Dark
-        // Material.accent: Material.Red
-        // Material.background: Material.BlueGrey
-
-        model: context
-
-        delegate: dashDelegate
+        Loader { sourceComponent: dashDelegate }
 
         Component {
             id: dashDelegate
@@ -39,15 +38,14 @@ Frame{
             Column{
               id: dashboard
               // Component.onCompleted: RectScript.rectCreation(dashboard, model)
-
-
+              anchors.horizontalCenter: parent.left
               Row{
 
                   // Label{text: "Speed: " + model.speedValue}
                   CircularGauge {
                     id: speedGauge
                     objectName: "gauge_speed"
-                    value: handler['speed']
+                    value: context.handler['speed']
                     minimumValue: 0
                     maximumValue: 140
                   }
@@ -55,7 +53,7 @@ Frame{
                   CircularGauge {
                     id: rpmGauge
                     objectName: "gauge_rpm"
-                    value: handler['rpm']
+                    value: context.handler['rpm']
                     minimumValue: 0
                     maximumValue: 8000
 
@@ -79,7 +77,7 @@ Frame{
 
               Row{
                 padding: 10
-                Items.Thermometer{value: handler['engine_temp']}
+                Items.Thermometer{value: context.handler['engine_temp']}
                 Items.Label{text: "Engine Temp"; padding: 30;
                     style: main.config['style']}
               }
