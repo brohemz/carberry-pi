@@ -219,6 +219,8 @@ def main():
 
     win = ex.rootObjects()[0]
 
+    win.setWindowState(QtCore.Qt.WindowFullScreen)
+
     # Timer for current time
     timer = QtCore.QTimer()
     timer.setInterval(1000)
@@ -240,7 +242,7 @@ def main():
     #     app.processEvents()
     #     time.sleep(.5)
 
-    win.showFullScreen()
+
 
     win.findChild(QObject, "stack").sig_exit.connect(mc.wow)
 
