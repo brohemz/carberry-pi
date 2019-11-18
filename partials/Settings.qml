@@ -14,6 +14,8 @@ Item{
     property var parent_stack: null
     anchors.fill: parent
 
+    
+
     Column{
       anchors.verticalCenter: parent.verticalCenter
       anchors.horizontalCenter: parent.horizontalCenter

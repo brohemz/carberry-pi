@@ -9,6 +9,7 @@ from functools import partial
 import re
 import time
 import obd
+import json
 
 
 
@@ -76,52 +77,16 @@ class Main_Context(QObject):
         sys.exit(val)
 
 
-    # @QtCore.pyqtProperty(QtCore.QVariant, notify=diagnosticsChanged)
-    # def diagnostics(self):
-    #     return QtCore.QVariant(self.m_diagnostics)
-    #
-    # @handler.setter
-    # def diagnostics(self, val):
-    #     self.m_diagnostics.update(val)
-    #     self.diagnosticsChanged.emit(self.m_diagnostics)
+    @QtCore.pyqtProperty(QtCore.QVariant, notify=diagnosticsChanged)
+    def diagnostics(self):
+        return QtCore.QVariant(self.m_diagnostics)
 
+    @handler.setter
+    def diagnostics(self, val):
+        self.m_diagnostics.update(val)
+        self.diagnosticsChanged.emit(self.m_diagnostics)
 
-
-
-
-
-    # @QtCore.pyqtProperty(int, notify=rpmValueChanged)
-    # def rpmValue(self):
-    #     return self.m_rpmValue
-    #
-    # @rpmValue.setter
-    # def rpmValue(self, val):
-    #     if self.m_rpmValue == val:
-    #         return
-    #     self.m_rpmValue = val
-    #     self.rpmValueChanged.emit(val)
-    #
-    # @QtCore.pyqtProperty(int, notify=speedValueChanged)
-    # def speedValue(self):
-    #     return self.m_speedValue
-    #
-    # @speedValue.setter
-    # def speedValue(self, val):
-    #     if self.m_speedValue == val:
-    #         return
-    #     self.m_speedValue = val
-    #     self.speedValueChanged.emit(val)
-    #
-    # @QtCore.pyqtProperty(int, notify=tempValueChanged)
-    # def tempValue(self):
-    #     return self.m_tempValue
-    #
-    # @tempValue.setter
-    # def tempValue(self, val):
-    #     if self.m_tempValue == val:
-    #         return
-    #     self.m_tempValue = val
-    #     self.tempValueChanged.emit(val)
+# End Main_Context
 
 mc = Main_Context()
 
@@ -150,6 +115,10 @@ class Obd_Thread(QThread):
             # mc.tempValue = r.value.to('degF').magnitude
             mc.handler = {'engine_temp': r.value.to('degF').magnitude}
 
+    # def set_val(self, r, r.name):
+    #     if(r.value)
+    #         mc.diagnostics = {r.name, r.value}
+
 
 
     def run(self):
@@ -162,9 +131,20 @@ class Obd_Thread(QThread):
         connection.watch(obd.commands.COOLANT_TEMP, callback=self.set_temp)
         command_list = connection.supported_commands
 
+        connection_sync = obd.OBD()
+
         for command in command_list:
                 if(command is not None):
-                    print(command)
+                    # connection.query(obd.commands.RPM)
+                    ret = connection_sync.query(command)
+                    if not ret.is_null():
+                        # add_diagnostic()
+                        print("Command: " + ret.name + ", Value: " + ret.value);
+
+
+
+
+
                 # ret = connection.query(command)
                 # print(ret)
             # mc.handler = {command.name: ret.value.magnitude}
@@ -194,6 +174,11 @@ def getFromFile():
 
     return int_arr
 
+def readConfig():
+    with open('config.json') as config_file:
+        config_data = json.load(config_file)
+    print(config_data)
+
 
 
 
@@ -206,6 +191,9 @@ def main():
     ctx.setContextProperty("main", mc)
 
     #int_arr = getFromFile()
+
+    # Pull config data
+    readConfig()
 
     mc.handler = {'rpm': 1000}
     mc.handler = {'speed': 50}
