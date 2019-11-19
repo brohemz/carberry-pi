@@ -68,6 +68,9 @@ class Main_Context(QObject):
     def config(self):
         return QtCore.QVariant(self.m_config)
 
+    def getConfig(self):
+        return self.m_config
+
     @config.setter
     def config(self, val):
         self.m_config.update(val)
@@ -204,7 +207,7 @@ def main():
     mc.diagnostics = {'temp1': 200}
     mc.diagnostics = {'temp2': "wow"}
     mc.diagnostics = {'temp3': -14.2}
-    
+
     # mc.config = {'style': 'dark'}
 
 
@@ -214,7 +217,8 @@ def main():
 
     win = ex.rootObjects()[0]
 
-    win.setWindowState(QtCore.Qt.WindowFullScreen)
+    if mc.getConfig()['fullscreen']:
+        win.setWindowState(QtCore.Qt.WindowFullScreen)
 
     # Timer for current time
     timer = QtCore.QTimer()

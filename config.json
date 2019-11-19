@@ -1,5 +1,5 @@
 {
-  "locality": "en-US",
-  "fullscreen": true,
-  "style": "dark"
+  "locality" : "en-US",
+  "fullscreen" : false,
+  "style" : "dark"
 }

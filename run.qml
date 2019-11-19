@@ -72,12 +72,15 @@ ApplicationWindow {
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.verticalCenter: parent.verticalCenter
 
+
             Button {
+              id: exit_button
               objectName: "exit_button"
               text: "Exit"
 
               // anchors.horizontalCenter: parent.horizontalCenter
-              // anchors.top: settingsItem.bottom
+              anchors.horizontalCenter: parent.horizontalCenter
+              anchors.bottom: parent.bottom
               onClicked: stack.sig_exit(0)
             }
           }
