@@ -69,12 +69,15 @@ ApplicationWindow {
             context: main
             parent_stack: stack
 
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.verticalCenter: parent.verticalCenter
+
             Button {
               objectName: "exit_button"
               text: "Exit"
 
-              anchors.horizontalCenter: parent.horizontalCenter
-              anchors.bottom: settingsPage.bottom
+              // anchors.horizontalCenter: parent.horizontalCenter
+              // anchors.top: settingsItem.bottom
               onClicked: stack.sig_exit(0)
             }
           }

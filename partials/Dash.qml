@@ -22,18 +22,16 @@ Frame{
         id: grid
         anchors.horizontalCenter: parent.horizontalCenter
 
-        // flow: GridView.FlowTopToBottom  
+        // flow: GridView.FlowTopToBottom
 
         // model: context
 
         // delegate: dashDelegate
 
-        Loader { sourceComponent: dashDelegate }
+        // Loader { sourceComponent: dashDelegate; dash_context: context }
 
-        Component {
-            id: dashDelegate
-
-
+        // Component {
+        //     id: dashDelegate
 
             Column{
               id: dashboard
@@ -79,11 +77,11 @@ Frame{
                 padding: 10
                 Items.Thermometer{value: context.handler['engine_temp']}
                 Items.Label{text: "Engine Temp"; padding: 30;
-                    style: main.config['style']}
+                    style: context.config['style']}
               }
 
 
-            }
+            // }
 
 
 

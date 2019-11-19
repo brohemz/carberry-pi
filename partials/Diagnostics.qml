@@ -38,11 +38,11 @@ Frame{
 
             clear()
 
-            var obj = Object.keys(context.handler);
+            var obj = Object.keys(context.diagnostics);
             for(var i = 0; i < obj.length; i++){
               var fill = obj[i];
-              var ob = {'key': fill, 'value': context.handler[fill]};
-              append(ob);
+              var entry = {'key': fill, 'value': context.diagnostics[fill]};
+              append(entry);
             }
         }
 
@@ -59,7 +59,7 @@ Frame{
         id: diagnosticsDelegate
 
         Items.Label {
-          text: model.key + ": " + context.handler[model.key];
+          text: model.key + ": " + context.diagnostics[model.key];
           style: main.config['style']
         }
       }

@@ -81,7 +81,7 @@ class Main_Context(QObject):
     def diagnostics(self):
         return QtCore.QVariant(self.m_diagnostics)
 
-    @handler.setter
+    @diagnostics.setter
     def diagnostics(self, val):
         self.m_diagnostics.update(val)
         self.diagnosticsChanged.emit(self.m_diagnostics)
@@ -131,15 +131,15 @@ class Obd_Thread(QThread):
         connection.watch(obd.commands.COOLANT_TEMP, callback=self.set_temp)
         command_list = connection.supported_commands
 
-        connection_sync = obd.OBD()
-
-        for command in command_list:
-                if(command is not None):
-                    # connection.query(obd.commands.RPM)
-                    ret = connection_sync.query(command)
-                    if not ret.is_null():
-                        # add_diagnostic()
-                        print("Command: " + ret.name + ", Value: " + ret.value);
+        # connection_sync = obd.OBD()
+        #
+        # for command in command_list:
+        #         if(command is not None):
+        #             # connection.query(obd.commands.RPM)
+        #             ret = connection_sync.query(command)
+        #             if not ret.is_null():
+        #                 # add_diagnostic()
+        #                 print("Command: " + ret.name + ", Value: " + ret.value);
 
 
 
@@ -178,6 +178,8 @@ def readConfig():
     with open('config.json') as config_file:
         config_data = json.load(config_file)
     print(config_data)
+    for key in config_data:
+        mc.config = {key: config_data[key]}
 
 
 
@@ -199,7 +201,12 @@ def main():
     mc.handler = {'speed': 50}
     mc.handler = {'engine_temp': 240}
 
-    mc.config = {'style': 'dark'}
+    mc.diagnostics = {'temp1': 200}
+    mc.diagnostics = {'temp2': "wow"}
+    mc.diagnostics = {'temp3': -14.2}
+    
+    # mc.config = {'style': 'dark'}
+
 
 
 
