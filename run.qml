@@ -7,6 +7,7 @@ import "./js/header_back.js" as HeaderBack
 
 
 
+
 ApplicationWindow {
     id: root
     visible: true
@@ -148,7 +149,10 @@ ApplicationWindow {
       }
 
       Component.onCompleted: function(){
-        if(style == null)
+          if(main.config['test'])
+            console.log("cool")
+
+          if(style == null)
           return;
 
         stategroup.state = style;
