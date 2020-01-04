@@ -1,5 +1,30 @@
 {
-  "locality" : "en-US",
-  "fullscreen" : false,
-  "style" : "dark"
+  "locality": {
+    "current": "en-US",
+    "options": [
+      "en-US",
+      "en-UK"
+    ]
+  },
+  "fullscreen": {
+    "current": false,
+    "options": [
+      true,
+      false
+    ]
+  },
+  "style": {
+    "current": "dark",
+    "options": [
+      "dark",
+      "light"
+    ]
+  },
+  "show-time": {
+    "current": false,
+    "options": [
+      true,
+      false
+    ]
+  }
 }

@@ -60,7 +60,7 @@ Frame{
 
         Items.Label {
           text: model.key + ": " + context.diagnostics[model.key];
-          style: main.config['style']
+          style: main.config['style']['current']
         }
       }
 
@@ -69,8 +69,9 @@ Frame{
     Row{
       anchors.top: diagnostics_view.bottom
       Column{
-        Button{
+        Items.Button{
           text: "Refresh"
+          style: context.config['style']['current']
           onClicked: diagnostics_model.refreshModel()
         }
       }

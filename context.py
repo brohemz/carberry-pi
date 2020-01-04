@@ -1,6 +1,7 @@
 from PyQt5.QtCore import QObject, QThread
 from PyQt5 import QtCore
 import time
+import sys
 
 class Main_Context(QObject):
     # Refactor with Dictionary (State) - Done*
@@ -64,6 +65,22 @@ class Main_Context(QObject):
     def config(self, val):
         self.m_config.update(val)
         self.configChanged.emit(self.m_config)
+
+    @QtCore.pyqtSlot(QtCore.QVariant, QtCore.QVariant)
+    def updateConfigFromQML(self, key, value):
+
+
+        if value.lower() == "true":
+            value = True
+        elif value.lower() == "false":
+            value = False
+
+        updatedDict= self.getConfig()[key]
+        updatedDict['current'] = value
+        # print({key : updatedDict})
+        self.config = {key : updatedDict}
+        # print(self.getConfig())
+
 
     def close(val):
         sys.exit(val)

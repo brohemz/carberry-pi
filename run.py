@@ -1,4 +1,5 @@
 import sys
+import atexit
 from PyQt5 import QtWidgets
 from PyQt5.QtQml import QQmlApplicationEngine
 from PyQt5.QtCore import QObject, QThread
@@ -57,10 +58,13 @@ class Obd_Thread(QThread):
         connection.watch(obd.commands.RPM, callback=self.set_rpm)
         connection.watch(obd.commands.SPEED, callback=self.set_speed)
         connection.watch(obd.commands.COOLANT_TEMP, callback=self.set_temp)
+
         command_list = connection.supported_commands
 
-        # connection_sync = obd.OBD()
-        #
+        connection_sync = obd.OBD()
+
+        ret = connection.query(obd.commands.GET_DTC)
+        # print("Command: " + ret.command + ", Value: " + ret.value)
         # for command in command_list:
         #         if(command is not None):
         #             # connection.query(obd.commands.RPM)
@@ -109,7 +113,11 @@ def readConfig():
     for key in config_data:
         mc.config = {key: config_data[key]}
 
-
+def writeConfig():
+    with open('config.json', 'w') as config_file:
+        json.dump(mc.getConfig(), config_file, indent=2)
+    print("\n\n_____Writing config to file..._____\n\n")
+    print(json.dumps(mc.getConfig(), indent=2))
 
 
 def main():
@@ -128,10 +136,12 @@ def main():
     mc.handler = {'rpm': 1000}
     mc.handler = {'speed': 50}
     mc.handler = {'engine_temp': 240}
+    mc.handler = {'oil_temp': 240}
 
     mc.diagnostics = {'temp1': 200}
     mc.diagnostics = {'temp2': "wow"}
     mc.diagnostics = {'temp3': -14.2}
+    mc.diagnostics = {'code-exists': True}
 
     # mc.config = {'style': 'dark'}
 
@@ -139,13 +149,11 @@ def main():
     # if sys.argv[1] and sys.argv[1] == 'test':
     #     mc.config = {'test': True}
 
-
-
     ex.load('run.qml')
 
     win = ex.rootObjects()[0]
 
-    if mc.getConfig()['fullscreen']:
+    if mc.getConfig()['fullscreen']['current']:
         win.setWindowState(QtCore.Qt.WindowFullScreen)
 
     # Timer for current time
@@ -175,6 +183,7 @@ def main():
 
 
     win.show()
+    atexit.register(writeConfig)
     sys.exit(app.exec_())
 
 

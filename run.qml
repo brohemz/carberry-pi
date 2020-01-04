@@ -4,6 +4,7 @@ import QtQuick.Controls 2.4
 import QtQuick.Extras 1.4
 import "./partials"
 import "./js/header_back.js" as HeaderBack
+import "./items" as Items
 
 
 
@@ -15,7 +16,7 @@ ApplicationWindow {
     height: 480
     title: "Carberry Pi [BETA]"
 
-    property var style: main.config['style']
+    property var style: main.config['style']['current']
 
     color: "white"
 
@@ -23,8 +24,14 @@ ApplicationWindow {
 
     Item {
       id: head
-      Header {id: headerObj; context: main;}
+      Header {
+        id: headerObj
+        context: main
+        stack: stack
+      }
     }
+
+
 
     StackView{
       id: stack
@@ -74,10 +81,10 @@ ApplicationWindow {
             anchors.verticalCenter: parent.verticalCenter
 
 
-            Button {
+            Items.Button {
               id: exit_button
-              objectName: "exit_button"
               text: "Exit"
+              style: main.config['style']['current']
 
               // anchors.horizontalCenter: parent.horizontalCenter
               anchors.horizontalCenter: parent.horizontalCenter
@@ -113,8 +120,10 @@ ApplicationWindow {
               id: firstPage
 
               Dash{
-                  Button{
+                  Items.Button{
                     text: "Settings"
+                    style: main.config['style']['current']
+                    implicitWidth: 100
                     onClicked: stack.push(view2)
                   }
                   anchors.horizontalCenter: parent.horizontalCenter
