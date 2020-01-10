@@ -11,11 +11,18 @@ Frame{
     id: root_diagnostics
     property var context: null
     property var time: context.time
-    property variant ignore_list: null
+    property var ignore_list: null
     clip: true
 
     implicitWidth: 700
     implicitHeight: 420
+
+    function list(){
+      var temp = []
+      for(var val in ignore_list)
+        temp.push(val)
+      return temp
+    }
 
     // onTimeChanged: {console.log("hi")}
 
@@ -43,7 +50,7 @@ Frame{
               for(var i = 0; i < obj.length; i++){
                 var fill = obj[i];
                 var entry = {'key': fill, 'value': context.diagnostics[fill]};
-                if(!ignore_list.includes(fill))
+                if(!list().includes(fill))
                   append(entry);
               }
           }
