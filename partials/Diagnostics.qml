@@ -11,16 +11,18 @@ Frame{
     id: root_diagnostics
     property var context: null
     property var time: context.time
-    property var ignore_list: null
+    property variant ignore_list: [
+          'code-exists',
+          // 'connection-established',
+        ]
+
     clip: true
 
     implicitWidth: 700
     implicitHeight: 420
 
     function list(){
-      var temp = []
-      for(var val in ignore_list)
-        temp.push(val)
+      var temp = ignore_list
       console.log(temp)
       return temp
     }
@@ -47,11 +49,13 @@ Frame{
 
               clear()
 
+              var arr = list()
+
               var obj = Object.keys(context.diagnostics);
               for(var i = 0; i < obj.length; i++){
                 var fill = obj[i];
                 var entry = {'key': fill, 'value': context.diagnostics[fill]};
-                if(!list().includes(fill))
+                if(!arr.includes(fill))
                   append(entry);
               }
           }

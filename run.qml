@@ -24,11 +24,6 @@ ApplicationWindow {
       'text': "",
       'stack': stack
     }
-    property var diagnostics_ignore_list: [
-      'code-exists',
-      // 'connection-established',
-    ]
-
     color: "white"
 
     header: head
@@ -196,7 +191,6 @@ ApplicationWindow {
                     onClicked: stack.push(view2)
                     anchors.bottom: parent.bottom
                   }
-                  ignore_list: diagnostics_ignore_list
                   anchors.horizontalCenter: parent.horizontalCenter
                   anchors.verticalCenter: parent.verticalCenter
                   context: main
