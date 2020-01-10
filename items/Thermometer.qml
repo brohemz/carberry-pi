@@ -7,6 +7,9 @@ import QtQuick.Extras 1.4
 import ".."
 
 Gauge {
+  id: internal_gauge
+  property var context_style: null
+  property var prop_color: "black"
   minimumValue: 100
   maximumValue: 300
   value: 50
@@ -16,6 +19,49 @@ Gauge {
   minorTickmarkCount: 0
 
   tickmarkStepSize: 50
+
+  style: GaugeStyle{
+
+    tickmark: Rectangle{
+      implicitWidth: 15
+      implicitHeight: 1
+      color: internal_gauge.prop_color
+      anchors.leftMargin: 3
+      anchors.rightMargin: 3
+    }
+
+    tickmarkLabel: Text{
+      text: styleData.value
+      color: internal_gauge.prop_color
+    }
+
+  }
+
+  Component.onCompleted: function() {
+    if(context_style == null)
+      return
+
+    internal_gauge.state = context_style
+  }
+
+  states: [
+    State{
+      name: "dark"
+      PropertyChanges {
+        target: internal_gauge
+        prop_color: "white"
+      }
+    },
+    State{
+      name: "light"
+      PropertyChanges {
+        target: internal_gauge
+        prop_color: "black"
+      }
+    }
+  ]
+
+
 
 
 }

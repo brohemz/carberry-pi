@@ -27,6 +27,7 @@ Item {
     height: parent.height
 
     Image{
+      id: internal_image
       source: "../resources/alert.svg"
 
       height: parent.height
@@ -34,8 +35,23 @@ Item {
 
       MouseArea{
         anchors.fill: parent
-        onClicked: stack.push(view3)
+        onPressed: function() {
+          stack.push(view3)
+          internal_item.opacity = 0.5
+        }
+        onReleased: function(){
+          internal_item.opacity = 0
+          internal_item.enabled = false
+        }
         // onClicked: stack.push(stack.view1)
+      }
+
+      OpacityAnimator{
+        id: animation
+        target: internal_item
+        from: 0
+        to: 1
+        duration: 500
       }
 
     }
@@ -54,6 +70,7 @@ Item {
 
   Component{
     id: view3
+
     Item {
       id: engineCodeItem
 
@@ -66,7 +83,12 @@ Item {
         anchors.verticalCenter: parent.verticalCenter
 
         Component.onCompleted: function(){
-          HeaderBack.buttonCreation(root.header.headerObj, stack)
+          HeaderBack.buttonCreation()
+        }
+
+        Component.onDestruction: function(){
+          internal_item.enabled = true
+          animation.start()
         }
       }
     }

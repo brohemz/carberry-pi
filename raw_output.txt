@@ -1,0 +1,42 @@
+Command: ENGINE_LOAD, Value: 21.568627450980394 percent
+Command: FUEL_STATUS, Value: ('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')
+Command: GET_CURRENT_DTC, Value: []
+Command: INTAKE_PRESSURE, Value: 31 kilopascal
+Command: DTC_ENGINE_LOAD, Value: 0.0 percent
+Command: ELM_VERSION, Value: ELM327 v1.3a
+Command: PIDS_A, Value: 10111111101111101011100110010101
+Command: DTC_RPM, Value: 0.0 revolutions_per_minute
+Command: TIMING_ADVANCE, Value: 11.5 degree
+Command: DTC_INTAKE_TEMP, Value: -40 degC
+Command: AUX_INPUT_STATUS, Value: False
+Command: O2_B2S1, Value: 0.705 volt
+Command: DISTANCE_W_MIL, Value: 0.0 kilometer
+Command: GET_DTC, Value: []
+Command: SHORT_FUEL_TRIM_2, Value: 0.0 percent
+Command: DTC_SPEED, Value: 0.0 kph
+Command: RPM, Value: 625.0 revolutions_per_minute
+Command: DTC_SHORT_FUEL_TRIM_2, Value: -100.0 percent
+Command: DTC_COOLANT_TEMP, Value: -40 degC
+Command: LONG_FUEL_TRIM_2, Value: 5.46875 percent
+Command: O2_SENSORS, Value: ((), (False, False, True, True), (False, False, True, True))
+Command: PIDS_B, Value: 10000000000000000000000000000000
+Command: THROTTLE_POS, Value: 12.549019607843137 percent
+Command: ELM_VOLTAGE, Value: 14.5 volt
+Command: O2_B1S2, Value: 0.095 volt
+Command: SHORT_FUEL_TRIM_1, Value: 0.0 percent
+[obd.obd] Mode 06 commands are only supported over CAN protocols
+Command: OBD_COMPLIANCE, Value: OBD-II as defined by the CARB
+Command: DTC_INTAKE_PRESSURE, Value: 0 kilopascal
+Command: DTC_LONG_FUEL_TRIM_1, Value: -100.0 percent
+Command: DTC_THROTTLE_POS, Value: 0.0 percent
+Command: O2_B1S1, Value: 0.725 volt
+Command: STATUS, Value: <obd.OBDResponse.Status object at 0x10a601210>
+Command: DTC_SHORT_FUEL_TRIM_1, Value: -100.0 percent
+Command: LONG_FUEL_TRIM_1, Value: 3.125 percent
+Command: SPEED, Value: 0.0 kph
+Command: DTC_TIMING_ADVANCE, Value: -64.0 degree
+Command: DTC_AUX_INPUT_STATUS, Value: False
+Command: DTC_LONG_FUEL_TRIM_2, Value: -100.0 percent
+Command: INTAKE_TEMP, Value: 50 degC
+Command: COOLANT_TEMP, Value: 97 degC
+Command: O2_B2S2, Value: 0.665 volt

@@ -16,7 +16,7 @@ Button {
   implicitWidth: 200
   implicitHeight: 50
 
-  onClicked: console.log("button: action not defined")
+  // onClicked: console.log("button: action not defined")
 
   Component.onCompleted: function(){
     if(style == null)
@@ -29,34 +29,60 @@ Button {
   }
 
 
-  states: [
-    State {
-      name: "dark"
-      PropertyChanges {
-        target: internal_button
-        background: style_dark_background
-        contentItem: style_dark_text
-      }
-    }
-  ]
-
-  Rectangle {
-    id: style_dark_background
+  // Style
+  background: Rectangle {
+    property var prop_color: "white"
+    id: style_background
     anchors.fill: parent
-    radius: 4
-    color: internal_button.down ? "grey" : "black"
+    radius: 0
+    color: internal_button.down ? "grey" : prop_color
     border.color: "black"
     border.width: 2
-
   }
 
-  Text {
-    id: style_dark_text
+  contentItem: Text {
+    id: style_text
     text: internal_button.text
     color: "white"
     font: internal_button.font
     verticalAlignment: Text.AlignVCenter
     horizontalAlignment: Text.AlignHCenter
   }
+
+
+  states: [
+    State {
+      name: "dark"
+      PropertyChanges {
+        target: style_background
+        prop_color: "black"
+      }
+      PropertyChanges {
+        target: style_text
+        color: "white"
+      }
+    },
+
+    State {
+      name: "light"
+      PropertyChanges {
+        target: style_background
+        prop_color: "white"
+      }
+      PropertyChanges {
+        target: style_text
+        color: "black"
+      }
+    }
+
+    // State {
+    //   name: "light"
+    //   PropertyChanges {
+    //     target: internal_button
+    //     background: style_light_background
+    //     contentItem: style_light_text
+    //   }
+    // }
+  ]
 
 }

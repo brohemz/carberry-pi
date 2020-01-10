@@ -21,7 +21,7 @@
     ]
   },
   "show-time": {
-    "current": false,
+    "current": true,
     "options": [
       true,
       false

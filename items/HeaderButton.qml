@@ -5,13 +5,23 @@ import QtQuick.Controls.Styles 1.4
 import QtQuick.Layouts 1.3
 import QtQuick.Extras 1.4
 import ".."
+import "." as Items
 
 Item {
   property var destroy: false
   property var parent_stack: null
+  property var style: null
 
-  Button{
+  width: 75
+  height: headerObj.height
+
+  Items.Button{
     text: "<"
+
+    width: parent.width
+    height: parent.height
+
+    style: parent.style
 
     onClicked: function(){
       if(destroy){

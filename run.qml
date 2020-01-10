@@ -4,6 +4,7 @@ import QtQuick.Controls 2.4
 import QtQuick.Extras 1.4
 import "./partials"
 import "./js/header_back.js" as HeaderBack
+import "./js/header_info.js" as HeaderInfo
 import "./items" as Items
 
 
@@ -14,20 +15,62 @@ ApplicationWindow {
     visible: true
     width: 800
     height: 480
-    title: "Carberry Pi [BETA]"
+    title: "Carberry Pi [Development]"
 
+    // Variables
     property var style: main.config['style']['current']
+    property var header_list: {
+      'info': false,
+      'text': "",
+      'stack': stack
+    }
+    property var diagnostics_ignore_list: [
+      'code-exists',
+      // 'connection-established',
+    ]
 
     color: "white"
 
     header: head
 
+    // Source: https://forum.qt.io/topic/62267/how-we-can-create-2-second-delay-or-wait-in-qml/7
+    Timer {
+      id: timer
+      running: false
+      repeat: false
+
+      property var callback
+
+      onTriggered: callback()
+    }
+
+    function setTimeout(callback, delay)
+    {
+      if(timer.running){
+        console.error("nested calls to setTimeout are not supported!");
+      }
+      timer.callback = callback;
+
+      timer.interval = delay;
+      timer.running = true;
+    }
+
+    function sendInfo(text){
+      header_list['info'] = true;
+      header_list['text'] = text;
+      headerObj.list = header_list;
+      setTimeout(function(){
+        header_list['info'] = false;
+        headerObj.list = header_list;
+      }, 1000)
+    }
+
     Item {
       id: head
       Header {
         id: headerObj
+        list: header_list
         context: main
-        stack: stack
       }
     }
 
@@ -71,11 +114,14 @@ ApplicationWindow {
         id: view2
         Item {
           id: settingsItem
+          objectName: "Settings"
 
           Settings{
             id: settingsPage
             context: main
             parent_stack: stack
+
+            Component.onCompleted: sendInfo(settingsItem.objectName)
 
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.verticalCenter: parent.verticalCenter
@@ -94,7 +140,7 @@ ApplicationWindow {
           }
 
           Component.onCompleted: function(){
-            HeaderBack.buttonCreation(root.header.headerObj, stack)
+            HeaderBack.buttonCreation()
           }
 
         }
@@ -115,17 +161,23 @@ ApplicationWindow {
 
             currentIndex: 0
 
+            onCurrentIndexChanged: function(){
+              // console.log(this.currentIndex)
+              var text = ""
+              if(this.currentIndex == 0)
+                text = firstPage.objectName
+              else
+                text = secondPage.objectName
+              sendInfo(text);
+              // HeaderInfo.create(header_list['text'])
+            }
+
 
             Item {
               id: firstPage
+              objectName: "Dashboard"
 
               Dash{
-                  Items.Button{
-                    text: "Settings"
-                    style: main.config['style']['current']
-                    implicitWidth: 100
-                    onClicked: stack.push(view2)
-                  }
                   anchors.horizontalCenter: parent.horizontalCenter
                   anchors.verticalCenter: parent.verticalCenter
                   context: main
@@ -134,7 +186,17 @@ ApplicationWindow {
 
             Item {
               id: secondPage
+              objectName: "Diagnostics"
+
               Diagnostics{
+                  Items.Button{
+                    text: "Settings"
+                    style: main.config['style']['current']
+                    implicitWidth: 100
+                    onClicked: stack.push(view2)
+                    anchors.bottom: parent.bottom
+                  }
+                  ignore_list: diagnostics_ignore_list
                   anchors.horizontalCenter: parent.horizontalCenter
                   anchors.verticalCenter: parent.verticalCenter
                   context: main
@@ -174,6 +236,10 @@ ApplicationWindow {
             State {
               name: "dark"
               PropertyChanges { target: root; color: "#000123"}
+            },
+            State {
+              name: "light"
+              PropertyChanges { target: root; color: "white"}
             }
         ]
       }

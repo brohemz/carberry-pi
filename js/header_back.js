@@ -2,10 +2,10 @@ var component;
 var button;
 
 
-function buttonCreation(header, stack){
+function buttonCreation(){
   component = Qt.createComponent("../items/HeaderButton.qml");
   if(component.status == Component.Ready){
-    finishCreation(header, stack);
+    finishCreation();
   }else{
     component.statusChanged.connect(finishCreation)
   }
@@ -13,9 +13,7 @@ function buttonCreation(header, stack){
 
 function finishCreation(){
   if(component.status == Component.Ready){
-    button = component.createObject(header, {parent_stack: stack, destroy: true});
-    // console.log("wow");
-    // console.log(header);
+    button = component.createObject(headerObj, {parent_stack: stack, destroy: true, style: style});
     if(button == null)
       console.log("Err: header_back creation failed.");
   }else if(component.status == Component.Error){

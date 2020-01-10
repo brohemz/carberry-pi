@@ -11,6 +11,7 @@ Frame{
     id: root_diagnostics
     property var context: null
     property var time: context.time
+    property var ignore_list: null
     clip: true
 
     implicitWidth: 700
@@ -20,59 +21,94 @@ Frame{
 
     ListView {
 
+      anchors.horizontalCenter: parent.horizontalCenter
 
       id: diagnostics_view
 
       implicitHeight: 300
+      implicitWidth: root_diagnostics.implicitWidth - 50
 
-
-
-
+      clip: true
 
       model: ListModel {
-      id: diagnostics_model
-      dynamicRoles: true
+        id: diagnostics_model
+        dynamicRoles: true
 
 
-      function refreshModel(){
+        function refreshModel(){
 
-            clear()
+              clear()
 
-            var obj = Object.keys(context.diagnostics);
-            for(var i = 0; i < obj.length; i++){
-              var fill = obj[i];
-              var entry = {'key': fill, 'value': context.diagnostics[fill]};
-              append(entry);
-            }
+              var obj = Object.keys(context.diagnostics);
+              for(var i = 0; i < obj.length; i++){
+                var fill = obj[i];
+                var entry = {'key': fill, 'value': context.diagnostics[fill]};
+                if(!ignore_list.includes(fill))
+                  append(entry);
+              }
+          }
+
+          Component.onCompleted: refreshModel()
+
         }
 
-        Component.onCompleted: refreshModel()
-
-      }
 
 
 
+        delegate: diagnosticsDelegate
 
-      delegate: diagnosticsDelegate
+        Component {
+          id: diagnosticsDelegate
 
-      Component {
-        id: diagnosticsDelegate
+          Item{
+            width: diagnostics_view.implicitWidth
+            height: 50
+            clip: true
 
-        Items.Label {
-          text: model.key + ": " + context.diagnostics[model.key];
-          style: main.config['style']['current']
+              Items.Rectangle{
+                style: context.config['style']['current']
+                width: parent.width
+                height: 40
+
+                Row{
+                  anchors.fill: parent
+                  Column{
+                    anchors.rightMargin: 50
+                    Items.Label {
+                      text: model.key;
+                      style: context.config['style']['current']
+                    }
+                    width: parent.width / 2
+                  }
+
+                  Column{
+                    anchors.leftMargin: 50
+                    Items.Label {
+                      text: context.diagnostics[model.key];
+                      style: context.config['style']['current']
+                    }
+                    width: parent.width / 2
+                  }
+                }
+              }
+
+          }
+
         }
-      }
 
     }
 
     Row{
       anchors.top: diagnostics_view.bottom
+      anchors.horizontalCenter: parent.horizontalCenter
       Column{
         Items.Button{
           text: "Refresh"
           style: context.config['style']['current']
-          onClicked: diagnostics_model.refreshModel()
+          onClicked: function(){
+            // setTimeout(function(){""}, 1000)
+            diagnostics_model.refreshModel()
+          }
         }
       }
     }

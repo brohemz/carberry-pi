@@ -9,16 +9,20 @@ import "../items" as Items
 
 Rectangle {
     id: internal_rectangle
+
     property var context: null
-    property var stack: null
+    property var list: null
+
     width: parent.width
     height: 40
     color: "steelblue"
 
     Items.Label{
       id: header_time
-      text: context.config['show-time']['current'] ? context.time : ""
+      text: context.config['show-time']['current'] && !list['info'] ? context.time: ""
       style: context.config['style']['current']
+      font.bold: true
+      visible: !list['info'] && context.config['show-time']['current']
       anchors.horizontalCenter: parent.horizontalCenter
       anchors.verticalCenter: parent.verticalCenter
     }
@@ -29,6 +33,20 @@ Rectangle {
         console.log("EngineCode Loaded!")
       }
     }
+
+    onListChanged: function(){
+      header_info.visible = list['info']
+      header_time.visible = !list['info']
+    }
+
+    Items.Label{
+      id: header_info
+      text: list['text']
+      style: context.config['style']['current']
+      anchors.horizontalCenter: parent.horizontalCenter
+      anchors.verticalCenter: parent.verticalCenter
+    }
+
 
     Loader{
       id: pageLoader
@@ -46,7 +64,7 @@ Rectangle {
           id: header_engine_code
           amount: 2
           style: loader_style
-          stack: internal_rectangle.stack
+          stack: internal_rectangle.list['stack']
         }
 
       }

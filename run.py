@@ -50,6 +50,7 @@ class Obd_Thread(QThread):
 
 
 
+
     def run(self):
         # OBD lib setup
         port = obd.scan_serial()
@@ -63,15 +64,22 @@ class Obd_Thread(QThread):
 
         connection_sync = obd.OBD()
 
-        ret = connection.query(obd.commands.GET_DTC)
+        # ret = connection.query(obd.commands.GET_DTC)
         # print("Command: " + ret.command + ", Value: " + ret.value)
-        # for command in command_list:
-        #         if(command is not None):
-        #             # connection.query(obd.commands.RPM)
-        #             ret = connection_sync.query(command)
-        #             if not ret.is_null():
-        #                 # add_diagnostic()
-        #                 print("Command: " + ret.name + ", Value: " + ret.value);
+        # print(ret.value)
+
+        mc.diagnostics = {'connection-established': connection_sync.status()}
+
+
+        for command in command_list:
+                if(command is not None):
+                    # connection.query(obd.commands.RPM)
+                    ret = connection_sync.query(command)
+                    if not ret.is_null():
+                        # add_diagnostic()
+                        # print(ret.__str__())
+                        print("Command: " + command.name + ", Value: " + str(ret.__str__()));
+                        mc.diagnostics = {command.name : ret.__str__()}
 
 
 
@@ -133,21 +141,20 @@ def main():
     # Pull config data
     readConfig()
 
-    mc.handler = {'rpm': 1000}
-    mc.handler = {'speed': 50}
+    mc.handler = {'rpm': 0}
+    mc.handler = {'speed': 0}
     mc.handler = {'engine_temp': 240}
-    mc.handler = {'oil_temp': 240}
+    mc.diagnostics = {'OIL_TEMP': 0}
 
-    mc.diagnostics = {'temp1': 200}
-    mc.diagnostics = {'temp2': "wow"}
-    mc.diagnostics = {'temp3': -14.2}
-    mc.diagnostics = {'code-exists': True}
+    if True:
+        mc.diagnostics = {'temp1': 200}
+        mc.diagnostics = {'temp2': "wow"}
+        mc.diagnostics = {'temp3': -14.2}
+        mc.diagnostics = {'temp4': 200}
+        mc.diagnostics = {'temp5': "wow"}
+        mc.diagnostics = {'temp6': -14.2}
+        mc.diagnostics = {'code-exists': True}
 
-    # mc.config = {'style': 'dark'}
-
-
-    # if sys.argv[1] and sys.argv[1] == 'test':
-    #     mc.config = {'test': True}
 
     ex.load('run.qml')
 
