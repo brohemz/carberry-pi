@@ -11,7 +11,7 @@ Frame{
     id: root_diagnostics
     property var context: null
     property var time: context.time
-    property var ignore_list: null
+    property variant ignore_list: null
     clip: true
 
     implicitWidth: 700

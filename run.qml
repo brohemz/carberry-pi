@@ -24,7 +24,7 @@ ApplicationWindow {
       'text': "",
       'stack': stack
     }
-    property var diagnostics_ignore_list: [
+    property variant diagnostics_ignore_list: [
       'code-exists',
       // 'connection-established',
     ]
