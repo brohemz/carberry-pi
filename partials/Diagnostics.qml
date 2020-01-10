@@ -21,6 +21,7 @@ Frame{
       var temp = []
       for(var val in ignore_list)
         temp.push(val)
+      console.log(temp)
       return temp
     }
 
