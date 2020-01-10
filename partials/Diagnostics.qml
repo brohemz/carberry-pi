@@ -49,7 +49,7 @@ Frame{
               for(var i = 0; i < obj.length; i++){
                 var fill = obj[i];
                 var entry = {'key': fill, 'value': context.diagnostics[fill]};
-                if(!ignore_list.includes(fill))
+                // if(!ignore_list.includes(fill))
                   append(entry);
               }
           }
