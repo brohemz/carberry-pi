@@ -73,6 +73,7 @@ Item {
 
     Item {
       id: engineCodeItem
+      objectName: "Alerts"
 
       Frame{
         id: engineCodePage

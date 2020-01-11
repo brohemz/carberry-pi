@@ -1,3 +1,5 @@
+// root
+
 import QtQuick 2.11
 import QtQuick.Window 2.4
 import QtQuick.Controls 2.4
@@ -22,7 +24,7 @@ ApplicationWindow {
     property var header_list: {
       'info': false,
       'text': "",
-      'stack': stack
+      'stack': stack,
     }
     color: "white"
 
@@ -77,6 +79,8 @@ ApplicationWindow {
       initialItem: view1
       objectName: "stack"
 
+      onCurrentItemChanged: currentItem.objectName != "" ? sendInfo(currentItem.objectName) : null
+
       Transition {
         id: transition_enter
         PropertyAnimation{
@@ -104,42 +108,6 @@ ApplicationWindow {
 
 
       signal sig_exit(var exit_code)
-
-      Component {
-        id: view2
-        Item {
-          id: settingsItem
-          objectName: "Settings"
-
-          Settings{
-            id: settingsPage
-            context: main
-            parent_stack: stack
-
-            Component.onCompleted: sendInfo(settingsItem.objectName)
-
-            anchors.horizontalCenter: parent.horizontalCenter
-            anchors.verticalCenter: parent.verticalCenter
-
-
-            Items.Button {
-              id: exit_button
-              text: "Exit"
-              style: main.config['style']['current']
-
-              // anchors.horizontalCenter: parent.horizontalCenter
-              anchors.horizontalCenter: parent.horizontalCenter
-              anchors.bottom: parent.bottom
-              onClicked: stack.sig_exit(0)
-            }
-          }
-
-          Component.onCompleted: function(){
-            HeaderBack.buttonCreation()
-          }
-
-        }
-      }
 
 
 
@@ -184,13 +152,13 @@ ApplicationWindow {
               objectName: "Diagnostics"
 
               Diagnostics{
-                  Items.Button{
-                    text: "Settings"
-                    style: main.config['style']['current']
-                    implicitWidth: 100
-                    onClicked: stack.push(view2)
-                    anchors.bottom: parent.bottom
-                  }
+                  // Items.Button{
+                  //   text: "Settings"
+                  //   style: main.config['style']['current']
+                  //   implicitWidth: 100
+                  //   onClicked: stack.push(view2)
+                  //   anchors.bottom: parent.bottom
+                  // }
                   anchors.horizontalCenter: parent.horizontalCenter
                   anchors.verticalCenter: parent.verticalCenter
                   context: main
