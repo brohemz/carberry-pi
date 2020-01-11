@@ -1,0 +1,29 @@
+
+Time: 12:27:39.797817
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:27:44.798460
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
