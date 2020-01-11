@@ -1,3 +1,5 @@
+// Dependent on run.qml
+
 import QtQuick 2.11
 import QtQuick.Window 2.4
 import QtQuick.Controls 2.4
@@ -5,6 +7,7 @@ import QtQuick.Controls.Styles 1.4
 import QtQuick.Layouts 1.3
 import QtQuick.Extras 1.4
 import "../items" as Items
+import "../js/header_back.js" as HeaderBack
 
 
 Rectangle {
@@ -47,13 +50,23 @@ Rectangle {
       anchors.verticalCenter: parent.verticalCenter
     }
 
+    Items.SettingsButton{
+      id: header_settings
+      style: context.config['style']['current']
+      stack: list['stack']
+      anchors.bottom: parent.bottom
+      anchors.right: parent.right
+    }
+
+
+
 
     Loader{
       id: pageLoader
 
       sourceComponent: internal_rectangle.context.diagnostics['code-exists'] ? header_engine_code_component : undefined
 
-      anchors.right: parent.right
+      anchors.right: header_settings.left
       anchors.verticalCenter: parent.verticalCenter
 
       property var loader_style: internal_rectangle.context.config['style']['current']

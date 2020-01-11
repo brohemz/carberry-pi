@@ -1,5 +1,5 @@
 
-Time: 12:27:39.797817
+Time: 11:28:34.045358
 
 ___Diagnostics___
 {
@@ -13,7 +13,1059 @@ ___Diagnostics___
   "code-exists": true,
   "connection-established": "Not Connected"
 }
-Time: 12:27:44.798460
+Time: 11:28:39.044210
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:28:39.890051
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:38:18.041372
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:38:22.202124
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:39:06.055697
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:39:11.055508
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:39:12.600633
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:42:03.098429
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:42:03.211588
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:42:13.100641
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:42:16.895999
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:42:26.997283
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:42:27.317078
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:43:22.098894
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:43:27.101260
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:43:28.836886
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:45:30.098782
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:45:47.922197
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:52:08.148191
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:52:13.145654
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:52:13.470051
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:52:35.162147
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:52:40.147234
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:53:12.282221
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:53:17.083397
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:53:29.367068
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:53:30.970632
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:54:01.073961
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:54:02.164617
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:55:15.134644
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:55:20.150556
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:55:23.915323
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:56:08.150506
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:56:11.924265
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:57:45.153692
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:57:46.017227
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:58:59.184270
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:59:04.186136
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:59:06.294345
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:59:41.189167
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:59:43.750917
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:59:57.064147
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 11:59:58.345223
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:00:33.191898
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:00:38.191191
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:00:43.191268
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:00:48.192019
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:00:51.657141
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:19:17.321462
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:19:19.812019
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:21:25.149164
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:22:04.214972
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:22:09.216412
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:22:14.215166
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:22:19.215563
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:22:24.215404
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:22:29.215099
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:22:34.215432
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:22:39.215721
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:22:44.215730
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:22:47.435502
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:22:55.217164
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:23:00.216086
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:23:04.457281
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:23:12.216377
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:23:17.216475
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:23:21.309580
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:23:26.407058
+>>>>>>> bc7cccbe6ea6c9561093eccaddb1224c9f3a416d
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:28:29.798189
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:28:34.797780
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:28:39.798299
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:28:44.798289
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:28:49.798629
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:28:54.798077
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+
+Time: 12:29:29.798436
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:29:34.797726
 
 ___Diagnostics___
 {
