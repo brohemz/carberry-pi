@@ -8,7 +8,7 @@ from PyQt5 import QtCore
 import random
 from functools import partial
 import re
-import time
+from datetime import datetime
 import obd
 import json
 from context import Main_Context
@@ -115,17 +115,28 @@ def getFromFile():
     return int_arr
 
 def readConfig():
-    with open('config.json') as config_file:
+    with open('./config.json') as config_file:
         config_data = json.load(config_file)
     print(config_data)
     for key in config_data:
         mc.config = {key: config_data[key]}
 
 def writeConfig():
-    with open('config.json', 'w') as config_file:
+    with open('./config.json', 'w') as config_file:
         json.dump(mc.getConfig(), config_file, indent=2)
     print("\n\n_____Writing config to file..._____\n\n")
     print(json.dumps(mc.getConfig(), indent=2))
+
+def writeLog():
+    with open('./log/%s' % datetime.date(datetime.now()), 'a+') as log_file:
+        log_file.write("\nTime: %s\n" % datetime.time(datetime.now()))
+        # log_file.write("\n___Config___\n")
+        # json.dump(mc.getConfig(), log_file, indent=2)
+        log_file.write("\n___Diagnostics___\n")
+        json.dump(mc.getDiagnostics(), log_file, indent=2)
+
+
+    # print(data)
 
 
 def main():
@@ -162,22 +173,21 @@ def main():
 
     if mc.getConfig()['fullscreen']['current']:
         win.setWindowState(QtCore.Qt.WindowFullScreen)
+    m_obdThread = Obd_Thread(mc)
+    m_obdThread.start()
 
-    # Timer for current time
+
+    # Timer for time
     timer = QtCore.QTimer()
     timer.setInterval(1000)
     timer.timeout.connect(mc.updateTime)
     timer.start()
 
-    m_obdThread = Obd_Thread(mc)
-    m_obdThread.start()
-
-
-    #
-    # timer = QtCore.QTimer()
-    # timer.setInterval(1000)
-    # timer.timeout.connect(mc.run_speed)
-    # timer.start()
+    # Timer for log
+    timer_log = QtCore.QTimer()
+    timer_log.setInterval(5000)
+    timer_log.timeout.connect(writeLog)
+    timer_log.start()
 
     # for val in int_arr:
     #     mc.rpmValue = val
@@ -191,6 +201,7 @@ def main():
 
     win.show()
     atexit.register(writeConfig)
+    atexit.register(writeLog)
     sys.exit(app.exec_())
 
 

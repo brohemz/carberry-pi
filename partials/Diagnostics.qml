@@ -43,7 +43,7 @@ Frame{
 
               clear()
 
-              console.log(ignore_list)
+              // console.log(ignore_list)
 
               var obj = Object.keys(context.diagnostics);
               for(var i = 0; i < obj.length; i++){

@@ -15,6 +15,7 @@ class Main_Context(QObject):
 
     counter = 0
 
+
     def __init__(self, parent=None):
         super(Main_Context, self).__init__(parent)
         # self.m_rpmValue = 1
@@ -24,6 +25,9 @@ class Main_Context(QObject):
         self.m_diagnostics = {}
         self.m_time = QtCore.QDateTime.currentDateTime().toString("h:mm ap")
         self.m_config = {}
+
+
+
 
 
     # Handler for main dashboard
@@ -94,3 +98,6 @@ class Main_Context(QObject):
     def diagnostics(self, val):
         self.m_diagnostics.update(val)
         self.diagnosticsChanged.emit(self.m_diagnostics)
+
+    def getDiagnostics(self):
+        return self.m_diagnostics
