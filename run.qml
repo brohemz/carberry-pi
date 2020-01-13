@@ -182,11 +182,12 @@ ApplicationWindow {
       }
 
       Component.onCompleted: function(){
-          if(main.config['test'])
-            console.log("cool")
 
           if(style == null)
           return;
+
+          if(main.handler['dev'])
+            console.log("DEV MODE ENABLED!")
 
         stategroup.state = style;
 

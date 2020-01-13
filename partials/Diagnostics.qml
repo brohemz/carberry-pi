@@ -14,6 +14,7 @@ Frame{
     property var ignore_list: {
           'code-exists': true,
           'connection-established' : true,
+          'STATUS': true
         }
 
     clip: true
@@ -29,7 +30,7 @@ Frame{
 
       id: diagnostics_view
 
-      implicitHeight: 300
+      implicitHeight: root_diagnostics.implicitHeight - 100
       implicitWidth: root_diagnostics.implicitWidth - 50
 
       clip: true
@@ -49,9 +50,14 @@ Frame{
               for(var i = 0; i < obj.length; i++){
                 var fill = obj[i];
                 var entry = {'key': fill, 'value': context.diagnostics[fill]};
-                if(ignore_list[fill] == undefined)
+                if(ignore_list[fill] == undefined && context.diagnostics[fill] != [])
                   append(entry);
               }
+
+              
+
+              // if(empty())
+              //   append({'key': "Status", 'value': "Not Connected"})
           }
 
           Component.onCompleted: refreshModel()
@@ -106,6 +112,7 @@ Frame{
 
     Row{
       anchors.top: diagnostics_view.bottom
+      anchors.topMargin: 20
       anchors.horizontalCenter: parent.horizontalCenter
       Column{
         Items.Button{

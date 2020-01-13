@@ -40,6 +40,9 @@ class Main_Context(QObject):
         self.m_handler.update(val)
         self.handlerChanged.emit(self.m_handler);
 
+    def getHandler(self):
+        return self.m_handler
+
     # Current time in seconds
 
     @QtCore.pyqtProperty(str, notify=timeChanged)
