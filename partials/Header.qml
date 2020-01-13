@@ -64,7 +64,7 @@ Rectangle {
     Loader{
       id: pageLoader
 
-      sourceComponent: internal_rectangle.context.diagnostics['code-exists'] ? header_engine_code_component : undefined
+      sourceComponent: internal_rectangle.context.diagnostics['code-exists'] | internal_rectangle.context.diagnostics['alert-exists'] ? header_engine_code_component : undefined
 
       anchors.right: header_settings.left
       anchors.verticalCenter: parent.verticalCenter
@@ -73,11 +73,12 @@ Rectangle {
 
       Component{
         id: header_engine_code_component
-        Items.EngineCode{
-          id: header_engine_code
+        Items.Alert{
+          id: header_alert
           amount: 2
           style: loader_style
           stack: internal_rectangle.list['stack']
+          context: internal_rectangle.context
         }
 
       }

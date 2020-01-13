@@ -157,7 +157,10 @@ def main():
     mc.handler = {'engine_temp': 240}
     mc.diagnostics = {'OIL_TEMP': 0}
 
-    if True:
+    if(len(sys.argv) > 1 and sys.argv[1].lower() == 'dev'):
+        mc.handler = {'dev': True}
+
+    if mc.getHandler().get('dev'):
         mc.diagnostics = {'temp1': 200}
         mc.diagnostics = {'temp2': "wow"}
         mc.diagnostics = {'temp3': -14.2}
@@ -165,6 +168,7 @@ def main():
         mc.diagnostics = {'temp5': "wow"}
         mc.diagnostics = {'temp6': -14.2}
         mc.diagnostics = {'code-exists': True}
+
 
 
     ex.load('run.qml')

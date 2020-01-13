@@ -15,6 +15,7 @@ Item {
   property var style: null
   property var amount: 0
   property var stack: null
+  property var context: null
 
   width: 80
   height: 35
@@ -72,16 +73,62 @@ Item {
     id: view3
 
     Item {
-      id: engineCodeItem
+      id: alertItem
       objectName: "Alerts"
 
       Frame{
-        id: engineCodePage
-        width: 500
+        id: alertPage
+        width: 700
         height: 420
 
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.verticalCenter: parent.verticalCenter
+
+        Items.Label{
+          id: alertLabel
+          text: "Alerts"
+          style: internal_item.style
+          anchors.horizontalCenter: parent.horizontalCenter
+        }
+
+        ListView{
+          anchors.horizontalCenter: parent.horizontalCenter
+          anchors.top: alertLabel.bottom
+
+          id: alert_view
+
+          implicitHeight: alertPage.height
+          implicitWidth: alertPage.width
+
+          clip: true
+
+          model: ListModel {
+            id: alert_model
+            dynamicRoles: true
+            Component.onCompleted: append({value: context.diagnostics['code-exists']})
+          }
+
+          delegate: alert_model_delegate
+
+          Component {
+            id: alert_model_delegate
+
+            Item{
+              width: alert_view.implicitWidth
+              height: 40
+              Items.Label {
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: model.value
+                style: internal_item.style
+              }
+            }
+          }
+
+
+
+
+
+        }
 
         Component.onCompleted: function(){
           HeaderBack.buttonCreation()

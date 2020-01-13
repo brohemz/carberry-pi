@@ -10,7 +10,7 @@ Command: TIMING_ADVANCE, Value: 11.5 degree
 Command: DTC_INTAKE_TEMP, Value: -40 degC
 Command: AUX_INPUT_STATUS, Value: False
 Command: O2_B2S1, Value: 0.705 volt
-Command: DISTANCE_W_MIL, Value: 0.0 kilometer
+Command: DISTANCE_W_MIL, Value: 0.0 kilometer # distance for light since oil change
 Command: GET_DTC, Value: []
 Command: SHORT_FUEL_TRIM_2, Value: 0.0 percent
 Command: DTC_SPEED, Value: 0.0 kph
