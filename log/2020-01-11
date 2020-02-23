@@ -1,18 +1,4 @@
 
-Time: 11:28:01.822262
-
-___Diagnostics___
-{
-  "OIL_TEMP": 0,
-  "temp1": 200,
-  "temp2": "wow",
-  "temp3": -14.2,
-  "temp4": 200,
-  "temp5": "wow",
-  "temp6": -14.2,
-  "code-exists": true,
-  "connection-established": "Not Connected"
-}
 Time: 11:28:34.045358
 
 ___Diagnostics___
@@ -966,6 +952,120 @@ ___Diagnostics___
   "connection-established": "Not Connected"
 }
 Time: 12:23:26.407058
+>>>>>>> bc7cccbe6ea6c9561093eccaddb1224c9f3a416d
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:28:29.798189
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:28:34.797780
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:28:39.798299
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:28:44.798289
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:28:49.798629
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:28:54.798077
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+
+Time: 12:29:29.798436
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "temp1": 200,
+  "temp2": "wow",
+  "temp3": -14.2,
+  "temp4": 200,
+  "temp5": "wow",
+  "temp6": -14.2,
+  "code-exists": true,
+  "connection-established": "Not Connected"
+}
+Time: 12:29:34.797726
 
 ___Diagnostics___
 {
