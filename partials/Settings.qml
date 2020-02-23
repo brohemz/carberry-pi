@@ -11,7 +11,6 @@ import "../items" as Items
 Frame{
 
     property var context: null
-    property var parent_stack: null
 
 
     implicitWidth: 700

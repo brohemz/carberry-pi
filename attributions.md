@@ -3,3 +3,4 @@ Icon made by [Pixel perfect](https://www.flaticon.com/authors/pixel-perfect) fro
 
 --> ./resources/gears.svg
 Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](http://www.flaticon.com/)
+

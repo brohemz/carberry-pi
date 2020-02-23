@@ -1,4 +1,5 @@
 import sys
+import subprocess
 import atexit
 from PyQt5 import QtWidgets
 from PyQt5.QtQml import QQmlApplicationEngine
@@ -35,14 +36,17 @@ class Obd_Thread(QThread):
             # print(r.value.magnitude)
 
     def set_speed(self, r):
+        loc = mc.getConfig()['locality']['current']
         if(r.value):
-            mc.handler = {'speed': r.value.to("mph").magnitude}
+            val = r.value.to("mph").magnitude if loc == 'en-US' else r.value.magnitude
+            mc.handler = {'speed': val}
             # mc.speedValue = r.value.to("mph").magnitude
             # print(r.value.magnitude)
     def set_temp(self, r):
+        loc = mc.getConfig()['locality']['current']
         if(r.value):
             # mc.tempValue = r.value.to('degF').magnitude
-            mc.handler = {'engine_temp': r.value.to('degF').magnitude}
+            mc.handler = {'engine_temp': r.value.to('degF').magnitude if loc == 'en-US' else r.value.magnitude}
 
     # def set_val(self, r, r.name):
     #     if(r.value)
@@ -52,10 +56,12 @@ class Obd_Thread(QThread):
 
 
     def run(self):
+
         # OBD lib setup
-        port = obd.scan_serial()
+        # port = obd.scan_serial()
 
         connection = obd.Async(fast=True, timeout=0.5)
+
         connection.watch(obd.commands.RPM, callback=self.set_rpm)
         connection.watch(obd.commands.SPEED, callback=self.set_speed)
         connection.watch(obd.commands.COOLANT_TEMP, callback=self.set_temp)
@@ -68,7 +74,12 @@ class Obd_Thread(QThread):
         # print("Command: " + ret.command + ", Value: " + ret.value)
         # print(ret.value)
 
-        mc.diagnostics = {'connection-established': connection_sync.status()}
+        # mc.diagnostics = {'connection-established': connection_sync.status()}
+        mc.diagnostics = {'connection-established': False}
+        ret = connection_sync.query(obd.commands.MAF)
+
+        if(ret is not None):
+            print(ret.__str__())
 
 
         for command in command_list:
@@ -93,6 +104,9 @@ class Obd_Thread(QThread):
         #     print(list(command_list)[i])
 
         connection.start()
+        print(connection.status())
+
+
 
 
 
@@ -138,6 +152,13 @@ def writeLog():
 
     # print(data)
 
+def onRestart():
+    print("exit_status: restart")
+    mc.close()
+
+def onExit():
+    print("exit_status: exit")
+    mc.close()
 
 def main():
 
@@ -155,19 +176,24 @@ def main():
     mc.handler = {'rpm': 0}
     mc.handler = {'speed': 0}
     mc.handler = {'engine_temp': 240}
-    mc.diagnostics = {'OIL_TEMP': 0}
 
     if(len(sys.argv) > 1 and sys.argv[1].lower() == 'dev'):
         mc.handler = {'dev': True}
 
     if mc.getHandler().get('dev'):
+        mc.handler = {'rpm': 700}
+        mc.handler = {'speed': 20}
         mc.diagnostics = {'temp1': 200}
         mc.diagnostics = {'temp2': "wow"}
         mc.diagnostics = {'temp3': -14.2}
         mc.diagnostics = {'temp4': 200}
         mc.diagnostics = {'temp5': "wow"}
         mc.diagnostics = {'temp6': -14.2}
-        mc.diagnostics = {'code-exists': True}
+        mc.handler = {'code-exists': True}
+        mc.diagnostics = {'connection-established': False}
+
+    else:
+        mc.diagnostics = {'connection-established': True}
 
 
 
@@ -199,8 +225,8 @@ def main():
     #     time.sleep(.5)
 
 
-
-    win.findChild(QObject, "stack").sig_exit.connect(mc.close)
+    win.findChild(QObject, "stack").sig_exit.connect(onExit)
+    win.findChild(QObject, "stack").sig_restart.connect(onRestart)
 
 
     win.show()

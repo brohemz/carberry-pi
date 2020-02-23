@@ -59,21 +59,34 @@ Item {
       Settings{
         id: settingsPage
         context: main
-        parent_stack: internal_item.stack
 
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.verticalCenter: parent.verticalCenter
 
-
-        Items.Button {
-          id: exit_button
-          text: "Exit"
-          style: internal_item.style
-
+        Row{
           anchors.horizontalCenter: parent.horizontalCenter
           anchors.bottom: parent.bottom
-          onClicked: internal_item.stack.sig_exit(0)
+
+          Items.Button {
+            id: exit_button
+            text: "Exit"
+            style: internal_item.style
+
+            // anchors.horizontalCenter: parent.horizontalCenter
+            // anchors.bottom: parent.bottom
+            onClicked: internal_item.stack.sig_exit(0)
+          }
+
+          Items.Button {
+            id: restart_button
+            text: "Restart"
+            style: internal_item.style
+            onClicked: internal_item.stack.sig_restart(0)
+            // anchors.left:
+          }
         }
+
+
       }
 
       Component.onCompleted: function(){

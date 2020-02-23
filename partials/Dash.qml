@@ -54,7 +54,7 @@ Frame{
                       property var prop_color: "black"
                       value: context.handler['speed']
                       minimumValue: 0
-                      maximumValue: 140
+                      maximumValue: context.config['locality']['current'] == "en-US" ? 140 : 250
 
                       style: CircularGaugeStyle{
                         tickmark: Rectangle {
@@ -63,6 +63,8 @@ Frame{
                           color: speedGauge.prop_color
                           antialiasing: true
                         }
+
+                        labelStepSize: context.config['locality']['current'] == "en-US" ? 10 : parent.maximumValue / 10
 
                         tickmarkLabel: Text{
                           font.pixelSize: Math.max(6, outerRadius * 0.1)
@@ -77,8 +79,18 @@ Frame{
                           antialiasing: true
                         }
                       }
+                      Items.Label{
+                        style: context.config['style']['current'] + "_grey"
+                        text: context.config['locality']['current'] == "en-US" ? "mph" : "km / h"
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        anchors.bottom: parent.bottom
+                        padding: 0
+                      }
 
                     }
+
+
+
                   }
 
                   Column {
@@ -133,21 +145,31 @@ Frame{
               }
 
 
-              Row{
-                padding: 20
+              Column{
+                padding: 5
+                anchors.right: parent.horizontalCenter
                 Row{
-                  rightPadding: 40
-                  Items.Label{text: "Engine Temp"; padding: 30;
-                      style: context.config['style']['current']}
+                  // rightPadding: 40
+                  Items.Label{
+                      Component.onCompleted: function(){
+                        var loc = context.config['locality']['current']
+                        if(loc == "en-US")
+                          text = "Engine Temp (°F)"
+                        else
+                          text = "Engine Temp (°C)"
+                      }
+                      text: "Engine Temp" ; padding: 30;
+                      style: context.config['style']['current'] + "_grey"
+                    }
                   Items.Thermometer{value: context.handler['engine_temp']; context_style: context.config['style']['current']}
                 }
 
-                Row{
-                  leftPadding: 40
-                  Items.Thermometer{value: context.diagnostics['OIL_TEMP']; context_style: context.config['style']['current']}
-                  Items.Label{text: "Oil Temp"; padding: 30;
-                      style: context.config['style']['current']}
-                }
+                // Row{
+                //   leftPadding: 40
+                //   Items.Thermometer{value: context.diagnostics['OIL_TEMP']; context_style: context.config['style']['current']}
+                //   Items.Label{text: "Oil Temp"; padding: 30;
+                //       style: context.config['style']['current']}
+                // }
 
 
               }

@@ -41,15 +41,34 @@ ApplicationWindow {
       onTriggered: callback()
     }
 
+    Timer {
+      id: timer_extended
+      running: false
+      repeat: false
+
+      property var callback
+
+      onTriggered: callback()
+    }
+
     function setTimeout(callback, delay)
     {
       if(timer.running){
         console.error("nested calls to setTimeout are not supported!");
       }
       timer.callback = callback;
-
       timer.interval = delay;
       timer.running = true;
+    }
+
+    function setTimeoutRepeated(callback, delay, cont){
+      if(timer.running){
+        console.error("nested calls to setTimeoutRepeated are not supported!");
+      }
+      timer_extended.callback = callback;
+      timer_extended.interval = delay;
+      timer_extended.repeat = cont;
+      timer_extended.running = true;
     }
 
     function sendInfo(text){
@@ -61,6 +80,18 @@ ApplicationWindow {
         headerObj.list = header_list;
       }, 1000)
     }
+
+
+    // run function to return conditional
+    function sendInfoExtended(text, run){
+      setTimeoutRepeated(function(){
+        header_list['info'] = !run();
+        header_list['text'] = text;
+        headerObj.list = header_list;
+      }, 1000, !run())
+    }
+
+
 
     Item {
       id: head
@@ -108,6 +139,7 @@ ApplicationWindow {
 
 
       signal sig_exit(var exit_code)
+      signal sig_restart(var exit_code)
 
 
 
@@ -185,6 +217,11 @@ ApplicationWindow {
 
           if(style == null)
           return;
+
+          sendInfoExtended("Connecting...", function(){
+            console.log("connection-established: " + main.diagnostics['connection-established']);
+            return main.diagnostics['connection-established']
+          });
 
           if(main.handler['dev'])
             console.log("DEV MODE ENABLED!")

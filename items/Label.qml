@@ -25,6 +25,18 @@ Label {
     State {
       name: "dark"
       PropertyChanges { target: internal_label; color: "white"}
+    },
+    State {
+      name: "dark_grey"
+      PropertyChanges { target: internal_label; color: "grey"}
+    },
+    State {
+      name: "light"
+      PropertyChanges { target: internal_label; color: "black"}
+    },
+    State {
+      name: "light_grey"
+      PropertyChanges { target: internal_label; color: "grey"}
     }
   ]
 }

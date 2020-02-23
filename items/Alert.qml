@@ -105,7 +105,7 @@ Item {
           model: ListModel {
             id: alert_model
             dynamicRoles: true
-            Component.onCompleted: append({value: context.diagnostics['code-exists']})
+            Component.onCompleted: append({key: 'code-exists', value: context.handler['code-exists']})
           }
 
           delegate: alert_model_delegate
@@ -118,7 +118,7 @@ Item {
               height: 40
               Items.Label {
                 anchors.horizontalCenter: parent.horizontalCenter
-                text: model.value
+                text: model.key + ":\t " + model.value
                 style: internal_item.style
               }
             }

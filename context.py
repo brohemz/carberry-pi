@@ -57,6 +57,9 @@ class Main_Context(QObject):
         self.timeChanged.emit(self.m_time);
 
     def updateTime(self):
+
+        # self.time =
+        # QtCore.QLocale.setDefault(QtCore.QLocale("en_DE"))
         self.time = QtCore.QDateTime.currentDateTime().toString("h:mm ap")
 
     # Configuration values

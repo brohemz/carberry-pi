@@ -12,7 +12,6 @@ Frame{
     property var context: null
     property var time: context.time
     property var ignore_list: {
-          'code-exists': true,
           'connection-established' : true,
           'STATUS': true
         }
@@ -54,7 +53,7 @@ Frame{
                   append(entry);
               }
 
-              
+
 
               // if(empty())
               //   append({'key': "Status", 'value': "Not Connected"})

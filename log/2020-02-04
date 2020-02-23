@@ -1,0 +1,2961 @@
+
+Time: 12:41:14.982380
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:41:19.982003
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:41:24.980661
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:41:29.980275
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:41:34.979344
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:41:39.978534
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:41:44.979422
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:41:49.980040
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:41:54.980337
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:41:56.912815
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:42:07.980065
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:42:12.979360
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:42:17.980171
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:42:22.980240
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:42:27.980264
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:42:32.979717
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:42:35.582303
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:42:47.981077
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:42:52.980754
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:42:57.980898
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:43:02.981655
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:43:07.573258
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:43:22.971799
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:43:27.981477
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:43:32.981016
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:43:37.981557
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:43:42.981114
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:43:47.982380
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:43:52.981953
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:43:57.981332
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:44:02.981570
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:44:07.982206
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:44:12.982147
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:44:18.742503
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:44:22.984294
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:44:27.993423
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:44:33.996352
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:44:38.339972
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:44:42.983117
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:44:48.946139
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:44:52.983036
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:44:58.004597
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:45:02.982865
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "PIDS_A": "10111111101111101011100110010101",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "DTC_AUX_INPUT_STATUS": "False"
+}
+Time: 12:45:07.983074
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "PIDS_A": "10111111101111101011100110010101",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent",
+  "O2_B2S2": "0.605 volt",
+  "DTC_TIMING_ADVANCE": "-64.0 degree",
+  "SPEED": "0.0 kph",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "GET_DTC": "[]",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "INTAKE_PRESSURE": "32 kilopascal",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "ELM_VOLTAGE": "14.4 volt",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "SHORT_FUEL_TRIM_1": "-2.34375 percent",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "COOLANT_TEMP": "80 degC",
+  "AUX_INPUT_STATUS": "False",
+  "INTAKE_TEMP": "31 degC",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10d155a50>",
+  "RPM": "616.0 revolutions_per_minute",
+  "O2_B1S2": "0.095 volt",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "O2_B2S1": "0.725 volt",
+  "PIDS_B": "10000000000000000000000000000000",
+  "DTC_SPEED": "0.0 kph",
+  "GET_CURRENT_DTC": "[]",
+  "SHORT_FUEL_TRIM_2": "-3.125 percent",
+  "LONG_FUEL_TRIM_2": "1.5625 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "O2_B1S1": "0.645 volt",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "12.0 degree",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "ENGINE_LOAD": "23.137254901960784 percent"
+}
+Time: 12:45:12.983853
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "PIDS_A": "10111111101111101011100110010101",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent",
+  "O2_B2S2": "0.605 volt",
+  "DTC_TIMING_ADVANCE": "-64.0 degree",
+  "SPEED": "0.0 kph",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "GET_DTC": "[]",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "INTAKE_PRESSURE": "32 kilopascal",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "ELM_VOLTAGE": "14.4 volt",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "SHORT_FUEL_TRIM_1": "-2.34375 percent",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "COOLANT_TEMP": "80 degC",
+  "AUX_INPUT_STATUS": "False",
+  "INTAKE_TEMP": "31 degC",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10d155a50>",
+  "RPM": "616.0 revolutions_per_minute",
+  "O2_B1S2": "0.095 volt",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "O2_B2S1": "0.725 volt",
+  "PIDS_B": "10000000000000000000000000000000",
+  "DTC_SPEED": "0.0 kph",
+  "GET_CURRENT_DTC": "[]",
+  "SHORT_FUEL_TRIM_2": "-3.125 percent",
+  "LONG_FUEL_TRIM_2": "1.5625 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "O2_B1S1": "0.645 volt",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "12.0 degree",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "ENGINE_LOAD": "23.137254901960784 percent"
+}
+Time: 12:45:17.983087
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "PIDS_A": "10111111101111101011100110010101",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent",
+  "O2_B2S2": "0.605 volt",
+  "DTC_TIMING_ADVANCE": "-64.0 degree",
+  "SPEED": "0.0 kph",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "GET_DTC": "[]",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "INTAKE_PRESSURE": "32 kilopascal",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "ELM_VOLTAGE": "14.4 volt",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "SHORT_FUEL_TRIM_1": "-2.34375 percent",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "COOLANT_TEMP": "80 degC",
+  "AUX_INPUT_STATUS": "False",
+  "INTAKE_TEMP": "31 degC",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10d155a50>",
+  "RPM": "616.0 revolutions_per_minute",
+  "O2_B1S2": "0.095 volt",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "O2_B2S1": "0.725 volt",
+  "PIDS_B": "10000000000000000000000000000000",
+  "DTC_SPEED": "0.0 kph",
+  "GET_CURRENT_DTC": "[]",
+  "SHORT_FUEL_TRIM_2": "-3.125 percent",
+  "LONG_FUEL_TRIM_2": "1.5625 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "O2_B1S1": "0.645 volt",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "12.0 degree",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "ENGINE_LOAD": "23.137254901960784 percent"
+}
+Time: 12:45:22.985310
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "PIDS_A": "10111111101111101011100110010101",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent",
+  "O2_B2S2": "0.605 volt",
+  "DTC_TIMING_ADVANCE": "-64.0 degree",
+  "SPEED": "0.0 kph",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "GET_DTC": "[]",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "INTAKE_PRESSURE": "32 kilopascal",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "ELM_VOLTAGE": "14.4 volt",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "SHORT_FUEL_TRIM_1": "-2.34375 percent",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "COOLANT_TEMP": "80 degC",
+  "AUX_INPUT_STATUS": "False",
+  "INTAKE_TEMP": "31 degC",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10d155a50>",
+  "RPM": "616.0 revolutions_per_minute",
+  "O2_B1S2": "0.095 volt",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "O2_B2S1": "0.725 volt",
+  "PIDS_B": "10000000000000000000000000000000",
+  "DTC_SPEED": "0.0 kph",
+  "GET_CURRENT_DTC": "[]",
+  "SHORT_FUEL_TRIM_2": "-3.125 percent",
+  "LONG_FUEL_TRIM_2": "1.5625 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "O2_B1S1": "0.645 volt",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "12.0 degree",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "ENGINE_LOAD": "23.137254901960784 percent"
+}
+Time: 12:45:27.983500
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "PIDS_A": "10111111101111101011100110010101",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent",
+  "O2_B2S2": "0.605 volt",
+  "DTC_TIMING_ADVANCE": "-64.0 degree",
+  "SPEED": "0.0 kph",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "GET_DTC": "[]",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "INTAKE_PRESSURE": "32 kilopascal",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "ELM_VOLTAGE": "14.4 volt",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "SHORT_FUEL_TRIM_1": "-2.34375 percent",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "COOLANT_TEMP": "80 degC",
+  "AUX_INPUT_STATUS": "False",
+  "INTAKE_TEMP": "31 degC",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10d155a50>",
+  "RPM": "616.0 revolutions_per_minute",
+  "O2_B1S2": "0.095 volt",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "O2_B2S1": "0.725 volt",
+  "PIDS_B": "10000000000000000000000000000000",
+  "DTC_SPEED": "0.0 kph",
+  "GET_CURRENT_DTC": "[]",
+  "SHORT_FUEL_TRIM_2": "-3.125 percent",
+  "LONG_FUEL_TRIM_2": "1.5625 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "O2_B1S1": "0.645 volt",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "12.0 degree",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "ENGINE_LOAD": "23.137254901960784 percent"
+}
+Time: 12:45:32.983432
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "PIDS_A": "10111111101111101011100110010101",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent",
+  "O2_B2S2": "0.605 volt",
+  "DTC_TIMING_ADVANCE": "-64.0 degree",
+  "SPEED": "0.0 kph",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "GET_DTC": "[]",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "INTAKE_PRESSURE": "32 kilopascal",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "ELM_VOLTAGE": "14.4 volt",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "SHORT_FUEL_TRIM_1": "-2.34375 percent",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "COOLANT_TEMP": "80 degC",
+  "AUX_INPUT_STATUS": "False",
+  "INTAKE_TEMP": "31 degC",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10d155a50>",
+  "RPM": "616.0 revolutions_per_minute",
+  "O2_B1S2": "0.095 volt",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "O2_B2S1": "0.725 volt",
+  "PIDS_B": "10000000000000000000000000000000",
+  "DTC_SPEED": "0.0 kph",
+  "GET_CURRENT_DTC": "[]",
+  "SHORT_FUEL_TRIM_2": "-3.125 percent",
+  "LONG_FUEL_TRIM_2": "1.5625 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "O2_B1S1": "0.645 volt",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "12.0 degree",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "ENGINE_LOAD": "23.137254901960784 percent"
+}
+Time: 12:47:00.985352
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:47:05.985193
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:47:10.985858
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:47:15.986148
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:47:20.986594
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:47:25.986756
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:47:30.986313
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:47:35.174991
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:47:55.801951
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:48:00.987813
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:48:05.987375
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:48:10.987629
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:48:15.986154
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:48:20.987830
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:51:33.087281
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "RPM": "624.0 revolutions_per_minute",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "GET_CURRENT_DTC": "[]",
+  "O2_B1S1": "0.665 volt",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "O2_B2S2": "0.665 volt",
+  "PIDS_B": "10000000000000000000000000000000",
+  "STATUS": "<obd.OBDResponse.Status object at 0x118358910>",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "ENGINE_LOAD": "22.745098039215687 percent",
+  "SHORT_FUEL_TRIM_2": "-2.34375 percent",
+  "COOLANT_TEMP": "98 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "GET_DTC": "[]",
+  "INTAKE_TEMP": "31 degC",
+  "SPEED": "0.0 kph",
+  "TIMING_ADVANCE": "12.0 degree",
+  "O2_B2S1": "0.745 volt",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "DTC_SPEED": "0.0 kph",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "DTC_TIMING_ADVANCE": "-64.0 degree",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent",
+  "ELM_VOLTAGE": "14.4 volt",
+  "INTAKE_PRESSURE": "32 kilopascal",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "AUX_INPUT_STATUS": "False",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "O2_B1S2": "0.155 volt",
+  "LONG_FUEL_TRIM_2": "1.5625 percent",
+  "SHORT_FUEL_TRIM_1": "-1.5625 percent",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "PIDS_A": "10111111101111101011100110010101"
+}
+Time: 12:51:40.992364
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:51:45.991883
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:51:50.992419
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:51:55.992121
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:52:00.991188
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:52:05.991961
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:52:10.992362
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:52:15.991701
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:52:20.991206
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:52:25.992264
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:52:26.687326
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:53:07.209030
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:53:11.992199
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:53:16.992333
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:53:21.992532
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:53:26.992561
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:53:31.992873
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:53:36.992077
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:53:41.992760
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:53:47.438193
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:53:51.992539
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:53:56.995924
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:54:02.117250
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:54:06.993193
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:54:12.029226
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:54:16.992936
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:54:22.123013
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:54:26.993012
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:54:31.993224
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:54:38.109548
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:54:43.128951
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:54:48.069947
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:54:51.993924
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:55:00.590721
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:55:03.565806
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:55:13.503308
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:55:19.254065
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:55:27.371068
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:55:30.119662
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:55:34.046549
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:55:40.141570
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:55:48.223168
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:55:50.619019
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:55:56.314793
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:55:58.995289
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:56:04.506378
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:56:09.271870
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:56:13.997684
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:56:19.149403
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:56:23.995670
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:56:28.995796
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:56:33.995319
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:56:38.996133
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:56:43.995883
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:56:50.968653
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:56:53.995845
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:57:04.829861
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:57:09.996511
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:57:17.025176
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:57:19.997144
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:57:24.996536
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:57:29.997661
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected"
+}
+Time: 12:57:41.999724
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:57:46.998122
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:57:51.997152
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:57:56.997242
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:58:01.998838
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:58:06.999056
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:58:11.997385
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:58:16.997800
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:58:21.998198
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:58:26.998192
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:58:27.711941
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:58:39.874554
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:58:44.998072
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:58:49.998934
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:58:54.999765
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:58:59.997971
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:59:04.999141
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:59:09.999471
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:59:14.998878
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:59:19.998931
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:59:24.999689
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:59:29.999174
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 12:59:33.988989
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:00:00.164939
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:00:05.001148
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:00:09.999745
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:00:15.000038
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:00:20.000043
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:00:25.001153
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:00:30.001415
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:00:35.001399
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:00:40.001781
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:00:45.000685
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:00:50.001971
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:00:55.000363
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:01:00.001778
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:01:05.002509
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:01:10.000886
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:01:15.001400
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:01:20.001889
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:01:25.002407
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:01:30.001746
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:01:35.001289
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:01:40.002101
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "INTAKE_TEMP": "46 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "10.0 degree",
+  "INTAKE_PRESSURE": "31 kilopascal",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "GET_DTC": "[]",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "COOLANT_TEMP": "97 degC",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10c5d7c90>",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent"
+}
+Time: 13:01:45.001892
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "INTAKE_TEMP": "46 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "10.0 degree",
+  "INTAKE_PRESSURE": "31 kilopascal",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "GET_DTC": "[]",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "COOLANT_TEMP": "97 degC",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10c5d7c90>",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "O2_B1S2": "0.31 volt",
+  "RPM": "625.0 revolutions_per_minute",
+  "ENGINE_LOAD": "21.568627450980394 percent",
+  "SHORT_FUEL_TRIM_1": "0.0 percent",
+  "SPEED": "0.0 kph",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "PIDS_B": "10000000000000000000000000000000",
+  "GET_CURRENT_DTC": "[]",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "ELM_VOLTAGE": "14.5 volt",
+  "O2_B1S1": "0.725 volt",
+  "LONG_FUEL_TRIM_2": "2.34375 percent",
+  "O2_B2S2": "0.685 volt",
+  "O2_B2S1": "0.585 volt",
+  "DTC_SPEED": "0.0 kph",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent"
+}
+Time: 13:01:50.001821
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "INTAKE_TEMP": "46 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "10.0 degree",
+  "INTAKE_PRESSURE": "31 kilopascal",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "GET_DTC": "[]",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "COOLANT_TEMP": "97 degC",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10c5d7c90>",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "O2_B1S2": "0.31 volt",
+  "RPM": "625.0 revolutions_per_minute",
+  "ENGINE_LOAD": "21.568627450980394 percent",
+  "SHORT_FUEL_TRIM_1": "0.0 percent",
+  "SPEED": "0.0 kph",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "PIDS_B": "10000000000000000000000000000000",
+  "GET_CURRENT_DTC": "[]",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "ELM_VOLTAGE": "14.5 volt",
+  "O2_B1S1": "0.725 volt",
+  "LONG_FUEL_TRIM_2": "2.34375 percent",
+  "O2_B2S2": "0.685 volt",
+  "O2_B2S1": "0.585 volt",
+  "DTC_SPEED": "0.0 kph",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent"
+}
+Time: 13:01:55.002018
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "INTAKE_TEMP": "46 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "10.0 degree",
+  "INTAKE_PRESSURE": "31 kilopascal",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "GET_DTC": "[]",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "COOLANT_TEMP": "97 degC",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10c5d7c90>",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "O2_B1S2": "0.31 volt",
+  "RPM": "625.0 revolutions_per_minute",
+  "ENGINE_LOAD": "21.568627450980394 percent",
+  "SHORT_FUEL_TRIM_1": "0.0 percent",
+  "SPEED": "0.0 kph",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "PIDS_B": "10000000000000000000000000000000",
+  "GET_CURRENT_DTC": "[]",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "ELM_VOLTAGE": "14.5 volt",
+  "O2_B1S1": "0.725 volt",
+  "LONG_FUEL_TRIM_2": "2.34375 percent",
+  "O2_B2S2": "0.685 volt",
+  "O2_B2S1": "0.585 volt",
+  "DTC_SPEED": "0.0 kph",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent"
+}
+Time: 13:02:00.002559
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "INTAKE_TEMP": "46 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "10.0 degree",
+  "INTAKE_PRESSURE": "31 kilopascal",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "GET_DTC": "[]",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "COOLANT_TEMP": "97 degC",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10c5d7c90>",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "O2_B1S2": "0.31 volt",
+  "RPM": "625.0 revolutions_per_minute",
+  "ENGINE_LOAD": "21.568627450980394 percent",
+  "SHORT_FUEL_TRIM_1": "0.0 percent",
+  "SPEED": "0.0 kph",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "PIDS_B": "10000000000000000000000000000000",
+  "GET_CURRENT_DTC": "[]",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "ELM_VOLTAGE": "14.5 volt",
+  "O2_B1S1": "0.725 volt",
+  "LONG_FUEL_TRIM_2": "2.34375 percent",
+  "O2_B2S2": "0.685 volt",
+  "O2_B2S1": "0.585 volt",
+  "DTC_SPEED": "0.0 kph",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent"
+}
+Time: 13:02:05.002197
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "INTAKE_TEMP": "46 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "10.0 degree",
+  "INTAKE_PRESSURE": "31 kilopascal",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "GET_DTC": "[]",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "COOLANT_TEMP": "97 degC",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10c5d7c90>",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "O2_B1S2": "0.31 volt",
+  "RPM": "625.0 revolutions_per_minute",
+  "ENGINE_LOAD": "21.568627450980394 percent",
+  "SHORT_FUEL_TRIM_1": "0.0 percent",
+  "SPEED": "0.0 kph",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "PIDS_B": "10000000000000000000000000000000",
+  "GET_CURRENT_DTC": "[]",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "ELM_VOLTAGE": "14.5 volt",
+  "O2_B1S1": "0.725 volt",
+  "LONG_FUEL_TRIM_2": "2.34375 percent",
+  "O2_B2S2": "0.685 volt",
+  "O2_B2S1": "0.585 volt",
+  "DTC_SPEED": "0.0 kph",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent"
+}
+Time: 13:02:10.002153
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "INTAKE_TEMP": "46 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "10.0 degree",
+  "INTAKE_PRESSURE": "31 kilopascal",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "GET_DTC": "[]",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "COOLANT_TEMP": "97 degC",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10c5d7c90>",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "O2_B1S2": "0.31 volt",
+  "RPM": "625.0 revolutions_per_minute",
+  "ENGINE_LOAD": "21.568627450980394 percent",
+  "SHORT_FUEL_TRIM_1": "0.0 percent",
+  "SPEED": "0.0 kph",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "PIDS_B": "10000000000000000000000000000000",
+  "GET_CURRENT_DTC": "[]",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "ELM_VOLTAGE": "14.5 volt",
+  "O2_B1S1": "0.725 volt",
+  "LONG_FUEL_TRIM_2": "2.34375 percent",
+  "O2_B2S2": "0.685 volt",
+  "O2_B2S1": "0.585 volt",
+  "DTC_SPEED": "0.0 kph",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent"
+}
+Time: 13:02:15.001780
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "INTAKE_TEMP": "46 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "10.0 degree",
+  "INTAKE_PRESSURE": "31 kilopascal",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "GET_DTC": "[]",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "COOLANT_TEMP": "97 degC",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10c5d7c90>",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "O2_B1S2": "0.31 volt",
+  "RPM": "625.0 revolutions_per_minute",
+  "ENGINE_LOAD": "21.568627450980394 percent",
+  "SHORT_FUEL_TRIM_1": "0.0 percent",
+  "SPEED": "0.0 kph",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "PIDS_B": "10000000000000000000000000000000",
+  "GET_CURRENT_DTC": "[]",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "ELM_VOLTAGE": "14.5 volt",
+  "O2_B1S1": "0.725 volt",
+  "LONG_FUEL_TRIM_2": "2.34375 percent",
+  "O2_B2S2": "0.685 volt",
+  "O2_B2S1": "0.585 volt",
+  "DTC_SPEED": "0.0 kph",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent"
+}
+Time: 13:02:20.002220
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "INTAKE_TEMP": "46 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "10.0 degree",
+  "INTAKE_PRESSURE": "31 kilopascal",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "GET_DTC": "[]",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "COOLANT_TEMP": "97 degC",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10c5d7c90>",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "O2_B1S2": "0.31 volt",
+  "RPM": "625.0 revolutions_per_minute",
+  "ENGINE_LOAD": "21.568627450980394 percent",
+  "SHORT_FUEL_TRIM_1": "0.0 percent",
+  "SPEED": "0.0 kph",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "PIDS_B": "10000000000000000000000000000000",
+  "GET_CURRENT_DTC": "[]",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "ELM_VOLTAGE": "14.5 volt",
+  "O2_B1S1": "0.725 volt",
+  "LONG_FUEL_TRIM_2": "2.34375 percent",
+  "O2_B2S2": "0.685 volt",
+  "O2_B2S1": "0.585 volt",
+  "DTC_SPEED": "0.0 kph",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent"
+}
+Time: 13:02:25.003673
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "INTAKE_TEMP": "46 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "10.0 degree",
+  "INTAKE_PRESSURE": "31 kilopascal",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "GET_DTC": "[]",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "COOLANT_TEMP": "97 degC",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10c5d7c90>",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "O2_B1S2": "0.31 volt",
+  "RPM": "625.0 revolutions_per_minute",
+  "ENGINE_LOAD": "21.568627450980394 percent",
+  "SHORT_FUEL_TRIM_1": "0.0 percent",
+  "SPEED": "0.0 kph",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "PIDS_B": "10000000000000000000000000000000",
+  "GET_CURRENT_DTC": "[]",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "ELM_VOLTAGE": "14.5 volt",
+  "O2_B1S1": "0.725 volt",
+  "LONG_FUEL_TRIM_2": "2.34375 percent",
+  "O2_B2S2": "0.685 volt",
+  "O2_B2S1": "0.585 volt",
+  "DTC_SPEED": "0.0 kph",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent"
+}
+Time: 13:02:30.003260
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "INTAKE_TEMP": "46 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "10.0 degree",
+  "INTAKE_PRESSURE": "31 kilopascal",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "GET_DTC": "[]",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "COOLANT_TEMP": "97 degC",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10c5d7c90>",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "O2_B1S2": "0.31 volt",
+  "RPM": "625.0 revolutions_per_minute",
+  "ENGINE_LOAD": "21.568627450980394 percent",
+  "SHORT_FUEL_TRIM_1": "0.0 percent",
+  "SPEED": "0.0 kph",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "PIDS_B": "10000000000000000000000000000000",
+  "GET_CURRENT_DTC": "[]",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "ELM_VOLTAGE": "14.5 volt",
+  "O2_B1S1": "0.725 volt",
+  "LONG_FUEL_TRIM_2": "2.34375 percent",
+  "O2_B2S2": "0.685 volt",
+  "O2_B2S1": "0.585 volt",
+  "DTC_SPEED": "0.0 kph",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent"
+}
+Time: 13:02:35.002372
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "INTAKE_TEMP": "46 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "10.0 degree",
+  "INTAKE_PRESSURE": "31 kilopascal",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "GET_DTC": "[]",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "COOLANT_TEMP": "97 degC",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10c5d7c90>",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "O2_B1S2": "0.31 volt",
+  "RPM": "625.0 revolutions_per_minute",
+  "ENGINE_LOAD": "21.568627450980394 percent",
+  "SHORT_FUEL_TRIM_1": "0.0 percent",
+  "SPEED": "0.0 kph",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "PIDS_B": "10000000000000000000000000000000",
+  "GET_CURRENT_DTC": "[]",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "ELM_VOLTAGE": "14.5 volt",
+  "O2_B1S1": "0.725 volt",
+  "LONG_FUEL_TRIM_2": "2.34375 percent",
+  "O2_B2S2": "0.685 volt",
+  "O2_B2S1": "0.585 volt",
+  "DTC_SPEED": "0.0 kph",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent"
+}
+Time: 13:02:40.002808
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "INTAKE_TEMP": "46 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "10.0 degree",
+  "INTAKE_PRESSURE": "31 kilopascal",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "GET_DTC": "[]",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "COOLANT_TEMP": "97 degC",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10c5d7c90>",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "O2_B1S2": "0.31 volt",
+  "RPM": "625.0 revolutions_per_minute",
+  "ENGINE_LOAD": "21.568627450980394 percent",
+  "SHORT_FUEL_TRIM_1": "0.0 percent",
+  "SPEED": "0.0 kph",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "PIDS_B": "10000000000000000000000000000000",
+  "GET_CURRENT_DTC": "[]",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "ELM_VOLTAGE": "14.5 volt",
+  "O2_B1S1": "0.725 volt",
+  "LONG_FUEL_TRIM_2": "2.34375 percent",
+  "O2_B2S2": "0.685 volt",
+  "O2_B2S1": "0.585 volt",
+  "DTC_SPEED": "0.0 kph",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent"
+}
+Time: 13:02:45.002859
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "INTAKE_TEMP": "46 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "10.0 degree",
+  "INTAKE_PRESSURE": "31 kilopascal",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "GET_DTC": "[]",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "COOLANT_TEMP": "97 degC",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10c5d7c90>",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "O2_B1S2": "0.31 volt",
+  "RPM": "625.0 revolutions_per_minute",
+  "ENGINE_LOAD": "21.568627450980394 percent",
+  "SHORT_FUEL_TRIM_1": "0.0 percent",
+  "SPEED": "0.0 kph",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "PIDS_B": "10000000000000000000000000000000",
+  "GET_CURRENT_DTC": "[]",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "ELM_VOLTAGE": "14.5 volt",
+  "O2_B1S1": "0.725 volt",
+  "LONG_FUEL_TRIM_2": "2.34375 percent",
+  "O2_B2S2": "0.685 volt",
+  "O2_B2S1": "0.585 volt",
+  "DTC_SPEED": "0.0 kph",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent"
+}
+Time: 13:02:50.002139
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "INTAKE_TEMP": "46 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "10.0 degree",
+  "INTAKE_PRESSURE": "31 kilopascal",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "GET_DTC": "[]",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "COOLANT_TEMP": "97 degC",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10c5d7c90>",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "O2_B1S2": "0.31 volt",
+  "RPM": "625.0 revolutions_per_minute",
+  "ENGINE_LOAD": "21.568627450980394 percent",
+  "SHORT_FUEL_TRIM_1": "0.0 percent",
+  "SPEED": "0.0 kph",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "PIDS_B": "10000000000000000000000000000000",
+  "GET_CURRENT_DTC": "[]",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "ELM_VOLTAGE": "14.5 volt",
+  "O2_B1S1": "0.725 volt",
+  "LONG_FUEL_TRIM_2": "2.34375 percent",
+  "O2_B2S2": "0.685 volt",
+  "O2_B2S1": "0.585 volt",
+  "DTC_SPEED": "0.0 kph",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent"
+}
+Time: 13:02:55.003436
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "INTAKE_TEMP": "46 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "10.0 degree",
+  "INTAKE_PRESSURE": "31 kilopascal",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "GET_DTC": "[]",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "COOLANT_TEMP": "97 degC",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10c5d7c90>",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "O2_B1S2": "0.31 volt",
+  "RPM": "625.0 revolutions_per_minute",
+  "ENGINE_LOAD": "21.568627450980394 percent",
+  "SHORT_FUEL_TRIM_1": "0.0 percent",
+  "SPEED": "0.0 kph",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "PIDS_B": "10000000000000000000000000000000",
+  "GET_CURRENT_DTC": "[]",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "ELM_VOLTAGE": "14.5 volt",
+  "O2_B1S1": "0.725 volt",
+  "LONG_FUEL_TRIM_2": "2.34375 percent",
+  "O2_B2S2": "0.685 volt",
+  "O2_B2S1": "0.585 volt",
+  "DTC_SPEED": "0.0 kph",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent"
+}
+Time: 13:03:00.004061
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "INTAKE_TEMP": "46 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "10.0 degree",
+  "INTAKE_PRESSURE": "31 kilopascal",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "GET_DTC": "[]",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "COOLANT_TEMP": "97 degC",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10c5d7c90>",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "O2_B1S2": "0.31 volt",
+  "RPM": "625.0 revolutions_per_minute",
+  "ENGINE_LOAD": "21.568627450980394 percent",
+  "SHORT_FUEL_TRIM_1": "0.0 percent",
+  "SPEED": "0.0 kph",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "PIDS_B": "10000000000000000000000000000000",
+  "GET_CURRENT_DTC": "[]",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "ELM_VOLTAGE": "14.5 volt",
+  "O2_B1S1": "0.725 volt",
+  "LONG_FUEL_TRIM_2": "2.34375 percent",
+  "O2_B2S2": "0.685 volt",
+  "O2_B2S1": "0.585 volt",
+  "DTC_SPEED": "0.0 kph",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent"
+}
+Time: 13:03:05.003323
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "INTAKE_TEMP": "46 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "10.0 degree",
+  "INTAKE_PRESSURE": "31 kilopascal",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "GET_DTC": "[]",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "COOLANT_TEMP": "97 degC",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10c5d7c90>",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "O2_B1S2": "0.31 volt",
+  "RPM": "625.0 revolutions_per_minute",
+  "ENGINE_LOAD": "21.568627450980394 percent",
+  "SHORT_FUEL_TRIM_1": "0.0 percent",
+  "SPEED": "0.0 kph",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "PIDS_B": "10000000000000000000000000000000",
+  "GET_CURRENT_DTC": "[]",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "ELM_VOLTAGE": "14.5 volt",
+  "O2_B1S1": "0.725 volt",
+  "LONG_FUEL_TRIM_2": "2.34375 percent",
+  "O2_B2S2": "0.685 volt",
+  "O2_B2S1": "0.585 volt",
+  "DTC_SPEED": "0.0 kph",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent"
+}
+Time: 13:03:10.003242
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "INTAKE_TEMP": "46 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "10.0 degree",
+  "INTAKE_PRESSURE": "31 kilopascal",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "GET_DTC": "[]",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "COOLANT_TEMP": "97 degC",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10c5d7c90>",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "O2_B1S2": "0.31 volt",
+  "RPM": "625.0 revolutions_per_minute",
+  "ENGINE_LOAD": "21.568627450980394 percent",
+  "SHORT_FUEL_TRIM_1": "0.0 percent",
+  "SPEED": "0.0 kph",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "PIDS_B": "10000000000000000000000000000000",
+  "GET_CURRENT_DTC": "[]",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "ELM_VOLTAGE": "14.5 volt",
+  "O2_B1S1": "0.725 volt",
+  "LONG_FUEL_TRIM_2": "2.34375 percent",
+  "O2_B2S2": "0.685 volt",
+  "O2_B2S1": "0.585 volt",
+  "DTC_SPEED": "0.0 kph",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent"
+}
+Time: 13:03:15.004149
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "INTAKE_TEMP": "46 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "10.0 degree",
+  "INTAKE_PRESSURE": "31 kilopascal",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "GET_DTC": "[]",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "COOLANT_TEMP": "97 degC",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10c5d7c90>",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "O2_B1S2": "0.31 volt",
+  "RPM": "625.0 revolutions_per_minute",
+  "ENGINE_LOAD": "21.568627450980394 percent",
+  "SHORT_FUEL_TRIM_1": "0.0 percent",
+  "SPEED": "0.0 kph",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "PIDS_B": "10000000000000000000000000000000",
+  "GET_CURRENT_DTC": "[]",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "ELM_VOLTAGE": "14.5 volt",
+  "O2_B1S1": "0.725 volt",
+  "LONG_FUEL_TRIM_2": "2.34375 percent",
+  "O2_B2S2": "0.685 volt",
+  "O2_B2S1": "0.585 volt",
+  "DTC_SPEED": "0.0 kph",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent"
+}
+Time: 13:03:20.003899
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "INTAKE_TEMP": "46 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "10.0 degree",
+  "INTAKE_PRESSURE": "31 kilopascal",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "GET_DTC": "[]",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "COOLANT_TEMP": "97 degC",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10c5d7c90>",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "O2_B1S2": "0.31 volt",
+  "RPM": "625.0 revolutions_per_minute",
+  "ENGINE_LOAD": "21.568627450980394 percent",
+  "SHORT_FUEL_TRIM_1": "0.0 percent",
+  "SPEED": "0.0 kph",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "PIDS_B": "10000000000000000000000000000000",
+  "GET_CURRENT_DTC": "[]",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "ELM_VOLTAGE": "14.5 volt",
+  "O2_B1S1": "0.725 volt",
+  "LONG_FUEL_TRIM_2": "2.34375 percent",
+  "O2_B2S2": "0.685 volt",
+  "O2_B2S1": "0.585 volt",
+  "DTC_SPEED": "0.0 kph",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent"
+}
+Time: 13:03:22.545509
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "INTAKE_TEMP": "46 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "TIMING_ADVANCE": "10.0 degree",
+  "INTAKE_PRESSURE": "31 kilopascal",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "GET_DTC": "[]",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "COOLANT_TEMP": "97 degC",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10c5d7c90>",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "O2_B1S2": "0.31 volt",
+  "RPM": "625.0 revolutions_per_minute",
+  "ENGINE_LOAD": "21.568627450980394 percent",
+  "SHORT_FUEL_TRIM_1": "0.0 percent",
+  "SPEED": "0.0 kph",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "PIDS_B": "10000000000000000000000000000000",
+  "GET_CURRENT_DTC": "[]",
+  "LONG_FUEL_TRIM_1": "0.0 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "ELM_VOLTAGE": "14.5 volt",
+  "O2_B1S1": "0.725 volt",
+  "LONG_FUEL_TRIM_2": "2.34375 percent",
+  "O2_B2S2": "0.685 volt",
+  "O2_B2S1": "0.585 volt",
+  "DTC_SPEED": "0.0 kph",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent"
+}
+Time: 13:05:27.006199
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:05:32.006235
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:05:37.005918
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:05:42.006697
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:05:47.005642
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:05:52.007129
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:05:57.007525
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:06:02.007295
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:06:07.007809
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:06:12.007702
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:06:17.007378
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:06:22.008063
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:06:27.006590
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:06:32.007992
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:06:37.008473
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:06:42.007480
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:06:47.008128
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:06:52.007318
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:06:57.008249
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:07:02.008655
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:07:07.007337
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "ELM_VOLTAGE": "14.4 volt",
+  "O2_B1S1": "0.78 volt",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "RPM": "625.0 revolutions_per_minute",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "LONG_FUEL_TRIM_2": "3.90625 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "INTAKE_PRESSURE": "30 kilopascal",
+  "SPEED": "0.0 kph",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "O2_B2S1": "0.78 volt",
+  "PIDS_B": "10000000000000000000000000000000",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "GET_DTC": "[]",
+  "DTC_TIMING_ADVANCE": "-64.0 degree",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent",
+  "DTC_SPEED": "0.0 kph",
+  "COOLANT_TEMP": "98 degC",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "SHORT_FUEL_TRIM_1": "-0.78125 percent",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10ad8f6d0>",
+  "O2_B1S2": "0.135 volt",
+  "ENGINE_LOAD": "21.176470588235293 percent",
+  "TIMING_ADVANCE": "12.0 degree",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "DTC_RPM": "0.0 revolutions_per_minute"
+}
+Time: 13:07:12.007300
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "ELM_VOLTAGE": "14.4 volt",
+  "O2_B1S1": "0.78 volt",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "RPM": "625.0 revolutions_per_minute",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "LONG_FUEL_TRIM_2": "3.90625 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "INTAKE_PRESSURE": "30 kilopascal",
+  "SPEED": "0.0 kph",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "O2_B2S1": "0.78 volt",
+  "PIDS_B": "10000000000000000000000000000000",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "GET_DTC": "[]",
+  "DTC_TIMING_ADVANCE": "-64.0 degree",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent",
+  "DTC_SPEED": "0.0 kph",
+  "COOLANT_TEMP": "98 degC",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "SHORT_FUEL_TRIM_1": "-0.78125 percent",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10ad8f6d0>",
+  "O2_B1S2": "0.135 volt",
+  "ENGINE_LOAD": "21.176470588235293 percent",
+  "TIMING_ADVANCE": "12.0 degree",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "O2_B2S2": "0.665 volt",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "GET_CURRENT_DTC": "[]"
+}
+Time: 13:07:17.008806
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "ELM_VOLTAGE": "14.4 volt",
+  "O2_B1S1": "0.78 volt",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "RPM": "625.0 revolutions_per_minute",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "LONG_FUEL_TRIM_2": "3.90625 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "INTAKE_PRESSURE": "30 kilopascal",
+  "SPEED": "0.0 kph",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "O2_B2S1": "0.78 volt",
+  "PIDS_B": "10000000000000000000000000000000",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "GET_DTC": "[]",
+  "DTC_TIMING_ADVANCE": "-64.0 degree",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent",
+  "DTC_SPEED": "0.0 kph",
+  "COOLANT_TEMP": "98 degC",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "SHORT_FUEL_TRIM_1": "-0.78125 percent",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10ad8f6d0>",
+  "O2_B1S2": "0.135 volt",
+  "ENGINE_LOAD": "21.176470588235293 percent",
+  "TIMING_ADVANCE": "12.0 degree",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "O2_B2S2": "0.665 volt",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "GET_CURRENT_DTC": "[]"
+}
+Time: 13:07:22.008017
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "ELM_VOLTAGE": "14.4 volt",
+  "O2_B1S1": "0.78 volt",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "RPM": "625.0 revolutions_per_minute",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "LONG_FUEL_TRIM_2": "3.90625 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "INTAKE_PRESSURE": "30 kilopascal",
+  "SPEED": "0.0 kph",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "O2_B2S1": "0.78 volt",
+  "PIDS_B": "10000000000000000000000000000000",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "GET_DTC": "[]",
+  "DTC_TIMING_ADVANCE": "-64.0 degree",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent",
+  "DTC_SPEED": "0.0 kph",
+  "COOLANT_TEMP": "98 degC",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "SHORT_FUEL_TRIM_1": "-0.78125 percent",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10ad8f6d0>",
+  "O2_B1S2": "0.135 volt",
+  "ENGINE_LOAD": "21.176470588235293 percent",
+  "TIMING_ADVANCE": "12.0 degree",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "O2_B2S2": "0.665 volt",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "GET_CURRENT_DTC": "[]"
+}
+Time: 13:07:27.009212
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "ELM_VOLTAGE": "14.4 volt",
+  "O2_B1S1": "0.78 volt",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "RPM": "625.0 revolutions_per_minute",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "LONG_FUEL_TRIM_2": "3.90625 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "INTAKE_PRESSURE": "30 kilopascal",
+  "SPEED": "0.0 kph",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "O2_B2S1": "0.78 volt",
+  "PIDS_B": "10000000000000000000000000000000",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "GET_DTC": "[]",
+  "DTC_TIMING_ADVANCE": "-64.0 degree",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent",
+  "DTC_SPEED": "0.0 kph",
+  "COOLANT_TEMP": "98 degC",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "SHORT_FUEL_TRIM_1": "-0.78125 percent",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10ad8f6d0>",
+  "O2_B1S2": "0.135 volt",
+  "ENGINE_LOAD": "21.176470588235293 percent",
+  "TIMING_ADVANCE": "12.0 degree",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "O2_B2S2": "0.665 volt",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "GET_CURRENT_DTC": "[]"
+}
+Time: 13:07:32.008659
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "ELM_VOLTAGE": "14.4 volt",
+  "O2_B1S1": "0.78 volt",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "RPM": "625.0 revolutions_per_minute",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "LONG_FUEL_TRIM_2": "3.90625 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "INTAKE_PRESSURE": "30 kilopascal",
+  "SPEED": "0.0 kph",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "O2_B2S1": "0.78 volt",
+  "PIDS_B": "10000000000000000000000000000000",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "GET_DTC": "[]",
+  "DTC_TIMING_ADVANCE": "-64.0 degree",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent",
+  "DTC_SPEED": "0.0 kph",
+  "COOLANT_TEMP": "98 degC",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "SHORT_FUEL_TRIM_1": "-0.78125 percent",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10ad8f6d0>",
+  "O2_B1S2": "0.135 volt",
+  "ENGINE_LOAD": "21.176470588235293 percent",
+  "TIMING_ADVANCE": "12.0 degree",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "O2_B2S2": "0.665 volt",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "GET_CURRENT_DTC": "[]"
+}
+Time: 13:07:37.008390
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "ELM_VOLTAGE": "14.4 volt",
+  "O2_B1S1": "0.78 volt",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "RPM": "625.0 revolutions_per_minute",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "LONG_FUEL_TRIM_2": "3.90625 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "INTAKE_PRESSURE": "30 kilopascal",
+  "SPEED": "0.0 kph",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "O2_B2S1": "0.78 volt",
+  "PIDS_B": "10000000000000000000000000000000",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "GET_DTC": "[]",
+  "DTC_TIMING_ADVANCE": "-64.0 degree",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent",
+  "DTC_SPEED": "0.0 kph",
+  "COOLANT_TEMP": "98 degC",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "SHORT_FUEL_TRIM_1": "-0.78125 percent",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10ad8f6d0>",
+  "O2_B1S2": "0.135 volt",
+  "ENGINE_LOAD": "21.176470588235293 percent",
+  "TIMING_ADVANCE": "12.0 degree",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "O2_B2S2": "0.665 volt",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "GET_CURRENT_DTC": "[]"
+}
+Time: 13:07:42.008955
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "ELM_VOLTAGE": "14.4 volt",
+  "O2_B1S1": "0.78 volt",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "RPM": "625.0 revolutions_per_minute",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "LONG_FUEL_TRIM_2": "3.90625 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "INTAKE_PRESSURE": "30 kilopascal",
+  "SPEED": "0.0 kph",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "O2_B2S1": "0.78 volt",
+  "PIDS_B": "10000000000000000000000000000000",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "GET_DTC": "[]",
+  "DTC_TIMING_ADVANCE": "-64.0 degree",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent",
+  "DTC_SPEED": "0.0 kph",
+  "COOLANT_TEMP": "98 degC",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "SHORT_FUEL_TRIM_1": "-0.78125 percent",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10ad8f6d0>",
+  "O2_B1S2": "0.135 volt",
+  "ENGINE_LOAD": "21.176470588235293 percent",
+  "TIMING_ADVANCE": "12.0 degree",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "O2_B2S2": "0.665 volt",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "GET_CURRENT_DTC": "[]"
+}
+Time: 13:07:47.009722
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "ELM_VOLTAGE": "14.4 volt",
+  "O2_B1S1": "0.78 volt",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "RPM": "625.0 revolutions_per_minute",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "LONG_FUEL_TRIM_2": "3.90625 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "INTAKE_PRESSURE": "30 kilopascal",
+  "SPEED": "0.0 kph",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "O2_B2S1": "0.78 volt",
+  "PIDS_B": "10000000000000000000000000000000",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "GET_DTC": "[]",
+  "DTC_TIMING_ADVANCE": "-64.0 degree",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent",
+  "DTC_SPEED": "0.0 kph",
+  "COOLANT_TEMP": "98 degC",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "SHORT_FUEL_TRIM_1": "-0.78125 percent",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10ad8f6d0>",
+  "O2_B1S2": "0.135 volt",
+  "ENGINE_LOAD": "21.176470588235293 percent",
+  "TIMING_ADVANCE": "12.0 degree",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "O2_B2S2": "0.665 volt",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "GET_CURRENT_DTC": "[]"
+}
+Time: 13:07:51.718759
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0,
+  "connection-established": "Car Connected",
+  "ELM_VOLTAGE": "14.4 volt",
+  "O2_B1S1": "0.78 volt",
+  "DTC_AUX_INPUT_STATUS": "False",
+  "RPM": "625.0 revolutions_per_minute",
+  "DTC_LONG_FUEL_TRIM_2": "-100.0 percent",
+  "DTC_COOLANT_TEMP": "-40 degC",
+  "LONG_FUEL_TRIM_2": "3.90625 percent",
+  "DTC_SHORT_FUEL_TRIM_1": "-100.0 percent",
+  "INTAKE_PRESSURE": "30 kilopascal",
+  "SPEED": "0.0 kph",
+  "SHORT_FUEL_TRIM_2": "0.0 percent",
+  "O2_B2S1": "0.78 volt",
+  "PIDS_B": "10000000000000000000000000000000",
+  "DISTANCE_W_MIL": "0.0 kilometer",
+  "O2_SENSORS": "((), (False, False, True, True), (False, False, True, True))",
+  "GET_DTC": "[]",
+  "DTC_TIMING_ADVANCE": "-64.0 degree",
+  "DTC_THROTTLE_POS": "0.0 percent",
+  "DTC_LONG_FUEL_TRIM_1": "-100.0 percent",
+  "DTC_SPEED": "0.0 kph",
+  "COOLANT_TEMP": "98 degC",
+  "DTC_SHORT_FUEL_TRIM_2": "-100.0 percent",
+  "SHORT_FUEL_TRIM_1": "-0.78125 percent",
+  "THROTTLE_POS": "12.549019607843137 percent",
+  "ELM_VERSION": "ELM327 v1.3a",
+  "DTC_INTAKE_TEMP": "-40 degC",
+  "DTC_INTAKE_PRESSURE": "0 kilopascal",
+  "AUX_INPUT_STATUS": "False",
+  "STATUS": "<obd.OBDResponse.Status object at 0x10ad8f6d0>",
+  "O2_B1S2": "0.135 volt",
+  "ENGINE_LOAD": "21.176470588235293 percent",
+  "TIMING_ADVANCE": "12.0 degree",
+  "FUEL_STATUS": "('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')",
+  "OBD_COMPLIANCE": "OBD-II as defined by the CARB",
+  "PIDS_A": "10111111101111101011100110010101",
+  "DTC_RPM": "0.0 revolutions_per_minute",
+  "O2_B2S2": "0.665 volt",
+  "DTC_ENGINE_LOAD": "0.0 percent",
+  "GET_CURRENT_DTC": "[]"
+}
+Time: 13:07:59.082471
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:08:04.009718
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:08:09.009200
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:08:14.009838
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:08:19.010129
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}
+Time: 13:08:19.456631
+
+___Diagnostics___
+{
+  "OIL_TEMP": 0
+}

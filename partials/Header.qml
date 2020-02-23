@@ -31,7 +31,7 @@ Rectangle {
     }
 
     Component.onCompleted: function(){
-      if(context['diagnostics']['code-exists']){
+      if(context['handler']['code-exists']){
         // pageLoader.sourceComponent = "header_engine_code"
         console.log("EngineCode Loaded!")
       }
@@ -64,7 +64,7 @@ Rectangle {
     Loader{
       id: pageLoader
 
-      sourceComponent: internal_rectangle.context.diagnostics['code-exists'] | internal_rectangle.context.diagnostics['alert-exists'] ? header_engine_code_component : undefined
+      sourceComponent: internal_rectangle.context.handler['code-exists'] ? header_engine_code_component : undefined
 
       anchors.right: header_settings.left
       anchors.verticalCenter: parent.verticalCenter
