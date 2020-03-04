@@ -10,7 +10,8 @@ import "../items" as Items
 Frame{
     id: root_diagnostics
     property var context: null
-    property var time: context.time
+    property alias testProps: diagnostics_model
+    // property var time: context.time
     property var ignore_list: {
           'connection-established' : true,
           'STATUS': true

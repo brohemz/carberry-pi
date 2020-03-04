@@ -51,6 +51,7 @@ ApplicationWindow {
       onTriggered: callback()
     }
 
+    // Javascript Functions
     function setTimeout(callback, delay)
     {
       if(timer.running){
@@ -91,7 +92,26 @@ ApplicationWindow {
       }, 1000, !run())
     }
 
+    function printTest(){
 
+      console.log("\n_____TESTING_____\n\n")
+
+      var test_dict = stack.currentItem.children[0].testValues()
+      
+      console.log("\n___DASH___")
+      console.log(`Speed: ${main.handler['speed'] == test_dict['SPEED'] ? "YES" : "No"}`)
+      console.log(`RPM: ${main.handler['rpm'] == test_dict['RPM'] ? "YES" : "No"}`)
+      console.log(`Coolant: ${main.handler['engine_temp'] == test_dict['COOLANT'] ? "YES" : "No"}`)
+
+      console.log("\n___Diagnostics___");
+      // console.log(test_dict['diag_1'] == 22 ? "YES" : "No")
+      for(var iter = 1; iter <= 6; iter++){
+          console.log(`temp${iter}: ${main.diagnostics[`temp${iter}`] == test_dict['diag'].get(iter - 1)['value'] ? "YES" : "No"}`)
+      }
+      console.log("\n_____END TESTING_____\n\n")
+
+
+    }
 
     Item {
       id: head
@@ -147,14 +167,21 @@ ApplicationWindow {
         id: view1
         Item {
           id: mainItem
-
-
           SwipeView{
             id: swipeView
-
             anchors.fill: parent
 
             currentIndex: 0
+
+            function testValues(){
+              var dict = {
+                'SPEED': dashObj.speedVal,
+                'RPM': dashObj.rpmVal,
+                'COOLANT': dashObj.coolantVal,
+                'diag': diagObj.testProps,
+              }
+              return dict
+            }
 
             onCurrentIndexChanged: function(){
               // console.log(this.currentIndex)
@@ -173,6 +200,7 @@ ApplicationWindow {
               objectName: "Dashboard"
 
               Dash{
+                  id: dashObj
                   anchors.horizontalCenter: parent.horizontalCenter
                   anchors.verticalCenter: parent.verticalCenter
                   context: main
@@ -184,6 +212,7 @@ ApplicationWindow {
               objectName: "Diagnostics"
 
               Diagnostics{
+                  id: diagObj
                   // Items.Button{
                   //   text: "Settings"
                   //   style: main.config['style']['current']
@@ -216,15 +245,18 @@ ApplicationWindow {
       Component.onCompleted: function(){
 
           if(style == null)
-          return;
+            return;
 
           sendInfoExtended("Connecting...", function(){
-            console.log("connection-established: " + main.diagnostics['connection-established']);
+            // console.log("connection-established: " + main.diagnostics['connection-established'])
             return main.diagnostics['connection-established']
           });
 
-          if(main.handler['dev'])
+          if(main.handler['dev']){
             console.log("DEV MODE ENABLED!")
+            printTest()
+          }
+            
 
         stategroup.state = style;
 

@@ -11,6 +11,12 @@ import "../items" as Items
 Frame{
     id: root_dash
     property var context: null
+
+    // Test alias
+    property alias speedVal: speedGauge.value
+    property alias rpmVal: rpmGauge.value
+    property alias coolantVal: coolantGauge.value
+
     clip: true
 
     implicitWidth: 700
@@ -161,7 +167,11 @@ Frame{
                       text: "Engine Temp" ; padding: 30;
                       style: context.config['style']['current'] + "_grey"
                     }
-                  Items.Thermometer{value: context.handler['engine_temp']; context_style: context.config['style']['current']}
+                  Items.Thermometer{
+                    id: coolantGauge
+                    value: context.handler['engine_temp']
+                    context_style: context.config['style']['current']
+                    }
                 }
 
                 // Row{
