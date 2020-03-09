@@ -5,5 +5,6 @@ Raspberry Pi in the Car!
 This is the research project for my undergraduate degree.
 
 <hr>
-It models an interface for the use of a Raspberry Pi in the car.  It showcases real-time data from the OBDII port.
+It models an interface for the Raspberry Pi.  The software showcases real-time data from the OBDII sensor for diagnostic readings.
+
 It is meant to be used with the official Raspberry Pi touchscreen.
