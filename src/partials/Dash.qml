@@ -90,6 +90,7 @@ Frame{
                         text: context.config['locality']['current'] == "en-US" ? "mph" : "km / h"
                         anchors.horizontalCenter: parent.horizontalCenter
                         anchors.bottom: parent.bottom
+                        anchors.bottomMargin: 20
                         padding: 0
                       }
 
@@ -109,8 +110,6 @@ Frame{
                       value: context.handler['rpm']
                       minimumValue: 0
                       maximumValue: 8000
-
-
 
                       style: CircularGaugeStyle{
                         labelStepSize: 1000
@@ -144,7 +143,16 @@ Frame{
                         //   color: "blue"
                         // }
                       }
+                      Items.Label{
+                        style: context.config['style']['current'] + "_grey"
+                        text: 'rpm'
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        anchors.bottom: parent.bottom
+                        anchors.bottomMargin: 20
+                        padding: 0
+                      }
                     }
+                    
                   }
 
 
@@ -152,10 +160,9 @@ Frame{
 
 
               Column{
-                padding: 5
-                anchors.right: parent.horizontalCenter
+                anchors.horizontalCenter: parent.horizontalCenter
+                anchors.horizontalCenterOffset: -75
                 Row{
-                  // rightPadding: 40
                   Items.Label{
                       Component.onCompleted: function(){
                         var loc = context.config['locality']['current']
@@ -164,7 +171,8 @@ Frame{
                         else
                           text = "Engine Temp (°C)"
                       }
-                      text: "Engine Temp" ; padding: 30;
+                      text: "Engine Temp" ; 
+                      padding: 30;
                       style: context.config['style']['current'] + "_grey"
                     }
                   Items.Thermometer{

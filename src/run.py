@@ -42,12 +42,19 @@ class Obd_Thread(QThread):
             mc.handler = {'speed': val}
             # mc.speedValue = r.value.to("mph").magnitude
             # print(r.value.magnitude)
+    
     def set_temp(self, r):
         loc = mc.getConfig()['locality']['current']
         if(r.value):
             # mc.tempValue = r.value.to('degF').magnitude
             mc.handler = {'engine_temp': r.value.to('degF').magnitude if loc == 'en-US' else r.value.magnitude}
 
+    def set_code(self, r):
+        if(r.value and r.value != '[]'):
+            code_list = []
+            for entry in r.value:
+                code_list.append(entry[0] + ' ' + entry[1])
+            mc.handler = {'code-exists': True, 'code': code_list}
     # def set_val(self, r, r.name):
     #     if(r.value)
     #         mc.diagnostics = {r.name, r.value}
@@ -65,8 +72,11 @@ class Obd_Thread(QThread):
         connection.watch(obd.commands.RPM, callback=self.set_rpm)
         connection.watch(obd.commands.SPEED, callback=self.set_speed)
         connection.watch(obd.commands.COOLANT_TEMP, callback=self.set_temp)
+        connection.watch(obd.commands.GET_DTC, callback=self.set_code)
 
         command_list = connection.supported_commands
+
+        # ignore_list = [obd.commands.GET_DTC]
 
         connection_sync = obd.OBD()
 
@@ -75,15 +85,10 @@ class Obd_Thread(QThread):
         # print(ret.value)
 
         # mc.diagnostics = {'connection-established': connection_sync.status()}
-        mc.diagnostics = {'connection-established': False}
-        ret = connection_sync.query(obd.commands.MAF)
-
-        if(ret is not None):
-            print(ret.__str__())
-
+        mc.diagnostics = {'connection-established': connection_sync.status()}
 
         for command in command_list:
-                if(command is not None):
+                if(command is not None and command not in ignore_list):
                     # connection.query(obd.commands.RPM)
                     ret = connection_sync.query(command)
                     if not ret.is_null():
@@ -91,8 +96,6 @@ class Obd_Thread(QThread):
                         # print(ret.__str__())
                         print("Command: " + command.name + ", Value: " + str(ret.__str__()));
                         mc.diagnostics = {command.name : ret.__str__()}
-
-
 
 
 
@@ -164,11 +167,16 @@ def main():
 
     app = QtWidgets.QApplication(sys.argv)
     ex = QQmlApplicationEngine()
+
+    # Begin OBD Reading
+    m_obdThread = Obd_Thread(mc)
+    m_obdThread.start()
+
     ctx = ex.rootContext()
     # mc = Main_Context()
     ctx.setContextProperty("main", mc)
 
-    #int_arr = getFromFile()
+    # int_arr = getFromFile()
 
     # Pull config data
     readConfig()
@@ -177,6 +185,8 @@ def main():
     mc.handler = {'speed': 0}
     mc.handler = {'engine_temp': 240}
 
+    # DEV MODE
+
     if(len(sys.argv) > 1 and sys.argv[1].lower() == 'dev'):
         mc.handler = {'dev': True}
 
@@ -184,18 +194,19 @@ def main():
         mc.handler = {'rpm': 700}
         mc.handler = {'speed': 20}
         mc.diagnostics = {'temp1': 200}
-        mc.diagnostics = {'temp2': "wow"}
-        mc.diagnostics = {'temp3': -14.2}
-        mc.diagnostics = {'temp4': 200}
-        mc.diagnostics = {'temp5': "wow"}
+        mc.diagnostics = {'temp2': "All Circuits Busy"}
+        mc.diagnostics = {'temp3': 17123948}
+        mc.diagnostics = {"temp mode this is a long temp this is a long temp\
+                            this is a long temp this is a long temp": "Hello World - this is a test"}
+        mc.diagnostics = {'temp5': "temp mode this is a long temp this is a long temp\
+                                        this is a long temp this is a long temp"}
         mc.diagnostics = {'temp6': -14.2}
-        mc.handler = {'code-exists': True}
+        mc.handler = {'code-exists': True, 'code': ["P1234: Testcode description... Lorem Ipsum\
+                                                        Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum"]}
         mc.diagnostics = {'connection-established': False}
 
     else:
         mc.diagnostics = {'connection-established': True}
-
-
 
     ex.load('run.qml')
 
@@ -203,8 +214,7 @@ def main():
 
     if mc.getConfig()['fullscreen']['current']:
         win.setWindowState(QtCore.Qt.WindowFullScreen)
-    m_obdThread = Obd_Thread(mc)
-    m_obdThread.start()
+   
 
 
     # Timer for time

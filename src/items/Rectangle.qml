@@ -34,8 +34,22 @@ Rectangle {
       PropertyChanges {
         target: internal_rectangle
         color: "white"
-        border: "black"
         border.width: 2
+      }
+    },
+    State{
+      name: "inverted_dark"
+      PropertyChanges {
+        target: internal_rectangle
+        color: "white"
+        border.width: 2
+      }
+    },
+    State{
+      name: "inverted_light"
+      PropertyChanges {
+        target: internal_rectangle
+        color: "black"
       }
     }
   ]

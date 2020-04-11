@@ -11,8 +11,16 @@ Label {
   padding: 10
   property var style: null
   text: "text"
+  wrapMode: Text.Wrap
   color: "black"
   font.pixelSize: 22
+
+  height: get_preferred_height()
+
+  function get_preferred_height(){
+    var ret = (contentWidth / width) * 45
+    return ret > 50 ? ret : 50;
+  }
 
   Component.onCompleted: function(){
     if(style == null)

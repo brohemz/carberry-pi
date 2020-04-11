@@ -98,14 +98,19 @@ Item {
           id: alert_view
 
           implicitHeight: alertPage.height
-          implicitWidth: alertPage.width
+          implicitWidth: alertPage.width - 50
 
           clip: true
 
           model: ListModel {
             id: alert_model
             dynamicRoles: true
-            Component.onCompleted: append({key: 'code-exists', value: context.handler['code-exists']})
+            Component.onCompleted: ()=>{
+              for(var iter = 0; iter < (context.handler['code']).length; iter++){
+                this.append({key: 'Engine Code', value: context.handler['code'][0]})
+              }
+
+            }
           }
 
           delegate: alert_model_delegate
@@ -119,6 +124,7 @@ Item {
               Items.Label {
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: model.key + ":\t " + model.value
+                width: parent.width;
                 style: internal_item.style
               }
             }

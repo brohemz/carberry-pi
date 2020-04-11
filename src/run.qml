@@ -178,7 +178,7 @@ ApplicationWindow {
                 'SPEED': dashObj.speedVal,
                 'RPM': dashObj.rpmVal,
                 'COOLANT': dashObj.coolantVal,
-                'diag': diagObj.testProps,
+                'diag': diagObj.props,
               }
               return dict
             }
@@ -188,8 +188,12 @@ ApplicationWindow {
               var text = ""
               if(this.currentIndex == 0)
                 text = firstPage.objectName
-              else
+              else{
                 text = secondPage.objectName
+                if(text == "Diagnostics")
+                  diagObj.props.refreshModel();
+              }
+
               sendInfo(text);
               // HeaderInfo.create(header_list['text'])
             }
