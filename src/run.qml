@@ -108,9 +108,9 @@ ApplicationWindow {
       var test_dict = stack.currentItem.children[0].testValues()
 
       console.log("\n___DASH___")
-      console.log(`Speed: ${main.handler['speed'] == test_dict['SPEED'] ? "YES" : "No"}`)
-      console.log(`RPM: ${main.handler['rpm'] == test_dict['RPM'] ? "YES" : "No"}`)
-      console.log(`Coolant: ${main.handler['engine_temp'] == test_dict['COOLANT'] ? "YES" : "No"}`)
+      console.log('Speed: ' + (main.handler['speed'] == test_dict['SPEED'] ? "YES" : "No"))
+      console.log('RPM: ' + (main.handler['rpm'] == test_dict['RPM'] ? "YES" : "No"))
+      console.log('Coolant: ' + (main.handler['engine_temp'] == test_dict['COOLANT'] ? "YES" : "No"))
 
       console.log("\n___Diagnostics___");
       // console.log(test_dict['diag_1'] == 22 ? "YES" : "No")

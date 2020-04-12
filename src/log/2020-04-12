@@ -3101,3 +3101,51 @@ ___Diagnostics___
 {
   "connection-established": "Not Connected"
 }
+Time: 18:47:18.537268
+
+___Diagnostics___
+{
+  "temp1": 200,
+  "temp2": "All Circuits Busy",
+  "temp3": 17123948,
+  "temp mode this is a long temp this is a long temp                            this is a long temp this is a long temp": "Hello World - this is a test",
+  "temp5": "temp mode this is a long temp this is a long temp                                        this is a long temp this is a long temp",
+  "temp6": -14.2,
+  "connection-established": "Not Connected"
+}
+Time: 18:47:19.503383
+
+___Diagnostics___
+{
+  "temp1": 200,
+  "temp2": "All Circuits Busy",
+  "temp3": 17123948,
+  "temp mode this is a long temp this is a long temp                            this is a long temp this is a long temp": "Hello World - this is a test",
+  "temp5": "temp mode this is a long temp this is a long temp                                        this is a long temp this is a long temp",
+  "temp6": -14.2,
+  "connection-established": "Not Connected"
+}
+Time: 18:48:00.976093
+
+___Diagnostics___
+{
+  "temp1": 200,
+  "temp2": "All Circuits Busy",
+  "temp3": 17123948,
+  "temp mode this is a long temp this is a long temp                            this is a long temp this is a long temp": "Hello World - this is a test",
+  "temp5": "temp mode this is a long temp this is a long temp                                        this is a long temp this is a long temp",
+  "temp6": -14.2,
+  "connection-established": "Not Connected"
+}
+Time: 18:48:12.773862
+
+___Diagnostics___
+{
+  "temp1": 200,
+  "temp2": "All Circuits Busy",
+  "temp3": 17123948,
+  "temp mode this is a long temp this is a long temp                            this is a long temp this is a long temp": "Hello World - this is a test",
+  "temp5": "temp mode this is a long temp this is a long temp                                        this is a long temp this is a long temp",
+  "temp6": -14.2,
+  "connection-established": "Not Connected"
+}
