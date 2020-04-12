@@ -113,7 +113,7 @@ Item {
           model: ListModel {
             id: alert_model
             dynamicRoles: true
-            Component.onCompleted: ()=>{
+            Component.onCompleted: function(){
               for(var iter = 0; iter < (context.handler['code']).length; iter++){
                 var code_tuple = (context.handler['code'][iter]).split('|', 2)
                 this.append({key: code_tuple[iter], value: code_tuple[iter+1]})
