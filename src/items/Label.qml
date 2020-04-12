@@ -1,3 +1,10 @@
+/*
+* File: Label.qml
+* Description: A baseline label for displaying text data.
+* Project: Carberry Pi
+* Author: Ryan McHugh
+* Year: 2020
+*/
 import QtQuick 2.11
 import QtQuick.Window 2.4
 import QtQuick.Controls 2.4

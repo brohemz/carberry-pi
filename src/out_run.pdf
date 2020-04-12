@@ -1,0 +1,2168 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 7051
+>>
+stream
+0.95 g
+/GS1 gs
+24 800 547 -18 re
+f
+0.7 g
+24 818 72 -36 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 38.666 802 Tm
+0 g
+0 Tc
+0 Tw
+(04/12/20)Tj
+-0.0552 -1.0667 TD
+(01:25:14)Tj
+ET
+0.7 g
+499 818 72 -36 re
+f
+BT
+/TT4 1 Tf
+28.8 0 0 28.8 526.9914 789.2 Tm
+1 g
+(1)Tj
+/TT6 1 Tf
+14 0 0 14 279.4189 786.5 Tm
+0 g
+(run.py)Tj
+/TT8 1 Tf
+10 0 0 10 54 769 Tm
+(1:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( sys)Tj
+-5.4 -1.1 TD
+(2:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( subprocess)Tj
+-5.4 -1.1 TD
+(3:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( atexit)Tj
+-5.4 -1.1 TD
+(4:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(from)Tj
+/TT8 1 Tf
+2.4 0 TD
+( PyQt5 )Tj
+/TT10 1 Tf
+4.2 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( QtWidgets)Tj
+-12 -1.1 TD
+(5:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(from)Tj
+/TT8 1 Tf
+2.4 0 TD
+( PyQt5.QtQml )Tj
+/TT10 1 Tf
+7.8 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( QQmlApplicationEngine)Tj
+-15.6 -1.1 TD
+(6:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(from)Tj
+/TT8 1 Tf
+2.4 0 TD
+( PyQt5.QtCore )Tj
+/TT10 1 Tf
+8.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( QObject, QThread)Tj
+-16.2 -1.1 TD
+(7:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(from)Tj
+/TT8 1 Tf
+2.4 0 TD
+( PyQt5.QtGui )Tj
+/TT10 1 Tf
+7.8 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( QTextObject)Tj
+-15.6 -1.1 TD
+(8:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(from)Tj
+/TT8 1 Tf
+2.4 0 TD
+( PyQt5 )Tj
+/TT10 1 Tf
+4.2 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( QtCore)Tj
+-12 -1.1 TD
+(9:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( random)Tj
+-6 -1.1 TD
+(10:)Tj
+/TT10 1 Tf
+2.4 0 TD
+(from)Tj
+/TT8 1 Tf
+2.4 0 TD
+( functools )Tj
+/TT10 1 Tf
+6.6 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( partial)Tj
+-15 -1.1 TD
+(11:)Tj
+/TT10 1 Tf
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( re)Tj
+-6 -1.1 TD
+(12:)Tj
+/TT10 1 Tf
+2.4 0 TD
+(from)Tj
+/TT8 1 Tf
+2.4 0 TD
+( datetime )Tj
+/TT10 1 Tf
+6 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( datetime)Tj
+-14.4 -1.1 TD
+(13:)Tj
+/TT10 1 Tf
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( obd)Tj
+-6 -1.1 TD
+(14:)Tj
+/TT10 1 Tf
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( json)Tj
+-6 -1.1 TD
+(15:)Tj
+/TT10 1 Tf
+2.4 0 TD
+(from)Tj
+/TT8 1 Tf
+2.4 0 TD
+( context )Tj
+/TT10 1 Tf
+5.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( Main_Context)Tj
+-13.8 -1.1 TD
+(16:)Tj
+T*
+(17:)Tj
+T*
+(18:)Tj
+T*
+(19:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(# Main_Context moved to context.py)Tj
+/TT8 1 Tf
+-2.4 -1.1 TD
+(20:)Tj
+T*
+[(21:)-599.7(mc = Main_Context\(\))]TJ
+T*
+(22:)Tj
+T*
+(23:)Tj
+/TT10 1 Tf
+2.4 0 TD
+(class)Tj
+/TT8 1 Tf
+3 0 TD
+( Obd_Thread\(QThread\):)Tj
+-5.4 -1.1 TD
+(24:)Tj
+T*
+[(25:)-599.7(    )]TJ
+/TT10 1 Tf
+4.8 0 TD
+(def)Tj
+/TT8 1 Tf
+1.8 0 TD
+( )Tj
+/TT10 1 Tf
+0.6 0 TD
+(__init__)Tj
+/TT8 1 Tf
+4.8 0 TD
+(\(self, mc\):)Tj
+-12 -1.1 TD
+[(26:)-599.7(        QThread.__init__\(self, mc\))]TJ
+T*
+[(27:)-599.7(        self.mc = mc)]TJ
+T*
+(28:)Tj
+T*
+[(29:)-599.7(    )]TJ
+/TT10 1 Tf
+4.8 0 TD
+(def)Tj
+/TT8 1 Tf
+1.8 0 TD
+( )Tj
+/TT10 1 Tf
+0.6 0 TD
+(__del__)Tj
+/TT8 1 Tf
+4.2 0 TD
+(\(self\):)Tj
+-11.4 -1.1 TD
+[(30:)-599.7(        self.wait\(\))]TJ
+T*
+(31:)Tj
+T*
+[(32:)-599.7(    )]TJ
+/TT10 1 Tf
+4.8 0 TD
+(def)Tj
+/TT8 1 Tf
+1.8 0 TD
+( )Tj
+/TT10 1 Tf
+0.6 0 TD
+(set_rpm)Tj
+/TT8 1 Tf
+4.2 0 TD
+(\(self, r\):)Tj
+-11.4 -1.1 TD
+[(33:)-599.7(        )]TJ
+/TT10 1 Tf
+7.2 0 TD
+(if)Tj
+/TT8 1 Tf
+1.2 0 TD
+(\(r.value\):)Tj
+-8.4 -1.1 TD
+[(34:)-599.7(            )]TJ
+/TT12 1 Tf
+9.6 0 TD
+(# mc.rpmValue = re.findall\(í\\d{3}í, r.value\))Tj
+/TT8 1 Tf
+-9.6 -1.1 TD
+[(35:)-599.7(            mc.handler = {)]TJ
+/TT10 1 Tf
+18 0 TD
+(írpmí)Tj
+/TT8 1 Tf
+3 0 TD
+(: r.value.magnitude})Tj
+-21 -1.1 TD
+[(36:)-599.7(            )]TJ
+/TT12 1 Tf
+9.6 0 TD
+(# print\(r.value.magnitude\))Tj
+/TT8 1 Tf
+-9.6 -1.1 TD
+(37:)Tj
+T*
+[(38:)-599.7(    )]TJ
+/TT10 1 Tf
+4.8 0 TD
+(def)Tj
+/TT8 1 Tf
+1.8 0 TD
+( )Tj
+/TT10 1 Tf
+0.6 0 TD
+(set_speed)Tj
+/TT8 1 Tf
+5.4 0 TD
+(\(self, r\):)Tj
+-12.6 -1.1 TD
+[(39:)-599.7(        loc = mc.getConfig\(\)[)]TJ
+/TT10 1 Tf
+19.8 0 TD
+(ílocalityí)Tj
+/TT8 1 Tf
+6 0 TD
+(][)Tj
+/TT10 1 Tf
+1.2 0 TD
+(ícurrentí)Tj
+/TT8 1 Tf
+5.4 0 TD
+(])Tj
+-32.4 -1.1 TD
+[(40:)-599.7(        )]TJ
+/TT10 1 Tf
+7.2 0 TD
+(if)Tj
+/TT8 1 Tf
+1.2 0 TD
+(\(r.value\):)Tj
+-8.4 -1.1 TD
+[(41:)-599.7(            val = r.value.to\()]TJ
+/TT10 1 Tf
+19.8 0 TD
+("mph")Tj
+/TT8 1 Tf
+3 0 TD
+(\).magnitude )Tj
+/TT10 1 Tf
+7.2 0 TD
+(if)Tj
+/TT8 1 Tf
+1.2 0 TD
+( loc == )Tj
+/TT10 1 Tf
+4.8 0 TD
+(íen-USí)Tj
+/TT8 1 Tf
+4.2 0 TD
+( )Tj
+/TT10 1 Tf
+0.6 0 TD
+(else)Tj
+/TT8 1 Tf
+2.4 0 TD
+( r.value.magni)Tj
+-45.1 -1.1 TD
+(tude)Tj
+1.9 -1.1 TD
+[(42:)-599.7(            mc.handler = {)]TJ
+/TT10 1 Tf
+18 0 TD
+(íspeedí)Tj
+/TT8 1 Tf
+4.2 0 TD
+(: val})Tj
+-22.2 -1.1 TD
+[(43:)-599.7(            )]TJ
+/TT12 1 Tf
+9.6 0 TD
+(# mc.speedValue = r.value.to\("mph"\).magnitude)Tj
+/TT8 1 Tf
+-9.6 -1.1 TD
+[(44:)-599.7(            )]TJ
+/TT12 1 Tf
+9.6 0 TD
+(# print\(r.value.magnitude\))Tj
+/TT8 1 Tf
+-9.6 -1.1 TD
+[(45:)-599.7(    )]TJ
+T*
+[(46:)-599.7(    )]TJ
+/TT10 1 Tf
+4.8 0 TD
+(def)Tj
+/TT8 1 Tf
+1.8 0 TD
+( )Tj
+/TT10 1 Tf
+0.6 0 TD
+(set_temp)Tj
+/TT8 1 Tf
+4.8 0 TD
+(\(self, r\):)Tj
+-12 -1.1 TD
+[(47:)-599.7(        loc = mc.getConfig\(\)[)]TJ
+/TT10 1 Tf
+19.8 0 TD
+(ílocalityí)Tj
+/TT8 1 Tf
+6 0 TD
+(][)Tj
+/TT10 1 Tf
+1.2 0 TD
+(ícurrentí)Tj
+/TT8 1 Tf
+5.4 0 TD
+(])Tj
+-32.4 -1.1 TD
+[(48:)-599.7(        )]TJ
+/TT10 1 Tf
+7.2 0 TD
+(if)Tj
+/TT8 1 Tf
+1.2 0 TD
+(\(r.value\):)Tj
+-8.4 -1.1 TD
+[(49:)-599.7(            )]TJ
+/TT12 1 Tf
+9.6 0 TD
+(# mc.tempValue = r.value.to\(ídegFí\).magnitude)Tj
+/TT8 1 Tf
+-9.6 -1.1 TD
+[(50:)-599.7(            mc.handler = {)]TJ
+/TT10 1 Tf
+18 0 TD
+(íengine_tempí)Tj
+/TT8 1 Tf
+7.8 0 TD
+(: r.value.to\()Tj
+/TT10 1 Tf
+7.8 0 TD
+(ídegFí)Tj
+/TT8 1 Tf
+3.6 0 TD
+(\).magnitude )Tj
+/TT10 1 Tf
+7.2 0 TD
+(if)Tj
+/TT8 1 Tf
+1.2 0 TD
+( loc == )Tj
+/TT10 1 Tf
+4.8 0 TD
+(íe)Tj
+-52.3 -1.1 TD
+(n-USí)Tj
+/TT8 1 Tf
+3 0 TD
+( )Tj
+/TT10 1 Tf
+0.6 0 TD
+(else)Tj
+/TT8 1 Tf
+2.4 0 TD
+( r.value.magnitude})Tj
+-4.1 -1.1 TD
+(51:)Tj
+T*
+[(52:)-599.7(    )]TJ
+/TT10 1 Tf
+4.8 0 TD
+(def)Tj
+/TT8 1 Tf
+1.8 0 TD
+( )Tj
+/TT10 1 Tf
+0.6 0 TD
+(set_code)Tj
+/TT8 1 Tf
+4.8 0 TD
+(\(self, r\):)Tj
+-12 -1.1 TD
+[(53:)-599.7(        )]TJ
+/TT10 1 Tf
+7.2 0 TD
+(if)Tj
+/TT8 1 Tf
+1.2 0 TD
+(\(r.value )Tj
+/TT10 1 Tf
+5.4 0 TD
+(and)Tj
+/TT8 1 Tf
+1.8 0 TD
+( r.value != )Tj
+/TT10 1 Tf
+7.2 0 TD
+(í[]í)Tj
+/TT8 1 Tf
+2.4 0 TD
+(\):)Tj
+-25.2 -1.1 TD
+[(54:)-599.7(            code_list = [])]TJ
+T*
+[(55:)-599.7(            )]TJ
+/TT10 1 Tf
+9.6 0 TD
+(for)Tj
+/TT8 1 Tf
+1.8 0 TD
+( entry )Tj
+/TT10 1 Tf
+4.2 0 TD
+(in)Tj
+/TT8 1 Tf
+1.2 0 TD
+( r.value:)Tj
+-16.8 -1.1 TD
+[(56:)-599.7(                code_list.append\(entry[0] + )]TJ
+/TT10 1 Tf
+28.8 0 TD
+(í|í)Tj
+/TT8 1 Tf
+1.8 0 TD
+( + entry[1]\))Tj
+-30.6 -1.1 TD
+[(57:)-599.7(            mc.handler = {)]TJ
+/TT10 1 Tf
+18 0 TD
+(ícode-existsí)Tj
+/TT8 1 Tf
+7.8 0 TD
+(: True, )Tj
+/TT10 1 Tf
+4.8 0 TD
+(ícodeí)Tj
+/TT8 1 Tf
+3.6 0 TD
+(: code_list})Tj
+-34.2 -1.1 TD
+[(58:)-599.7(    )]TJ
+/TT12 1 Tf
+4.8 0 TD
+(# def set_val\(self, r, r.name\):)Tj
+/TT8 1 Tf
+-4.8 -1.1 TD
+[(59:)-599.7(    )]TJ
+/TT12 1 Tf
+4.8 0 TD
+(#     if\(r.value\))Tj
+/TT8 1 Tf
+-4.8 -1.1 TD
+[(60:)-599.7(    )]TJ
+/TT12 1 Tf
+4.8 0 TD
+(#         mc.diagnostics = {r.name, r.value})Tj
+/TT8 1 Tf
+-4.8 -1.1 TD
+(61:)Tj
+T*
+(62:)Tj
+T*
+(63:)Tj
+T*
+(64:)Tj
+T*
+[(65:)-599.7(    )]TJ
+/TT10 1 Tf
+4.8 0 TD
+(def)Tj
+/TT8 1 Tf
+1.8 0 TD
+( )Tj
+/TT10 1 Tf
+0.6 0 TD
+(run)Tj
+/TT8 1 Tf
+1.8 0 TD
+(\(self\):)Tj
+-9 -1.1 TD
+(66:)Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT8 7 0 R
+/TT10 8 0 R
+/TT12 9 0 R
+>>
+/ExtGState <<
+/GS1 10 0 R
+>>
+>>
+endobj
+13 0 obj
+<<
+/Length 5836
+>>
+stream
+0.95 g
+/GS1 gs
+24 800 547 -18 re
+f
+0.7 g
+24 818 72 -36 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 38.666 802 Tm
+0 g
+0 Tc
+0 Tw
+(04/12/20)Tj
+-0.0552 -1.0667 TD
+(01:25:14)Tj
+ET
+0.7 g
+499 818 72 -36 re
+f
+BT
+/TT4 1 Tf
+28.8 0 0 28.8 526.9914 789.2 Tm
+1 g
+(2)Tj
+/TT6 1 Tf
+14 0 0 14 279.4189 786.5 Tm
+0 g
+(run.py)Tj
+/TT8 1 Tf
+10 0 0 10 48 769 Tm
+[(67:)-599.7(        )]TJ
+/TT12 1 Tf
+7.2 0 TD
+(# OBD lib setup)Tj
+/TT8 1 Tf
+-7.2 -1.1 TD
+[(68:)-599.7(        )]TJ
+/TT12 1 Tf
+7.2 0 TD
+(# port = obd.scan_serial\(\))Tj
+/TT8 1 Tf
+-7.2 -1.1 TD
+(69:)Tj
+T*
+[(70:)-599.7(        connection = obd.Async\(fast=True, timeout=0.5\))]TJ
+T*
+(71:)Tj
+T*
+[(72:)-599.7(        connection.watch\(obd.commands.RPM, callback=self.set_rpm\))]TJ
+T*
+[(73:)-599.7(        connection.watch\(obd.commands.SPEED, callback=self.set_speed\))]TJ
+T*
+[(74:)-599.7(        connection.watch\(obd.commands.COOLANT_TEMP, callback=self.set_temp\))]TJ
+T*
+[(75:)-599.7(        connection.watch\(obd.commands.GET_DTC, callback=self.set_code\))]TJ
+T*
+(76:)Tj
+T*
+[(77:)-599.7(        command_list = connection.supported_commands)]TJ
+T*
+(78:)Tj
+T*
+[(79:)-599.7(        )]TJ
+/TT12 1 Tf
+7.2 0 TD
+(# ignore_list = [obd.commands.GET_DTC])Tj
+/TT8 1 Tf
+-7.2 -1.1 TD
+(80:)Tj
+T*
+[(81:)-599.7(        connection_sync = obd.OBD\(\))]TJ
+T*
+(82:)Tj
+T*
+[(83:)-599.7(        )]TJ
+/TT12 1 Tf
+7.2 0 TD
+(# ret = connection.query\(obd.commands.GET_DTC\))Tj
+/TT8 1 Tf
+-7.2 -1.1 TD
+[(84:)-599.7(        )]TJ
+/TT12 1 Tf
+7.2 0 TD
+(# print\("Command: " + ret.command + ", Value: " + ret.value\))Tj
+/TT8 1 Tf
+-7.2 -1.1 TD
+[(85:)-599.7(        )]TJ
+/TT12 1 Tf
+7.2 0 TD
+(# print\(ret.value\))Tj
+/TT8 1 Tf
+-7.2 -1.1 TD
+(86:)Tj
+T*
+[(87:)-599.7(        )]TJ
+/TT12 1 Tf
+7.2 0 TD
+(# mc.diagnostics = {íconnection-establishedí: connection_sync.status\(\)})Tj
+/TT8 1 Tf
+-7.2 -1.1 TD
+[(88:)-599.7(        mc.diagnostics = {)]TJ
+/TT10 1 Tf
+18 0 TD
+(íconnection-establishedí)Tj
+/TT8 1 Tf
+14.4 0 TD
+(: connection_sync.status\(\)})Tj
+-32.4 -1.1 TD
+(89:)Tj
+T*
+[(90:)-599.7(        )]TJ
+/TT10 1 Tf
+7.2 0 TD
+(for)Tj
+/TT8 1 Tf
+1.8 0 TD
+( command )Tj
+/TT10 1 Tf
+5.4 0 TD
+(in)Tj
+/TT8 1 Tf
+1.2 0 TD
+( command_list:)Tj
+-15.6 -1.1 TD
+[(91:)-599.7(                )]TJ
+/TT10 1 Tf
+12 0 TD
+(if)Tj
+/TT8 1 Tf
+1.2 0 TD
+(\(command )Tj
+/TT10 1 Tf
+5.4 0 TD
+(is)Tj
+/TT8 1 Tf
+1.2 0 TD
+( )Tj
+/TT10 1 Tf
+0.6 0 TD
+(not)Tj
+/TT8 1 Tf
+1.8 0 TD
+( None )Tj
+/TT10 1 Tf
+3.6 0 TD
+(and)Tj
+/TT8 1 Tf
+1.8 0 TD
+( command )Tj
+/TT10 1 Tf
+5.4 0 TD
+(not)Tj
+/TT8 1 Tf
+1.8 0 TD
+( )Tj
+/TT10 1 Tf
+0.6 0 TD
+(in)Tj
+/TT8 1 Tf
+1.2 0 TD
+( ignore_list\):)Tj
+-36.6 -1.1 TD
+[(92:)-599.7(                    )]TJ
+/TT12 1 Tf
+14.4 0 TD
+(# connection.query\(obd.commands.RPM\))Tj
+/TT8 1 Tf
+-14.4 -1.1 TD
+[(93:)-599.7(                    ret = connection_sync.query\(command\))]TJ
+T*
+[(94:)-599.7(                    )]TJ
+/TT10 1 Tf
+14.4 0 TD
+(if)Tj
+/TT8 1 Tf
+1.2 0 TD
+( )Tj
+/TT10 1 Tf
+0.6 0 TD
+(not)Tj
+/TT8 1 Tf
+1.8 0 TD
+( ret.is_null\(\):)Tj
+-18 -1.1 TD
+[(95:)-599.7(                        )]TJ
+/TT12 1 Tf
+16.8 0 TD
+(# add_diagnostic\(\))Tj
+/TT8 1 Tf
+-16.8 -1.1 TD
+[(96:)-599.7(                        )]TJ
+/TT12 1 Tf
+16.8 0 TD
+(# print\(ret.__str__\(\)\))Tj
+/TT8 1 Tf
+-16.8 -1.1 TD
+[(97:)-599.7(                        )]TJ
+/TT10 1 Tf
+16.8 0 TD
+(print)Tj
+/TT8 1 Tf
+3 0 TD
+(\()Tj
+/TT10 1 Tf
+0.6 0 TD
+("Command: ")Tj
+/TT8 1 Tf
+6.6 0 TD
+( + command.name + )Tj
+/TT10 1 Tf
+10.8 0 TD
+(", Value: ")Tj
+/TT8 1 Tf
+6.6 0 TD
+( + str\(ret._)Tj
+-46.3 -1.1 TD
+(_str__\(\)\)\);)Tj
+1.9 -1.1 TD
+[(98:)-599.7(                        mc.diagnostics = {command.name : ret.__str__\(\)})]TJ
+T*
+(99:)Tj
+-0.6 -1.1 TD
+(100:)Tj
+T*
+(101:)Tj
+T*
+[(102:)-599.6(                )]TJ
+/TT12 1 Tf
+12.6 0 TD
+(# ret = connection.query\(command\))Tj
+/TT8 1 Tf
+-12.6 -1.1 TD
+[(103:)-599.6(                )]TJ
+/TT12 1 Tf
+12.6 0 TD
+(# print\(ret\))Tj
+/TT8 1 Tf
+-12.6 -1.1 TD
+[(104:)-599.6(            )]TJ
+/TT12 1 Tf
+10.2 0 TD
+(# mc.handler = {command.name: ret.value.magnitude})Tj
+/TT8 1 Tf
+-10.2 -1.1 TD
+(105:)Tj
+T*
+[(106:)-599.6(        )]TJ
+/TT12 1 Tf
+7.8 0 TD
+(# for i in range\(len\(command_list\)\):)Tj
+/TT8 1 Tf
+-7.8 -1.1 TD
+[(107:)-599.6(        )]TJ
+/TT12 1 Tf
+7.8 0 TD
+(#     print\(list\(command_list\)[i]\))Tj
+/TT8 1 Tf
+-7.8 -1.1 TD
+(108:)Tj
+T*
+[(109:)-599.6(        connection.start\(\))]TJ
+T*
+[(110:)-599.6(        )]TJ
+/TT10 1 Tf
+7.8 0 TD
+(print)Tj
+/TT8 1 Tf
+3 0 TD
+(\(connection.status\(\)\))Tj
+-10.8 -1.1 TD
+(111:)Tj
+T*
+(112:)Tj
+T*
+(113:)Tj
+T*
+(114:)Tj
+T*
+(115:)Tj
+T*
+(116:)Tj
+/TT10 1 Tf
+3 0 TD
+(def)Tj
+/TT8 1 Tf
+1.8 0 TD
+( )Tj
+/TT10 1 Tf
+0.6 0 TD
+(click_handle)Tj
+/TT8 1 Tf
+7.2 0 TD
+(\(\):)Tj
+-12.6 -1.1 TD
+[(117:)-599.6(    )]TJ
+/TT10 1 Tf
+5.4 0 TD
+(print)Tj
+/TT8 1 Tf
+3 0 TD
+(\()Tj
+/TT10 1 Tf
+0.6 0 TD
+("button clicked\\n")Tj
+/TT8 1 Tf
+10.8 0 TD
+(\))Tj
+-19.8 -1.1 TD
+(118:)Tj
+T*
+(119:)Tj
+T*
+(120:)Tj
+/TT10 1 Tf
+3 0 TD
+(def)Tj
+/TT8 1 Tf
+1.8 0 TD
+( )Tj
+/TT10 1 Tf
+0.6 0 TD
+(getFromFile)Tj
+/TT8 1 Tf
+6.6 0 TD
+(\(\):)Tj
+-12 -1.1 TD
+[(121:)-599.6(    f = open\()]TJ
+/TT10 1 Tf
+10.8 0 TD
+("output.txt")Tj
+/TT8 1 Tf
+7.2 0 TD
+(, )Tj
+/TT10 1 Tf
+1.2 0 TD
+("r")Tj
+/TT8 1 Tf
+1.8 0 TD
+(\))Tj
+-21 -1.1 TD
+[(122:)-599.6(    )]TJ
+/TT10 1 Tf
+5.4 0 TD
+(if)Tj
+/TT8 1 Tf
+1.2 0 TD
+( f.mode == )Tj
+/TT10 1 Tf
+6.6 0 TD
+(írí)Tj
+/TT8 1 Tf
+1.8 0 TD
+(:)Tj
+-15 -1.1 TD
+[(123:)-599.6(        contents = f.readlines\(\))]TJ
+T*
+(124:)Tj
+T*
+[(125:)-599.6(    int_arr = [])]TJ
+T*
+(126:)Tj
+T*
+[(127:)-599.6(    )]TJ
+/TT10 1 Tf
+5.4 0 TD
+(for)Tj
+/TT8 1 Tf
+1.8 0 TD
+( str )Tj
+/TT10 1 Tf
+3 0 TD
+(in)Tj
+/TT8 1 Tf
+1.2 0 TD
+( contents:)Tj
+-11.4 -1.1 TD
+[(128:)-599.6(        num = re.findall\()]TJ
+/TT10 1 Tf
+18 0 TD
+(í\\d{3}í)Tj
+/TT8 1 Tf
+4.2 0 TD
+(, str\))Tj
+-22.2 -1.1 TD
+[(129:)-599.6(        )]TJ
+/TT10 1 Tf
+7.8 0 TD
+(if)Tj
+/TT8 1 Tf
+1.2 0 TD
+( num:)Tj
+-9 -1.1 TD
+[(130:)-599.6(            int_arr.append\(int\(num[0]\)\))]TJ
+T*
+(131:)Tj
+T*
+[(132:)-599.6(    )]TJ
+/TT10 1 Tf
+5.4 0 TD
+(return)Tj
+/TT8 1 Tf
+3.6 0 TD
+( int_arr)Tj
+-9 -1.1 TD
+(133:)Tj
+ET
+endstream
+endobj
+14 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT8 7 0 R
+/TT10 8 0 R
+/TT12 9 0 R
+>>
+/ExtGState <<
+/GS1 10 0 R
+>>
+>>
+endobj
+16 0 obj
+<<
+/Length 6553
+>>
+stream
+0.95 g
+/GS1 gs
+24 800 547 -18 re
+f
+0.7 g
+24 818 72 -36 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 38.666 802 Tm
+0 g
+0 Tc
+0 Tw
+(04/12/20)Tj
+-0.0552 -1.0667 TD
+(01:25:14)Tj
+ET
+0.7 g
+499 818 72 -36 re
+f
+BT
+/TT4 1 Tf
+28.8 0 0 28.8 526.9914 789.2 Tm
+1 g
+(3)Tj
+/TT6 1 Tf
+14 0 0 14 279.4189 786.5 Tm
+0 g
+(run.py)Tj
+/TT8 1 Tf
+10 0 0 10 42 769 Tm
+(134:)Tj
+/TT10 1 Tf
+3 0 TD
+(def)Tj
+/TT8 1 Tf
+1.8 0 TD
+( )Tj
+/TT10 1 Tf
+0.6 0 TD
+(readConfig)Tj
+/TT8 1 Tf
+6 0 TD
+(\(\):)Tj
+-11.4 -1.1 TD
+[(135:)-599.6(    with open\()]TJ
+/TT10 1 Tf
+11.4 0 TD
+(í./config.jsoní)Tj
+/TT8 1 Tf
+9 0 TD
+(\) as config_file:)Tj
+-20.4 -1.1 TD
+[(136:)-599.6(        config_data = json.load\(config_file\))]TJ
+T*
+[(137:)-599.6(    )]TJ
+/TT10 1 Tf
+5.4 0 TD
+(print)Tj
+/TT8 1 Tf
+3 0 TD
+(\(config_data\))Tj
+-8.4 -1.1 TD
+[(138:)-599.6(    )]TJ
+/TT10 1 Tf
+5.4 0 TD
+(for)Tj
+/TT8 1 Tf
+1.8 0 TD
+( key )Tj
+/TT10 1 Tf
+3 0 TD
+(in)Tj
+/TT8 1 Tf
+1.2 0 TD
+( config_data:)Tj
+-11.4 -1.1 TD
+[(139:)-599.6(        mc.config = {key: config_data[key]})]TJ
+T*
+(140:)Tj
+T*
+(141:)Tj
+/TT10 1 Tf
+3 0 TD
+(def)Tj
+/TT8 1 Tf
+1.8 0 TD
+( )Tj
+/TT10 1 Tf
+0.6 0 TD
+(writeConfig)Tj
+/TT8 1 Tf
+6.6 0 TD
+(\(\):)Tj
+-12 -1.1 TD
+[(142:)-599.6(    with open\()]TJ
+/TT10 1 Tf
+11.4 0 TD
+(í./config.jsoní)Tj
+/TT8 1 Tf
+9 0 TD
+(, )Tj
+/TT10 1 Tf
+1.2 0 TD
+(íwí)Tj
+/TT8 1 Tf
+1.8 0 TD
+(\) as config_file:)Tj
+-23.4 -1.1 TD
+[(143:)-599.6(        json.dump\(mc.getConfig\(\), config_file, indent=2\))]TJ
+T*
+[(144:)-599.6(    )]TJ
+/TT10 1 Tf
+5.4 0 TD
+(print)Tj
+/TT8 1 Tf
+3 0 TD
+(\()Tj
+/TT10 1 Tf
+0.6 0 TD
+("\\n\\n_____Writing config to file..._____\\n\\n")Tj
+/TT8 1 Tf
+27 0 TD
+(\))Tj
+-36 -1.1 TD
+[(145:)-599.6(    )]TJ
+/TT10 1 Tf
+5.4 0 TD
+(print)Tj
+/TT8 1 Tf
+3 0 TD
+(\(json.dumps\(mc.getConfig\(\), indent=2\)\))Tj
+-8.4 -1.1 TD
+(146:)Tj
+T*
+(147:)Tj
+/TT10 1 Tf
+3 0 TD
+(def)Tj
+/TT8 1 Tf
+1.8 0 TD
+( )Tj
+/TT10 1 Tf
+0.6 0 TD
+(writeLog)Tj
+/TT8 1 Tf
+4.8 0 TD
+(\(\):)Tj
+-10.2 -1.1 TD
+[(148:)-599.6(    with open\()]TJ
+/TT10 1 Tf
+11.4 0 TD
+(í./log/%sí)Tj
+/TT8 1 Tf
+6 0 TD
+( % datetime.date\(datetime.now\(\)\), )Tj
+/TT10 1 Tf
+20.4 0 TD
+(ía+í)Tj
+/TT8 1 Tf
+2.4 0 TD
+(\) as log_file:)Tj
+-40.2 -1.1 TD
+[(149:)-599.6(        log_file.write\()]TJ
+/TT10 1 Tf
+16.8 0 TD
+("\\nTime: %s\\n")Tj
+/TT8 1 Tf
+8.4 0 TD
+( % datetime.time\(datetime.now\(\)\)\))Tj
+-25.2 -1.1 TD
+[(150:)-599.6(        )]TJ
+/TT12 1 Tf
+7.8 0 TD
+(# log_file.write\("\\n___Config___\\n"\))Tj
+/TT8 1 Tf
+-7.8 -1.1 TD
+[(151:)-599.6(        )]TJ
+/TT12 1 Tf
+7.8 0 TD
+(# json.dump\(mc.getConfig\(\), log_file, indent=2\))Tj
+/TT8 1 Tf
+-7.8 -1.1 TD
+[(152:)-599.6(        log_file.write\()]TJ
+/TT10 1 Tf
+16.8 0 TD
+("\\n___Diagnostics___\\n")Tj
+/TT8 1 Tf
+13.8 0 TD
+(\))Tj
+-30.6 -1.1 TD
+[(153:)-599.6(        json.dump\(mc.getDiagnostics\(\), log_file, indent=2\))]TJ
+T*
+(154:)Tj
+T*
+(155:)Tj
+T*
+[(156:)-599.6(    )]TJ
+/TT12 1 Tf
+5.4 0 TD
+(# print\(data\))Tj
+/TT8 1 Tf
+-5.4 -1.1 TD
+(157:)Tj
+T*
+(158:)Tj
+/TT10 1 Tf
+3 0 TD
+(def)Tj
+/TT8 1 Tf
+1.8 0 TD
+( )Tj
+/TT10 1 Tf
+0.6 0 TD
+(onRestart)Tj
+/TT8 1 Tf
+5.4 0 TD
+(\(\):)Tj
+-10.8 -1.1 TD
+[(159:)-599.6(    )]TJ
+/TT10 1 Tf
+5.4 0 TD
+(print)Tj
+/TT8 1 Tf
+3 0 TD
+(\()Tj
+/TT10 1 Tf
+0.6 0 TD
+("exit_status: restart")Tj
+/TT8 1 Tf
+13.2 0 TD
+(\))Tj
+-22.2 -1.1 TD
+[(160:)-599.6(    mc.close\(\))]TJ
+T*
+(161:)Tj
+T*
+(162:)Tj
+/TT10 1 Tf
+3 0 TD
+(def)Tj
+/TT8 1 Tf
+1.8 0 TD
+( )Tj
+/TT10 1 Tf
+0.6 0 TD
+(onExit)Tj
+/TT8 1 Tf
+3.6 0 TD
+(\(\):)Tj
+-9 -1.1 TD
+[(163:)-599.6(    )]TJ
+/TT10 1 Tf
+5.4 0 TD
+(print)Tj
+/TT8 1 Tf
+3 0 TD
+(\()Tj
+/TT10 1 Tf
+0.6 0 TD
+("exit_status: exit")Tj
+/TT8 1 Tf
+11.4 0 TD
+(\))Tj
+-20.4 -1.1 TD
+[(164:)-599.6(    mc.close\(\))]TJ
+T*
+(165:)Tj
+T*
+(166:)Tj
+/TT10 1 Tf
+3 0 TD
+(def)Tj
+/TT8 1 Tf
+1.8 0 TD
+( )Tj
+/TT10 1 Tf
+0.6 0 TD
+(main)Tj
+/TT8 1 Tf
+2.4 0 TD
+(\(\):)Tj
+-7.8 -1.1 TD
+(167:)Tj
+T*
+[(168:)-599.6(    app = QtWidgets.QApplication\(sys.argv\))]TJ
+T*
+[(169:)-599.6(    ex = QQmlApplicationEngine\(\))]TJ
+T*
+(170:)Tj
+T*
+[(171:)-599.6(    )]TJ
+/TT12 1 Tf
+5.4 0 TD
+(# Begin OBD Reading)Tj
+/TT8 1 Tf
+-5.4 -1.1 TD
+[(172:)-599.6(    m_obdThread = Obd_Thread\(mc\))]TJ
+T*
+[(173:)-599.6(    m_obdThread.start\(\))]TJ
+T*
+(174:)Tj
+T*
+[(175:)-599.6(    ctx = ex.rootContext\(\))]TJ
+T*
+[(176:)-599.6(    )]TJ
+/TT12 1 Tf
+5.4 0 TD
+(# mc = Main_Context\(\))Tj
+/TT8 1 Tf
+-5.4 -1.1 TD
+[(177:)-599.6(    ctx.setContextProperty\()]TJ
+/TT10 1 Tf
+19.2 0 TD
+("main")Tj
+/TT8 1 Tf
+3.6 0 TD
+(, mc\))Tj
+-22.8 -1.1 TD
+(178:)Tj
+T*
+[(179:)-599.6(    )]TJ
+/TT12 1 Tf
+5.4 0 TD
+(# int_arr = getFromFile\(\))Tj
+/TT8 1 Tf
+-5.4 -1.1 TD
+(180:)Tj
+T*
+[(181:)-599.6(    )]TJ
+/TT12 1 Tf
+5.4 0 TD
+(# Pull config data)Tj
+/TT8 1 Tf
+-5.4 -1.1 TD
+[(182:)-599.6(    readConfig\(\))]TJ
+T*
+(183:)Tj
+T*
+[(184:)-599.6(    mc.handler = {)]TJ
+/TT10 1 Tf
+13.8 0 TD
+(írpmí)Tj
+/TT8 1 Tf
+3 0 TD
+(: 0})Tj
+-16.8 -1.1 TD
+[(185:)-599.6(    mc.handler = {)]TJ
+/TT10 1 Tf
+13.8 0 TD
+(íspeedí)Tj
+/TT8 1 Tf
+4.2 0 TD
+(: 0})Tj
+-18 -1.1 TD
+[(186:)-599.6(    mc.handler = {)]TJ
+/TT10 1 Tf
+13.8 0 TD
+(íengine_tempí)Tj
+/TT8 1 Tf
+7.8 0 TD
+(: 240})Tj
+-21.6 -1.1 TD
+(187:)Tj
+T*
+[(188:)-599.6(    )]TJ
+/TT12 1 Tf
+5.4 0 TD
+(# DEV MODE)Tj
+/TT8 1 Tf
+-5.4 -1.1 TD
+(189:)Tj
+T*
+[(190:)-599.6(    )]TJ
+/TT10 1 Tf
+5.4 0 TD
+(if)Tj
+/TT8 1 Tf
+1.2 0 TD
+(\(len\(sys.argv\) > 1 )Tj
+/TT10 1 Tf
+11.4 0 TD
+(and)Tj
+/TT8 1 Tf
+1.8 0 TD
+( sys.argv[1].lower\(\) == )Tj
+/TT10 1 Tf
+14.4 0 TD
+(ídeví)Tj
+/TT8 1 Tf
+3 0 TD
+(\):)Tj
+-37.2 -1.1 TD
+[(191:)-599.6(        mc.handler = {)]TJ
+/TT10 1 Tf
+16.2 0 TD
+(ídeví)Tj
+/TT8 1 Tf
+3 0 TD
+(: True})Tj
+-19.2 -1.1 TD
+(192:)Tj
+T*
+[(193:)-599.6(    )]TJ
+/TT10 1 Tf
+5.4 0 TD
+(if)Tj
+/TT8 1 Tf
+1.2 0 TD
+( mc.getHandler\(\).get\()Tj
+/TT10 1 Tf
+12.6 0 TD
+(ídeví)Tj
+/TT8 1 Tf
+3 0 TD
+(\):)Tj
+-22.2 -1.1 TD
+[(194:)-599.6(        mc.handler = {)]TJ
+/TT10 1 Tf
+16.2 0 TD
+(írpmí)Tj
+/TT8 1 Tf
+3 0 TD
+(: 700})Tj
+-19.2 -1.1 TD
+[(195:)-599.6(        mc.handler = {)]TJ
+/TT10 1 Tf
+16.2 0 TD
+(íspeedí)Tj
+/TT8 1 Tf
+4.2 0 TD
+(: 20})Tj
+-20.4 -1.1 TD
+[(196:)-599.6(        mc.diagnostics = {)]TJ
+/TT10 1 Tf
+18.6 0 TD
+(ítemp1í)Tj
+/TT8 1 Tf
+4.2 0 TD
+(: 200})Tj
+-22.8 -1.1 TD
+[(197:)-599.6(        mc.diagnostics = {)]TJ
+/TT10 1 Tf
+18.6 0 TD
+(ítemp2í)Tj
+/TT8 1 Tf
+4.2 0 TD
+(: )Tj
+/TT10 1 Tf
+1.2 0 TD
+("All Circuits Busy")Tj
+/TT8 1 Tf
+11.4 0 TD
+(})Tj
+-35.4 -1.1 TD
+[(198:)-599.6(        mc.diagnostics = {)]TJ
+/TT10 1 Tf
+18.6 0 TD
+(ítemp3í)Tj
+/TT8 1 Tf
+4.2 0 TD
+(: 17123948})Tj
+-22.8 -1.1 TD
+[(199:)-599.6(        mc.diagnostics = {)]TJ
+/TT10 1 Tf
+18.6 0 TD
+("temp mode this is a long temp this is a long temp\\)Tj
+/TT8 1 Tf
+-18.6 -1.1 TD
+(200:)Tj
+/TT10 1 Tf
+3 0 TD
+(                            this is a long temp this is a long temp")Tj
+/TT8 1 Tf
+40.8 0 TD
+(: )Tj
+/TT10 1 Tf
+1.2 0 TD
+("Hello World)Tj
+-46.3 -1.1 TD
+( - this is a test")Tj
+/TT8 1 Tf
+10.8 0 TD
+(})Tj
+ET
+endstream
+endobj
+17 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT8 7 0 R
+/TT10 8 0 R
+/TT12 9 0 R
+>>
+/ExtGState <<
+/GS1 10 0 R
+>>
+>>
+endobj
+19 0 obj
+<<
+/Length 4237
+>>
+stream
+0.95 g
+/GS1 gs
+24 800 547 -18 re
+f
+0.7 g
+24 818 72 -36 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 38.666 802 Tm
+0 g
+0 Tc
+0 Tw
+(04/12/20)Tj
+-0.0552 -1.0667 TD
+(01:25:14)Tj
+ET
+0.7 g
+499 818 72 -36 re
+f
+BT
+/TT4 1 Tf
+28.8 0 0 28.8 526.9914 789.2 Tm
+1 g
+(4)Tj
+/TT6 1 Tf
+14 0 0 14 279.4189 786.5 Tm
+0 g
+(run.py)Tj
+/TT8 1 Tf
+10 0 0 10 42 769 Tm
+[(201:)-599.6(        mc.diagnostics = {)]TJ
+/TT10 1 Tf
+18.6 0 TD
+(ítemp5í)Tj
+/TT8 1 Tf
+4.2 0 TD
+(: )Tj
+/TT10 1 Tf
+1.2 0 TD
+("temp mode this is a long temp this is a long t)Tj
+-25.3 -1.1 TD
+(emp\\)Tj
+/TT8 1 Tf
+1.3 -1.1 TD
+(202:)Tj
+/TT10 1 Tf
+3 0 TD
+(                                        this is a long temp this is a long temp")Tj
+/TT8 1 Tf
+48 0 TD
+(})Tj
+-51 -1.1 TD
+[(203:)-599.6(        mc.diagnostics = {)]TJ
+/TT10 1 Tf
+18.6 0 TD
+(ítemp6í)Tj
+/TT8 1 Tf
+4.2 0 TD
+(: -14.2})Tj
+-22.8 -1.1 TD
+[(204:)-599.6(        )]TJ
+T*
+[(205:)-599.6(        code_tuple = \()]TJ
+/TT10 1 Tf
+16.2 0 TD
+(íP1234í)Tj
+/TT8 1 Tf
+4.2 0 TD
+(, )Tj
+/TT10 1 Tf
+1.2 0 TD
+(íTestcode description... Lorem Ipsum\\)Tj
+/TT8 1 Tf
+-21.6 -1.1 TD
+(206:)Tj
+/TT10 1 Tf
+3 0 TD
+(                                                        Lorem Ipsum Lorem IpsumLor)Tj
+-4.3 -1.1 TD
+(em IpsumLorem IpsumLorem IpsumLorem Ipsumí)Tj
+/TT8 1 Tf
+25.2 0 TD
+(\))Tj
+-23.9 -1.1 TD
+[(207:)-599.6(        mc.handler = {)]TJ
+/TT10 1 Tf
+16.2 0 TD
+(ícode-existsí)Tj
+/TT8 1 Tf
+7.8 0 TD
+(: True, )Tj
+/TT10 1 Tf
+4.8 0 TD
+(ícodeí)Tj
+/TT8 1 Tf
+3.6 0 TD
+(: [code_tuple[0] + )Tj
+/TT10 1 Tf
+11.4 0 TD
+(í|í)Tj
+/TT8 1 Tf
+1.8 0 TD
+( + code_tup)Tj
+-46.9 -1.1 TD
+(le[1]]})Tj
+1.3 -1.1 TD
+[(208:)-599.6(        mc.diagnostics = {)]TJ
+/TT10 1 Tf
+18.6 0 TD
+(íconnection-establishedí)Tj
+/TT8 1 Tf
+14.4 0 TD
+(: False})Tj
+-33 -1.1 TD
+(209:)Tj
+T*
+[(210:)-599.6(    )]TJ
+/TT10 1 Tf
+5.4 0 TD
+(else)Tj
+/TT8 1 Tf
+2.4 0 TD
+(:)Tj
+-7.8 -1.1 TD
+[(211:)-599.6(        mc.diagnostics = {)]TJ
+/TT10 1 Tf
+18.6 0 TD
+(íconnection-establishedí)Tj
+/TT8 1 Tf
+14.4 0 TD
+(: True})Tj
+-33 -1.1 TD
+(212:)Tj
+T*
+[(213:)-599.6(    ex.load\()]TJ
+/TT10 1 Tf
+10.2 0 TD
+(írun.qmlí)Tj
+/TT8 1 Tf
+5.4 0 TD
+(\))Tj
+-15.6 -1.1 TD
+(214:)Tj
+T*
+[(215:)-599.6(    win = ex.rootObjects\(\)[0])]TJ
+T*
+(216:)Tj
+T*
+[(217:)-599.6(    )]TJ
+/TT10 1 Tf
+5.4 0 TD
+(if)Tj
+/TT8 1 Tf
+1.2 0 TD
+( mc.getConfig\(\)[)Tj
+/TT10 1 Tf
+9.6 0 TD
+(ífullscreení)Tj
+/TT8 1 Tf
+7.2 0 TD
+(][)Tj
+/TT10 1 Tf
+1.2 0 TD
+(ícurrentí)Tj
+/TT8 1 Tf
+5.4 0 TD
+(]:)Tj
+-30 -1.1 TD
+[(218:)-599.6(        win.setWindowState\(QtCore.Qt.WindowFullScreen\))]TJ
+T*
+[(219:)-599.6(   )]TJ
+T*
+(220:)Tj
+T*
+(221:)Tj
+T*
+[(222:)-599.6(    )]TJ
+/TT12 1 Tf
+5.4 0 TD
+(# Timer for time)Tj
+/TT8 1 Tf
+-5.4 -1.1 TD
+[(223:)-599.6(    timer = QtCore.QTimer\(\))]TJ
+T*
+[(224:)-599.6(    timer.setInterval\(1000\))]TJ
+T*
+[(225:)-599.6(    timer.timeout.connect\(mc.updateTime\))]TJ
+T*
+[(226:)-599.6(    timer.start\(\))]TJ
+T*
+(227:)Tj
+T*
+[(228:)-599.6(    )]TJ
+/TT12 1 Tf
+5.4 0 TD
+(# Timer for log)Tj
+/TT8 1 Tf
+-5.4 -1.1 TD
+[(229:)-599.6(    timer_log = QtCore.QTimer\(\))]TJ
+T*
+[(230:)-599.6(    timer_log.setInterval\(5000\))]TJ
+T*
+[(231:)-599.6(    timer_log.timeout.connect\(writeLog\))]TJ
+T*
+[(232:)-599.6(    timer_log.start\(\))]TJ
+T*
+(233:)Tj
+T*
+[(234:)-599.6(    )]TJ
+/TT12 1 Tf
+5.4 0 TD
+(# for val in int_arr:)Tj
+/TT8 1 Tf
+-5.4 -1.1 TD
+[(235:)-599.6(    )]TJ
+/TT12 1 Tf
+5.4 0 TD
+(#     mc.rpmValue = val)Tj
+/TT8 1 Tf
+-5.4 -1.1 TD
+[(236:)-599.6(    )]TJ
+/TT12 1 Tf
+5.4 0 TD
+(#     app.processEvents\(\))Tj
+/TT8 1 Tf
+-5.4 -1.1 TD
+[(237:)-599.6(    )]TJ
+/TT12 1 Tf
+5.4 0 TD
+(#     time.sleep\(.5\))Tj
+/TT8 1 Tf
+-5.4 -1.1 TD
+(238:)Tj
+T*
+(239:)Tj
+T*
+[(240:)-599.6(    win.findChild\(QObject, )]TJ
+/TT10 1 Tf
+19.2 0 TD
+("stack")Tj
+/TT8 1 Tf
+4.2 0 TD
+(\).sig_exit.connect\(onExit\))Tj
+-23.4 -1.1 TD
+[(241:)-599.6(    win.findChild\(QObject, )]TJ
+/TT10 1 Tf
+19.2 0 TD
+("stack")Tj
+/TT8 1 Tf
+4.2 0 TD
+(\).sig_restart.connect\(onRestart\))Tj
+-23.4 -1.1 TD
+(242:)Tj
+T*
+(243:)Tj
+T*
+[(244:)-599.6(    win.show\(\))]TJ
+T*
+[(245:)-599.6(    atexit.register\(writeConfig\))]TJ
+T*
+[(246:)-599.6(    atexit.register\(writeLog\))]TJ
+T*
+[(247:)-599.6(    sys.exit\(app.exec_\(\)\))]TJ
+T*
+(248:)Tj
+T*
+(249:)Tj
+T*
+(250:)Tj
+T*
+(251:)Tj
+T*
+(252:)Tj
+/TT10 1 Tf
+3 0 TD
+(if)Tj
+/TT8 1 Tf
+1.2 0 TD
+( __name__ == )Tj
+/TT10 1 Tf
+7.8 0 TD
+(í__main__í)Tj
+/TT8 1 Tf
+6 0 TD
+(:)Tj
+-18 -1.1 TD
+[(253:)-599.6(    main\(\))]TJ
+ET
+endstream
+endobj
+20 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT8 7 0 R
+/TT10 8 0 R
+/TT12 9 0 R
+>>
+/ExtGState <<
+/GS1 10 0 R
+>>
+>>
+endobj
+10 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+21 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 676
+/Descent -250
+/Flags 262178
+/FontBBox [-168 -218 1000 935]
+/FontName /Times-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 461
+/StemH 139
+>>
+endobj
+22 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 770
+/CapHeight 718
+/Descent -229
+/Flags 262176
+/FontBBox [-170 -228 1003 962]
+/FontName /Helvetica-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 532
+/StemH 140
+>>
+endobj
+23 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 662
+/Descent -250
+/Flags 34
+/FontBBox [-168 -218 1000 898]
+/FontName /Times-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 450
+/StemH 84
+>>
+endobj
+24 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 35
+/FontBBox [-28 -250 628 805]
+/FontName /Courier
+/ItalicAngle 0
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+25 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 262179
+/FontBBox [-113 -250 749 801]
+/FontName /Courier-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 439
+/StemH 84
+>>
+endobj
+26 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 99
+/FontBBox [-28 -250 742 805]
+/FontName /Courier-Oblique
+/ItalicAngle -15
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 47
+/LastChar 58
+/Widths [278 500 500 500 0 500 500 0 0 0 0 333 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Bold
+/FontDescriptor 21 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 49
+/LastChar 52
+/Widths [556 556 556 556 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Helvetica-Bold
+/FontDescriptor 22 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 46
+/LastChar 121
+/Widths [250 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+500 0 500 0 333 0 0 500 0 0 0 500 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Roman
+/FontDescriptor 23 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 125
+/Widths [600 600 0 0 0 600 0 0 600 600 0 600 600 600 600 0 
+600 600 600 600 600 600 600 600 600 600 600 600 0 600 600 0 
+0 600 600 600 600 600 600 600 600 600 0 0 600 600 600 600 
+600 600 600 600 600 0 0 600 0 0 0 600 0 600 0 600 
+0 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 0 600 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+/FontDescriptor 24 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 146
+/Widths [600 0 600 0 0 600 0 0 0 0 0 600 600 600 600 600 
+0 600 600 600 600 600 600 0 0 0 600 0 0 0 0 0 
+0 600 600 600 600 600 600 0 600 600 0 0 600 0 0 0 
+600 0 600 600 600 600 600 600 0 0 0 600 600 600 0 600 
+0 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 0 600 600 600 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Bold
+/FontDescriptor 25 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 146
+/Widths [600 0 600 600 0 0 0 0 600 600 0 600 600 600 600 0 
+0 0 600 600 0 600 0 0 0 0 600 0 0 600 0 0 
+0 0 600 600 600 600 600 600 0 0 0 0 0 600 0 600 
+600 0 600 0 600 0 600 0 0 0 0 600 600 600 0 600 
+0 600 600 600 600 600 600 600 600 600 600 0 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 0 600 0 600 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Oblique
+/FontDescriptor 26 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 14 0 R
+/Contents 13 0 R
+>>
+endobj
+15 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 17 0 R
+/Contents 16 0 R
+>>
+endobj
+18 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 20 0 R
+/Contents 19 0 R
+>>
+endobj
+27 0 obj
+<<
+/S /D
+>>
+endobj
+28 0 obj
+<<
+/Nums [0 27 0 R ]
+>>
+endobj
+11 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 12 0 R 15 0 R 18 0 R]
+/Count 4
+/MediaBox [0 0 595 842]
+>>
+endobj
+29 0 obj
+<<
+/CreationDate (D:20200412170242-04'00')
+/ModDate (D:20200412170242-04'00')
+/Producer (Apple pstopdf)
+>>
+endobj
+30 0 obj
+<<
+/Type /Catalog
+/Pages 11 0 R
+/PageLabels 28 0 R
+>>
+endobj
+xref
+0 31
+0000000000 65535 f 
+0000028119 00000 n 
+0000000016 00000 n 
+0000007119 00000 n 
+0000025859 00000 n 
+0000026059 00000 n 
+0000026241 00000 n 
+0000026573 00000 n 
+0000027070 00000 n 
+0000027600 00000 n 
+0000024519 00000 n 
+0000028520 00000 n 
+0000028200 00000 n 
+0000007272 00000 n 
+0000013161 00000 n 
+0000028284 00000 n 
+0000013315 00000 n 
+0000019921 00000 n 
+0000028368 00000 n 
+0000020075 00000 n 
+0000024365 00000 n 
+0000024660 00000 n 
+0000024862 00000 n 
+0000025068 00000 n 
+0000025265 00000 n 
+0000025456 00000 n 
+0000025658 00000 n 
+0000028452 00000 n 
+0000028480 00000 n 
+0000028623 00000 n 
+0000028746 00000 n 
+trailer
+<<
+/Size 31
+/Root 30 0 R
+/Info 29 0 R
+/ID [<b179df893350d1e89c078bc5c45f49a7><b179df893350d1e89c078bc5c45f49a7>]
+>>
+startxref
+28816
+%%EOF

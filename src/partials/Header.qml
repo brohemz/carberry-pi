@@ -1,3 +1,12 @@
+/*
+* File: Header.qml
+* Description: Header component that lasts the runtime of app. Displays time,
+*               current stack objectName, alerts and settings toggles
+* Project: Carberry Pi
+* Author: Ryan McHugh
+* Year: 2020
+*/
+
 // Dependent on run.qml
 
 import QtQuick 2.11

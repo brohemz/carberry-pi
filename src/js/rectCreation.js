@@ -1,3 +1,10 @@
+/*
+* File: rectCreation.js
+* Description: JavaScript for creation of rectangle inside specified component
+* Project: Carberry Pi
+* Author: Ryan McHugh
+* Year: 2020
+*/
 var component;
 
 var rect;

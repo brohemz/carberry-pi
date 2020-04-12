@@ -1,3 +1,12 @@
+#
+# File: run.py
+# Description: Main class. Lasts the runtime of the program. Instantiates
+#               python-obd library, backend for the PyQt application. It all
+#                 starts here!
+# Project: Carberry Pi
+# Author: Ryan McHugh
+# Year: 2020
+#
 import sys
 import subprocess
 import atexit
@@ -42,7 +51,7 @@ class Obd_Thread(QThread):
             mc.handler = {'speed': val}
             # mc.speedValue = r.value.to("mph").magnitude
             # print(r.value.magnitude)
-    
+
     def set_temp(self, r):
         loc = mc.getConfig()['locality']['current']
         if(r.value):
@@ -76,7 +85,7 @@ class Obd_Thread(QThread):
 
         command_list = connection.supported_commands
 
-        # ignore_list = [obd.commands.GET_DTC]
+        ignore_list = []
 
         connection_sync = obd.OBD()
 
@@ -201,7 +210,7 @@ def main():
         mc.diagnostics = {'temp5': "temp mode this is a long temp this is a long temp\
                                         this is a long temp this is a long temp"}
         mc.diagnostics = {'temp6': -14.2}
-        
+
         code_tuple = ('P1234', 'Testcode description... Lorem Ipsum\
                                                         Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum')
         mc.handler = {'code-exists': True, 'code': [code_tuple[0] + '|' + code_tuple[1]]}
@@ -216,7 +225,7 @@ def main():
 
     if mc.getConfig()['fullscreen']['current']:
         win.setWindowState(QtCore.Qt.WindowFullScreen)
-   
+
 
 
     # Timer for time

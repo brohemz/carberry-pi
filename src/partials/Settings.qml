@@ -1,3 +1,10 @@
+/*
+* File: Settings.qml
+* Description: Configurable dropdown lists - values imported from config.json
+* Project: Carberry Pi
+* Author: Ryan McHugh
+* Year: 2020
+*/
 import QtQuick 2.11
 import QtQuick.Window 2.4
 import QtQuick.Controls 2.4

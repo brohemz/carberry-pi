@@ -1,3 +1,12 @@
+/*
+* File: run.qml
+* Description: Main controller/view for the frontend. Root element that
+*               instantiates all components.  Lasts the runtime of the GUI.
+* Project: Carberry Pi
+* Author: Ryan McHugh
+* Year: 2020
+*/
+
 // root
 
 import QtQuick 2.11
@@ -97,7 +106,7 @@ ApplicationWindow {
       console.log("\n_____TESTING_____\n\n")
 
       var test_dict = stack.currentItem.children[0].testValues()
-      
+
       console.log("\n___DASH___")
       console.log(`Speed: ${main.handler['speed'] == test_dict['SPEED'] ? "YES" : "No"}`)
       console.log(`RPM: ${main.handler['rpm'] == test_dict['RPM'] ? "YES" : "No"}`)
@@ -262,7 +271,7 @@ ApplicationWindow {
             console.log("DEV MODE ENABLED!")
             printTest()
           }
-            
+
 
         stategroup.state = style;
 

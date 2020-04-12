@@ -1,3 +1,10 @@
+/*
+* File: header_info.js
+* Description: JavaScript for loading informational text in header
+* Project: Carberry Pi
+* Author: Ryan McHugh
+* Year: 2020
+*/
 var component;
 var obj;
 var info_text;

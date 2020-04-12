@@ -1,3 +1,11 @@
+/*
+* File: Dash.qml
+* Description: Dashboard (main screen) component. Contains speed gauge, rpm
+*               gauge, and thermometer
+* Project: Carberry Pi
+* Author: Ryan McHugh
+* Year: 2020
+*/
 import QtQuick 2.11
 import QtQuick.Window 2.4
 import QtQuick.Controls 2.4
@@ -152,7 +160,7 @@ Frame{
                         padding: 0
                       }
                     }
-                    
+
                   }
 
 
@@ -171,7 +179,7 @@ Frame{
                         else
                           text = "Engine Temp (°C)"
                       }
-                      text: "Engine Temp" ; 
+                      text: "Engine Temp" ;
                       padding: 30;
                       style: context.config['style']['current'] + "_grey"
                     }

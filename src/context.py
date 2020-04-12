@@ -1,3 +1,11 @@
+#
+# File: context.py
+# Description: Middleman between python and QML. Passes data from python to
+#               QML by converting python objects to QVariant types.
+# Project: Carberry Pi
+# Author: Ryan McHugh
+# Year: 2020
+#
 from PyQt5.QtCore import QObject, QThread
 from PyQt5 import QtCore
 import time

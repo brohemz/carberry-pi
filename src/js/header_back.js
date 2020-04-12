@@ -1,3 +1,10 @@
+/*
+* File: header_back.js
+* Description: JavaScript for dynamic creation of 'HeaderButton'
+* Project: Carberry Pi
+* Author: Ryan McHugh
+* Year: 2020
+*/
 var component;
 var button;
 

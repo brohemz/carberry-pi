@@ -1,3 +1,11 @@
+/*
+* File: Thermometer.qml
+* Description: A baseline 'thermometer' gauge. Used primarily for reading
+*               temperatures of the engine (Fahrenheit or Celsius)
+* Project: Carberry Pi
+* Author: Ryan McHugh
+* Year: 2020
+*/
 import QtQuick 2.11
 import QtQuick.Window 2.4
 import QtQuick.Controls 2.4

@@ -1,3 +1,11 @@
+/*
+* File: Diagnostics.qml
+* Description: Diagnostics screen that displays various engine information in a
+*               scrollable table.
+* Project: Carberry Pi
+* Author: Ryan McHugh
+* Year: 2020
+*/
 import QtQuick 2.11
 import QtQuick.Window 2.4
 import QtQuick.Controls 2.4
@@ -49,7 +57,7 @@ Frame{
               // console.log(ignore_list)
 
               var obj = Object.keys(context.diagnostics);
- 
+
               for(var i = 0; i < obj.length; i++){
                 var fill = obj[i];
                 var entry = {'key': fill, 'value': context.diagnostics[fill]};
@@ -57,7 +65,7 @@ Frame{
                   this.append(entry);
               }
 
-            
+
               if(this.count == 0)
                 this.append({'key': "Response", 'value': "No Content to Display"})
 
@@ -123,7 +131,7 @@ Frame{
                     anchors.verticalCenter: parent.verticalCenter
                     width: 5;
                     height: parent.height - 10;
-                    style: "inverted_" + context.config['style']['current'] 
+                    style: "inverted_" + context.config['style']['current']
                   }
 
                   Column{
