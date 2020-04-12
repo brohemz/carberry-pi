@@ -53,7 +53,7 @@ class Obd_Thread(QThread):
         if(r.value and r.value != '[]'):
             code_list = []
             for entry in r.value:
-                code_list.append(entry[0] + ' ' + entry[1])
+                code_list.append(entry[0] + '|' + entry[1])
             mc.handler = {'code-exists': True, 'code': code_list}
     # def set_val(self, r, r.name):
     #     if(r.value)
@@ -201,8 +201,10 @@ def main():
         mc.diagnostics = {'temp5': "temp mode this is a long temp this is a long temp\
                                         this is a long temp this is a long temp"}
         mc.diagnostics = {'temp6': -14.2}
-        mc.handler = {'code-exists': True, 'code': ["P1234: Testcode description... Lorem Ipsum\
-                                                        Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum"]}
+        
+        code_tuple = ('P1234', 'Testcode description... Lorem Ipsum\
+                                                        Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum')
+        mc.handler = {'code-exists': True, 'code': [code_tuple[0] + '|' + code_tuple[1]]}
         mc.diagnostics = {'connection-established': False}
 
     else:

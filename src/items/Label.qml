@@ -45,6 +45,10 @@ Label {
     State {
       name: "light_grey"
       PropertyChanges { target: internal_label; color: "grey"}
+    },
+    State {
+      name: "caution"
+      PropertyChanges { target: internal_label; color: "orange"; font.underline: true}
     }
   ]
 }

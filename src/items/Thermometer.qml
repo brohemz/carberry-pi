@@ -35,6 +35,11 @@ Gauge {
       color: internal_gauge.prop_color
     }
 
+    background: Rectangle{
+      radius: 5
+      color: "black"
+    }
+
   }
 
   Component.onCompleted: function() {

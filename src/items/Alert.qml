@@ -86,7 +86,7 @@ Item {
 
         Items.Label{
           id: alertLabel
-          text: "Alerts"
+          text: "Alerts - Engine Code"
           style: internal_item.style
           anchors.horizontalCenter: parent.horizontalCenter
         }
@@ -107,7 +107,8 @@ Item {
             dynamicRoles: true
             Component.onCompleted: ()=>{
               for(var iter = 0; iter < (context.handler['code']).length; iter++){
-                this.append({key: 'Engine Code', value: context.handler['code'][0]})
+                var code_tuple = (context.handler['code'][iter]).split('|', 2)
+                this.append({key: code_tuple[iter], value: code_tuple[iter+1]})
               }
 
             }
@@ -120,13 +121,29 @@ Item {
 
             Item{
               width: alert_view.implicitWidth
-              height: 40
-              Items.Label {
-                anchors.horizontalCenter: parent.horizontalCenter
-                text: model.key + ":\t " + model.value
-                width: parent.width;
-                style: internal_item.style
+              height: 200
+              anchors.horizontalCenter: parent.horizontalCenter
+              clip: true
+
+              Column{
+                anchors.fill: parent
+
+                Items.Label {
+                  id: alert_model_col1
+                  text: model.key
+                  width: parent.width
+                  style: 'caution'
+                }
+
+                Items.Label {
+                  id: alert_model_col2
+                  text: model.value
+                  width: parent.width;
+                  style: internal_item.style
+                }
+
               }
+              
             }
           }
 
