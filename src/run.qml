@@ -115,7 +115,7 @@ ApplicationWindow {
       console.log("\n___Diagnostics___");
       // console.log(test_dict['diag_1'] == 22 ? "YES" : "No")
       for(var iter = 1; iter <= 6; iter++){
-          console.log(`temp${iter}: ${main.diagnostics[test_dict['diag'].get(iter - 1)['key']] == test_dict['diag'].get(iter - 1)['value'] ? "YES" : "No"}`)
+          console.log('temp' + iter + ' ' + (main.diagnostics[test_dict['diag'].get(iter - 1)['key']] == test_dict['diag'].get(iter - 1)['value'] ? "YES" : "No"))
           // console.log(test_dict['diag'].get(0)['value'])
           // console.log(main.diagnostics['temp1'])
       }
