@@ -1,0 +1,597 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 4094
+>>
+stream
+0.95 g
+/GS1 gs
+24 800 547 -18 re
+f
+0.7 g
+24 818 72 -36 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 38.666 802 Tm
+0 g
+0 Tc
+0 Tw
+(04/12/20)Tj
+-0.0552 -1.0667 TD
+(17:13:04)Tj
+ET
+0.7 g
+499 818 72 -36 re
+f
+BT
+/TT4 1 Tf
+28.8 0 0 28.8 526.9914 789.2 Tm
+1 g
+(1)Tj
+/TT6 1 Tf
+14 0 0 14 212.5601 786.5 Tm
+0 g
+(/carberry/items/Rectangle.qml)Tj
+3.1653 1.2857 TD
+(Rectangle.qml)Tj
+/TT8 1 Tf
+10 0 0 10 54 769 Tm
+(1:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(/*)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(2:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(* File: Rectangle.qml)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(3:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(* Description: A rectangle container \(background\) for items.)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(4:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(* Project: Carberry Pi)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(5:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(* Author: Ryan McHugh)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(6:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(* Year: 2020)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(7:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(*/)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(8:)Tj
+/TT12 1 Tf
+1.8 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( QtQuick 2.11)Tj
+-5.4 -1.1 TD
+(9:)Tj
+/TT12 1 Tf
+1.8 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( QtQuick.Window 2.4)Tj
+-6 -1.1 TD
+(10:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( QtQuick.Controls 2.4)Tj
+-6 -1.1 TD
+(11:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( QtQuick.Controls.Styles 1.4)Tj
+-6 -1.1 TD
+(12:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( QtQuick.Layouts 1.3)Tj
+-6 -1.1 TD
+(13:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( QtQuick.Extras 1.4)Tj
+-6 -1.1 TD
+(14:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( )Tj
+/TT12 1 Tf
+0.6 0 TD
+("..")Tj
+/TT8 1 Tf
+-6.6 -1.1 TD
+(15:)Tj
+T*
+[(16:)-599.7(Rectangle {)]TJ
+T*
+[(17:)-599.7(  id: internal_rectangle)]TJ
+T*
+[(18:)-599.7(  property )]TJ
+/TT12 1 Tf
+9 0 TD
+(var)Tj
+/TT8 1 Tf
+1.8 0 TD
+( style: )Tj
+/TT12 1 Tf
+4.8 0 TD
+(null)Tj
+/TT8 1 Tf
+-15.6 -1.1 TD
+[(19:)-599.7(  width: 100;)]TJ
+T*
+[(20:)-599.7(  height: 100;)]TJ
+T*
+[(21:)-599.7(  color: )]TJ
+/TT12 1 Tf
+7.8 0 TD
+("black")Tj
+/TT8 1 Tf
+4.2 0 TD
+(;)Tj
+-12 -1.1 TD
+[(22:)-599.7(  radius: 5)]TJ
+T*
+(23:)Tj
+T*
+[(24:)-599.7(  Component.onCompleted: )]TJ
+/TT12 1 Tf
+17.4 0 TD
+(function)Tj
+/TT8 1 Tf
+4.8 0 TD
+(\(\){)Tj
+-22.2 -1.1 TD
+[(25:)-599.7(    )]TJ
+/TT12 1 Tf
+4.8 0 TD
+(if)Tj
+/TT8 1 Tf
+1.2 0 TD
+(\(style == )Tj
+/TT12 1 Tf
+6 0 TD
+(null)Tj
+/TT8 1 Tf
+2.4 0 TD
+(\))Tj
+-14.4 -1.1 TD
+[(26:)-599.7(      )]TJ
+/TT12 1 Tf
+6 0 TD
+(return)Tj
+/TT8 1 Tf
+-6 -1.1 TD
+(27:)Tj
+T*
+[(28:)-599.7(    internal_rectangle.state = style;)]TJ
+T*
+[(29:)-599.7(  })]TJ
+T*
+(30:)Tj
+T*
+[(31:)-599.7(  states: [)]TJ
+T*
+[(32:)-599.7(    State{)]TJ
+T*
+[(33:)-599.7(      name: )]TJ
+/TT12 1 Tf
+9.6 0 TD
+("dark")Tj
+/TT8 1 Tf
+-9.6 -1.1 TD
+[(34:)-599.7(      PropertyChanges {)]TJ
+T*
+[(35:)-599.7(        target: internal_rectangle)]TJ
+T*
+[(36:)-599.7(        color: )]TJ
+/TT12 1 Tf
+11.4 0 TD
+("black")Tj
+/TT8 1 Tf
+-11.4 -1.1 TD
+[(37:)-599.7(      })]TJ
+T*
+[(38:)-599.7(    },)]TJ
+T*
+[(39:)-599.7(    State{)]TJ
+T*
+[(40:)-599.7(      name: )]TJ
+/TT12 1 Tf
+9.6 0 TD
+("light")Tj
+/TT8 1 Tf
+-9.6 -1.1 TD
+[(41:)-599.7(      PropertyChanges {)]TJ
+T*
+[(42:)-599.7(        target: internal_rectangle)]TJ
+T*
+[(43:)-599.7(        color: )]TJ
+/TT12 1 Tf
+11.4 0 TD
+("white")Tj
+/TT8 1 Tf
+-11.4 -1.1 TD
+[(44:)-599.7(        border.width: 2)]TJ
+T*
+[(45:)-599.7(      })]TJ
+T*
+[(46:)-599.7(    },)]TJ
+T*
+[(47:)-599.7(    State{)]TJ
+T*
+[(48:)-599.7(      name: )]TJ
+/TT12 1 Tf
+9.6 0 TD
+("inverted_dark")Tj
+/TT8 1 Tf
+-9.6 -1.1 TD
+[(49:)-599.7(      PropertyChanges {)]TJ
+T*
+[(50:)-599.7(        target: internal_rectangle)]TJ
+T*
+[(51:)-599.7(        color: )]TJ
+/TT12 1 Tf
+11.4 0 TD
+("white")Tj
+/TT8 1 Tf
+-11.4 -1.1 TD
+[(52:)-599.7(        border.width: 2)]TJ
+T*
+[(53:)-599.7(      })]TJ
+T*
+[(54:)-599.7(    },)]TJ
+T*
+[(55:)-599.7(    State{)]TJ
+T*
+[(56:)-599.7(      name: )]TJ
+/TT12 1 Tf
+9.6 0 TD
+("inverted_light")Tj
+/TT8 1 Tf
+-9.6 -1.1 TD
+[(57:)-599.7(      PropertyChanges {)]TJ
+T*
+[(58:)-599.7(        target: internal_rectangle)]TJ
+T*
+[(59:)-599.7(        color: )]TJ
+/TT12 1 Tf
+11.4 0 TD
+("black")Tj
+/TT8 1 Tf
+-11.4 -1.1 TD
+[(60:)-599.7(      })]TJ
+T*
+[(61:)-599.7(    })]TJ
+T*
+[(62:)-599.7(  ])]TJ
+T*
+[(63:)-599.7(})]TJ
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT8 7 0 R
+/TT10 8 0 R
+/TT12 9 0 R
+>>
+/ExtGState <<
+/GS1 10 0 R
+>>
+>>
+endobj
+10 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+12 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 676
+/Descent -250
+/Flags 262178
+/FontBBox [-168 -218 1000 935]
+/FontName /Times-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 461
+/StemH 139
+>>
+endobj
+13 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 770
+/CapHeight 718
+/Descent -229
+/Flags 262176
+/FontBBox [-170 -228 1003 962]
+/FontName /Helvetica-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 532
+/StemH 140
+>>
+endobj
+14 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 662
+/Descent -250
+/Flags 34
+/FontBBox [-168 -218 1000 898]
+/FontName /Times-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 450
+/StemH 84
+>>
+endobj
+15 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 35
+/FontBBox [-28 -250 628 805]
+/FontName /Courier
+/ItalicAngle 0
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+16 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 99
+/FontBBox [-28 -250 742 805]
+/FontName /Courier-Oblique
+/ItalicAngle -15
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+17 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 262179
+/FontBBox [-113 -250 749 801]
+/FontName /Courier-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 439
+/StemH 84
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 47
+/LastChar 58
+/Widths [278 500 500 500 500 500 0 0 500 0 0 333 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Bold
+/FontDescriptor 12 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 49
+/LastChar 49
+/Widths [556 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Helvetica-Bold
+/FontDescriptor 13 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 46
+/LastChar 121
+/Widths [250 278 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 667 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 444 500 444 0 444 0 500 0 278 0 0 278 778 
+500 0 0 500 333 389 278 0 0 0 0 500 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Roman
+/FontDescriptor 14 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 125
+/Widths [600 0 0 0 0 0 0 0 600 600 0 0 600 0 600 0 
+600 600 600 600 600 600 600 600 600 600 600 600 0 600 0 0 
+0 0 0 600 0 600 0 0 0 0 0 0 600 0 0 0 
+600 600 600 600 0 0 0 600 0 0 0 600 0 600 0 600 
+0 600 600 600 600 600 0 600 600 600 0 600 600 600 600 600 
+600 0 600 600 600 600 0 600 600 600 0 600 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+/FontDescriptor 15 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 121
+/Widths [600 0 0 0 0 0 0 0 600 600 600 0 0 0 600 600 
+600 0 600 0 0 0 0 0 0 0 600 0 0 0 0 0 
+0 600 0 600 600 0 600 0 600 0 0 0 0 600 0 0 
+600 0 600 0 0 0 0 0 0 600 0 0 0 0 0 0 
+0 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 0 0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Oblique
+/FontDescriptor 16 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 34
+/LastChar 119
+/Widths [600 0 0 0 0 0 0 0 0 0 0 0 600 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 600 0 600 
+600 600 600 600 600 600 600 600 0 600 600 600 600 600 600 0 
+600 0 600 600 600 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Bold
+/FontDescriptor 17 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+18 0 obj
+<<
+/S /D
+>>
+endobj
+19 0 obj
+<<
+/Nums [0 18 0 R ]
+>>
+endobj
+11 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R]
+/Count 1
+/MediaBox [0 0 595 842]
+>>
+endobj
+20 0 obj
+<<
+/CreationDate (D:20200413160334-04'00')
+/ModDate (D:20200413160334-04'00')
+/Producer (Apple pstopdf)
+>>
+endobj
+21 0 obj
+<<
+/Type /Catalog
+/Pages 11 0 R
+/PageLabels 19 0 R
+>>
+endobj
+xref
+0 22
+0000000000 65535 f 
+0000007659 00000 n 
+0000000016 00000 n 
+0000004162 00000 n 
+0000005655 00000 n 
+0000005857 00000 n 
+0000006027 00000 n 
+0000006381 00000 n 
+0000006838 00000 n 
+0000007271 00000 n 
+0000004315 00000 n 
+0000007808 00000 n 
+0000004456 00000 n 
+0000004658 00000 n 
+0000004864 00000 n 
+0000005061 00000 n 
+0000005252 00000 n 
+0000005453 00000 n 
+0000007740 00000 n 
+0000007768 00000 n 
+0000007890 00000 n 
+0000008013 00000 n 
+trailer
+<<
+/Size 22
+/Root 21 0 R
+/Info 20 0 R
+/ID [<a3965195fd05226973f681c7667deea3><a3965195fd05226973f681c7667deea3>]
+>>
+startxref
+8083
+%%EOF

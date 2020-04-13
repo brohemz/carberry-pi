@@ -2,7 +2,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
 
-\title{Final Project Documentation}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\title{Carberry Pi Documentation}
 \author{Ryan McHugh}
 \date{April 2020}
 
@@ -10,14 +13,17 @@
 
 \maketitle
 
-\setcounter{secnumdepth}{1}
 
-\hypertarget{carberry-pi-documentation}{%
-\subsection{Carberry Pi Documentation}\label{carberry-pi-documentation}}
+\begin{center}
+\line(1,0){300}
+\end{center}
 
-// Logo
 
-Carberry Pi
+\setcounter{secnumdepth}{2}
+
+% // Logo
+
+\textbf{Carberry Pi}
 
 \begin{verbatim}
 
@@ -48,10 +54,8 @@ Carberry Pi
 
   3.3 \protect\hyperlink{configuration}{Configuration}
 
-  3.4 \protect\hyperlink{displaying-engine-codes}{Displaying Engine
-  Codes}
-
-  3.5 \protect\hyperlink{architecture}{Architecture}
+  3.4 \protect\hyperlink{architecture}{Architecture}
+  
 \item
   \protect\hyperlink{connecting-the-pieces}{Connecting the Pieces}
 \item
@@ -59,7 +63,7 @@ Carberry Pi
 \end{enumerate}
 
 \hypertarget{introduction}{%
-\subsection{Introduction}\label{introduction}}
+\section{Introduction}\label{introduction}}
 
 \begin{itemize}
 \tightlist
@@ -70,7 +74,7 @@ Carberry Pi
 \end{itemize}
 
 \hypertarget{hardware}{%
-\subsection{Hardware}\label{hardware}}
+\section{Hardware}\label{hardware}}
 
 Carberry Pi requires a few tools of the trade.
 
@@ -89,10 +93,10 @@ Carberry Pi requires a few tools of the trade.
 \end{itemize}
 
 \hypertarget{carberry-pi-software}{%
-\subsection{Carberry Pi Software}\label{carberry-pi-software}}
+\section{Carberry Pi Software}\label{carberry-pi-software}}
 
 \hypertarget{dashboard}{%
-\paragraph{Dashboard}\label{dashboard}}
+\subsubsection{Dashboard}\label{dashboard}}
 
 \begin{figure}
 \centering
@@ -101,7 +105,7 @@ Carberry Pi requires a few tools of the trade.
 \end{figure}
 
 \hypertarget{diagnostics}{%
-\paragraph{Diagnostics}\label{diagnostics}}
+\subsubsection{Diagnostics}\label{diagnostics}}
 
 \begin{figure}
 \centering
@@ -110,7 +114,7 @@ Carberry Pi requires a few tools of the trade.
 \end{figure}
 
 \hypertarget{configuration}{%
-\paragraph{Configuration}\label{configuration}}
+\subsubsection{Configuration}\label{configuration}}
 
 \begin{figure}
 \centering
@@ -118,17 +122,33 @@ Carberry Pi requires a few tools of the trade.
 \caption{Configuration}
 \end{figure}
 
+
+
+
+\subparagraph{Manage the settings of the application.}
+
 \begin{itemize}
-\tightlist
-\item
-  Currently a work-in-progress
+  \item 
+    locality: Region-based conversion of units (main dashboard only)
+\end{itemize}
+\begin{itemize}
+  \item 
+    fullscreen: Toggle for fullscreen on startup (only works on
+\end{itemize}
+\begin{itemize}
+  \item 
+    style: Manages the overall theme of the application (toggle between light and dark modes)
+\end{itemize}
+\begin{itemize}
+  \item 
+    time: Show/Hide the time in the header bar
 \end{itemize}
 
 \hypertarget{architecture}{%
-\paragraph{Architecture}\label{architecture}}
+\subsubsection{Architecture}\label{architecture}}
 
-\hypertarget{written-in__}{%
-\subparagraph{Written in\_\_}\label{written-in__}}
+\hypertarget{toolkit}{%
+\subparagraph{Toolkit}\label{Toolkit}}
 
 \begin{itemize}
 \item
@@ -137,10 +157,10 @@ Carberry Pi requires a few tools of the trade.
   \begin{itemize}
   \tightlist
   \item
-    Utilizes python-obd library for OBD information
+    Utilizes \href{https://python-obd.readthedocs.io/en/latest/}{python-obd} library for OBD information
   \end{itemize}
 \item
-  Frontend: PyQt (Qt-Quick Focused) \textbar{} Javascript
+  Frontend: PyQt (Qt-Quick) + QML \textbar{} Javascript
 \end{itemize}
 
 \hypertarget{interface-architecture}{%
@@ -148,7 +168,7 @@ Carberry Pi requires a few tools of the trade.
 
 \begin{itemize}
 \item
-  Dynamic loading allows react-like module instantiation and destruction
+  Dynamic loading allows react.js style module instantiation and destruction
 
   \begin{itemize}
   \item
@@ -172,36 +192,66 @@ Carberry Pi requires a few tools of the trade.
   \end{itemize}
 \end{itemize}
 
+\subparagraph{Directory Structure \textbar{} File Enumeration}
+\begin{itemize}
+    \item \emph{documentation}: Stores the source files and compiled containers for this documentation\\
+    \item \emph{src}: Contains the Project Source files
+
+    \begin{itemize}
+        \item \emph{items}: reusable \_custom\_ QML items
+        \item \emph{js}: JavaScript scripts (primarily for object creation and destruction)
+        \item \emph{log}: storage for log output \emph{(YYYY-MM-DD)}
+        \item \emph{partials}: QML partials (snippets)
+        \item \emph{resources}: assets \textbar{} icons
+    \end{itemize}
+\end{itemize}
+
+
+
 \hypertarget{connecting-the-pieces}{%
-\subsection{Connecting the Pieces}\label{connecting-the-pieces}}
+\section{Connecting the Pieces}\label{connecting-the-pieces}}
 
 // tutorial with picture layout of connecting each component
 
 \hypertarget{getting-up-and-running}{%
-\subsection{Getting Up and Running}\label{getting-up-and-running}}
+\section{Getting Up and Running}\label{getting-up-and-running}}
 
 \hypertarget{recommended-os-dietpi}{%
 \paragraph{Recommended OS: DietPi}\label{recommended-os-dietpi}}
 
-The \emph{DietPi} (debian-based) operating system distribution acts as a
+The \href{https://dietpi.com}{\emph{DietPi}} (debian-based) operating system distribution acts as a
 lightweight desktop environment for running GUIs on the Pi.
 
+\begin{flushleft}
 Of Course, you may run this application on another operating system of
 your choosing.
+\end{flushleft}
 
-\textbf{Recommended DE: LXDE}
 
-This project uses \emph{LXDE} as it is a lightweight desktop environment
-that suits the limited hardware of the Rasperry Pi wonderfully.
 
-** The \emph{autostart} functionality of the installation script
-requires LXDE.
+\hypertarget{recommended-de-lxde}{%
+\paragraph{Recommended DE: LXDE}\label{recommended-de-lxde}}
+This project uses \href{https://wiki.lxde.org/en/Main_Page}{\emph{LXDE}}. It is a lightweight desktop environment
+that suits the limited hardware of the Raspberry Pi wonderfully.
 
-** The use of another desktop environment will require appending a
+
+\paragraph{The use of another desktop environment will require appending a
 command that executes the \emph{start\_carberry.sh} script to the
-startup file of the respective DE.
+startup file of the respective DE.}
 
-
+\subsubsection{Installation}
+\begin{enumerate}
+    \def\labelenumi{\arabic{enumi}.}
+    \item   Clone the repo from \url{https://github.com/brohemz/carberry-pi}
+    \item   Run \emph{install.sh} in the \emph{src} folder as SuperUser
+    \begin{itemize}
+        \item Note: The \emph{autostart} functionality of the installation script
+                    requires LXDE.
+    \end{itemize}
+    \item In order to ensure proper \emph{autostart} functionality, restart the computer now.
+    \item Run the application \emph{start\_carberry.sh} from \emph{src} folder.
+\end{enumerate}
+\paragraph{You should now see the main dashboard.}
 
 
 
