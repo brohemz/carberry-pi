@@ -1,0 +1,893 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 5787
+>>
+stream
+0.95 g
+/GS1 gs
+24 800 547 -18 re
+f
+0.7 g
+24 818 72 -36 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 38.666 802 Tm
+0 g
+0 Tc
+0 Tw
+(04/12/20)Tj
+-0.0552 -1.0667 TD
+(17:21:57)Tj
+ET
+0.7 g
+499 818 72 -36 re
+f
+BT
+/TT4 1 Tf
+28.8 0 0 28.8 526.9914 789.2 Tm
+1 g
+(1)Tj
+/TT6 1 Tf
+14 0 0 14 214.9014 786.5 Tm
+0 g
+(/carberry/partials/Header.qml)Tj
+3.5537 1.2857 TD
+(Header.qml)Tj
+/TT8 1 Tf
+10 0 0 10 54 769 Tm
+(1:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(/*)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(2:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(* File: Header.qml)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(3:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(* Description: Header component that lasts the runtime of app. Displays time,)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(4:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(*               current stack objectName, alerts and settings toggles)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(5:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(* Project: Carberry Pi)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(6:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(* Author: Ryan McHugh)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(7:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(* Year: 2020)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(8:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(*/)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(9:)Tj
+-0.6 -1.1 TD
+(10:)Tj
+/TT10 1 Tf
+2.4 0 TD
+(// Dependent on run.qml)Tj
+/TT8 1 Tf
+-2.4 -1.1 TD
+(11:)Tj
+T*
+(12:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( QtQuick 2.11)Tj
+-6 -1.1 TD
+(13:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( QtQuick.Window 2.4)Tj
+-6 -1.1 TD
+(14:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( QtQuick.Controls 2.4)Tj
+-6 -1.1 TD
+(15:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( QtQuick.Controls.Styles 1.4)Tj
+-6 -1.1 TD
+(16:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( QtQuick.Layouts 1.3)Tj
+-6 -1.1 TD
+(17:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( QtQuick.Extras 1.4)Tj
+-6 -1.1 TD
+(18:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( )Tj
+/TT12 1 Tf
+0.6 0 TD
+("../items")Tj
+/TT8 1 Tf
+6 0 TD
+( as Items)Tj
+-12.6 -1.1 TD
+(19:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( )Tj
+/TT12 1 Tf
+0.6 0 TD
+("../js/header_back.js")Tj
+/TT8 1 Tf
+13.2 0 TD
+( as HeaderBack)Tj
+-19.8 -1.1 TD
+(20:)Tj
+T*
+(21:)Tj
+T*
+[(22:)-599.7(Rectangle {)]TJ
+T*
+[(23:)-599.7(    id: internal_rectangle)]TJ
+T*
+(24:)Tj
+T*
+[(25:)-599.7(    property )]TJ
+/TT12 1 Tf
+10.2 0 TD
+(var)Tj
+/TT8 1 Tf
+1.8 0 TD
+( context: )Tj
+/TT12 1 Tf
+6 0 TD
+(null)Tj
+/TT8 1 Tf
+-18 -1.1 TD
+[(26:)-599.7(    property )]TJ
+/TT12 1 Tf
+10.2 0 TD
+(var)Tj
+/TT8 1 Tf
+1.8 0 TD
+( list: )Tj
+/TT12 1 Tf
+4.2 0 TD
+(null)Tj
+/TT8 1 Tf
+-16.2 -1.1 TD
+(27:)Tj
+T*
+[(28:)-599.7(    width: parent.width)]TJ
+T*
+[(29:)-599.7(    height: 40)]TJ
+T*
+[(30:)-599.7(    color: )]TJ
+/TT12 1 Tf
+9 0 TD
+("steelblue")Tj
+/TT8 1 Tf
+-9 -1.1 TD
+(31:)Tj
+T*
+[(32:)-599.7(    Items.Label{)]TJ
+T*
+[(33:)-599.7(      id: header_time)]TJ
+T*
+[(34:)-599.7(      text: context.config[)]TJ
+/TT12 1 Tf
+18.6 0 TD
+(íshow-timeí)Tj
+/TT8 1 Tf
+6.6 0 TD
+(][)Tj
+/TT12 1 Tf
+1.2 0 TD
+(ícurrentí)Tj
+/TT8 1 Tf
+5.4 0 TD
+(] && !list[)Tj
+/TT12 1 Tf
+6.6 0 TD
+(íinfoí)Tj
+/TT8 1 Tf
+3.6 0 TD
+(] ? context.time)Tj
+-43.9 -1.1 TD
+(: )Tj
+/TT12 1 Tf
+1.2 0 TD
+("")Tj
+/TT8 1 Tf
+0.7 -1.1 TD
+[(35:)-599.7(      style: context.config[)]TJ
+/TT12 1 Tf
+19.2 0 TD
+(ístyleí)Tj
+/TT8 1 Tf
+4.2 0 TD
+(][)Tj
+/TT12 1 Tf
+1.2 0 TD
+(ícurrentí)Tj
+/TT8 1 Tf
+5.4 0 TD
+(])Tj
+-30 -1.1 TD
+[(36:)-599.7(      font.bold: )]TJ
+/TT12 1 Tf
+12.6 0 TD
+(true)Tj
+/TT8 1 Tf
+-12.6 -1.1 TD
+[(37:)-599.7(      visible: !list[)]TJ
+/TT12 1 Tf
+15 0 TD
+(íinfoí)Tj
+/TT8 1 Tf
+3.6 0 TD
+(] && context.config[)Tj
+/TT12 1 Tf
+12 0 TD
+(íshow-timeí)Tj
+/TT8 1 Tf
+6.6 0 TD
+(][)Tj
+/TT12 1 Tf
+1.2 0 TD
+(ícurrentí)Tj
+/TT8 1 Tf
+5.4 0 TD
+(])Tj
+-43.8 -1.1 TD
+[(38:)-599.7(      anchors.horizontalCenter: parent.horizontalCenter)]TJ
+T*
+[(39:)-599.7(      anchors.verticalCenter: parent.verticalCenter)]TJ
+T*
+[(40:)-599.7(    })]TJ
+T*
+(41:)Tj
+T*
+[(42:)-599.7(    Component.onCompleted: )]TJ
+/TT12 1 Tf
+18.6 0 TD
+(function)Tj
+/TT8 1 Tf
+4.8 0 TD
+(\(\){)Tj
+-23.4 -1.1 TD
+[(43:)-599.7(      )]TJ
+/TT12 1 Tf
+6 0 TD
+(if)Tj
+/TT8 1 Tf
+1.2 0 TD
+(\(context[)Tj
+/TT12 1 Tf
+5.4 0 TD
+(íhandlerí)Tj
+/TT8 1 Tf
+5.4 0 TD
+(][)Tj
+/TT12 1 Tf
+1.2 0 TD
+(ícode-existsí)Tj
+/TT8 1 Tf
+7.8 0 TD
+(]\){)Tj
+-27 -1.1 TD
+[(44:)-599.7(        )]TJ
+/TT10 1 Tf
+7.2 0 TD
+(// pageLoader.sourceComponent = "header_engine_code")Tj
+/TT8 1 Tf
+-7.2 -1.1 TD
+[(45:)-599.7(        console.log\()]TJ
+/TT12 1 Tf
+14.4 0 TD
+("EngineCode Loaded!")Tj
+/TT8 1 Tf
+12 0 TD
+(\))Tj
+-26.4 -1.1 TD
+[(46:)-599.7(      })]TJ
+T*
+[(47:)-599.7(    })]TJ
+T*
+(48:)Tj
+T*
+[(49:)-599.7(    onListChanged: )]TJ
+/TT12 1 Tf
+13.8 0 TD
+(function)Tj
+/TT8 1 Tf
+4.8 0 TD
+(\(\){)Tj
+-18.6 -1.1 TD
+[(50:)-599.7(      header_info.visible = list[)]TJ
+/TT12 1 Tf
+22.2 0 TD
+(íinfoí)Tj
+/TT8 1 Tf
+3.6 0 TD
+(])Tj
+-25.8 -1.1 TD
+[(51:)-599.7(      header_time.visible = !list[)]TJ
+/TT12 1 Tf
+22.8 0 TD
+(íinfoí)Tj
+/TT8 1 Tf
+3.6 0 TD
+(])Tj
+-26.4 -1.1 TD
+[(52:)-599.7(    })]TJ
+T*
+(53:)Tj
+T*
+[(54:)-599.7(    Items.Label{)]TJ
+T*
+[(55:)-599.7(      id: header_info)]TJ
+T*
+[(56:)-599.7(      text: list[)]TJ
+/TT12 1 Tf
+12.6 0 TD
+(ítextí)Tj
+/TT8 1 Tf
+3.6 0 TD
+(])Tj
+-16.2 -1.1 TD
+[(57:)-599.7(      style: context.config[)]TJ
+/TT12 1 Tf
+19.2 0 TD
+(ístyleí)Tj
+/TT8 1 Tf
+4.2 0 TD
+(][)Tj
+/TT12 1 Tf
+1.2 0 TD
+(ícurrentí)Tj
+/TT8 1 Tf
+5.4 0 TD
+(])Tj
+-30 -1.1 TD
+[(58:)-599.7(      anchors.horizontalCenter: parent.horizontalCenter)]TJ
+T*
+[(59:)-599.7(      anchors.verticalCenter: parent.verticalCenter)]TJ
+T*
+[(60:)-599.7(    })]TJ
+T*
+(61:)Tj
+T*
+[(62:)-599.7(    Items.SettingsButton{)]TJ
+T*
+[(63:)-599.7(      id: header_settings)]TJ
+T*
+[(64:)-599.7(      style: context.config[)]TJ
+/TT12 1 Tf
+19.2 0 TD
+(ístyleí)Tj
+/TT8 1 Tf
+4.2 0 TD
+(][)Tj
+/TT12 1 Tf
+1.2 0 TD
+(ícurrentí)Tj
+/TT8 1 Tf
+5.4 0 TD
+(])Tj
+-30 -1.1 TD
+[(65:)-599.7(      stack: list[)]TJ
+/TT12 1 Tf
+13.2 0 TD
+(ístackí)Tj
+/TT8 1 Tf
+4.2 0 TD
+(])Tj
+-17.4 -1.1 TD
+[(66:)-599.7(      anchors.bottom: parent.bottom)]TJ
+T*
+[(67:)-599.7(      anchors.right: parent.right)]TJ
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT8 7 0 R
+/TT10 8 0 R
+/TT12 9 0 R
+>>
+/ExtGState <<
+/GS1 10 0 R
+>>
+>>
+endobj
+13 0 obj
+<<
+/Length 1836
+>>
+stream
+0.95 g
+/GS1 gs
+24 800 547 -18 re
+f
+0.7 g
+24 818 72 -36 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 38.666 802 Tm
+0 g
+0 Tc
+0 Tw
+(04/12/20)Tj
+-0.0552 -1.0667 TD
+(17:21:57)Tj
+ET
+0.7 g
+499 818 72 -36 re
+f
+BT
+/TT4 1 Tf
+28.8 0 0 28.8 526.9914 789.2 Tm
+1 g
+(2)Tj
+/TT6 1 Tf
+14 0 0 14 214.9014 786.5 Tm
+0 g
+(/carberry/partials/Header.qml)Tj
+3.5537 1.2857 TD
+(Header.qml)Tj
+/TT8 1 Tf
+10 0 0 10 48 769 Tm
+[(68:)-599.7(    })]TJ
+0 -1.1 TD
+(69:)Tj
+T*
+(70:)Tj
+T*
+(71:)Tj
+T*
+(72:)Tj
+T*
+[(73:)-599.7(    Loader{)]TJ
+T*
+[(74:)-599.7(      id: pageLoader)]TJ
+T*
+(75:)Tj
+T*
+[(76:)-599.7(      sourceComponent: internal_rectangle.context.handler[)]TJ
+/TT12 1 Tf
+37.2 0 TD
+(ícode-existsí)Tj
+/TT8 1 Tf
+7.8 0 TD
+(] ? header_)Tj
+-46.9 -1.1 TD
+(engine_code_component : undefined)Tj
+1.9 -1.1 TD
+(77:)Tj
+T*
+[(78:)-599.7(      anchors.right: header_settings.left)]TJ
+T*
+[(79:)-599.7(      anchors.verticalCenter: parent.verticalCenter)]TJ
+T*
+(80:)Tj
+T*
+[(81:)-599.7(      property )]TJ
+/TT12 1 Tf
+11.4 0 TD
+(var)Tj
+/TT8 1 Tf
+1.8 0 TD
+( loader_style: internal_rectangle.context.config[)Tj
+/TT12 1 Tf
+29.4 0 TD
+(ístyleí)Tj
+/TT8 1 Tf
+4.2 0 TD
+(][)Tj
+/TT12 1 Tf
+1.2 0 TD
+(ícurre)Tj
+-49.9 -1.1 TD
+(ntí)Tj
+/TT8 1 Tf
+1.8 0 TD
+(])Tj
+0.1 -1.1 TD
+(82:)Tj
+T*
+[(83:)-599.7(      Component{)]TJ
+T*
+[(84:)-599.7(        id: header_engine_code_component)]TJ
+T*
+[(85:)-599.7(        Items.Alert{)]TJ
+T*
+[(86:)-599.7(          id: header_alert)]TJ
+T*
+[(87:)-599.7(          amount: 2)]TJ
+T*
+[(88:)-599.7(          style: loader_style)]TJ
+T*
+[(89:)-599.7(          stack: internal_rectangle.list[)]TJ
+/TT12 1 Tf
+27 0 TD
+(ístackí)Tj
+/TT8 1 Tf
+4.2 0 TD
+(])Tj
+-31.2 -1.1 TD
+[(90:)-599.7(          context: internal_rectangle.context)]TJ
+T*
+[(91:)-599.7(        })]TJ
+T*
+(92:)Tj
+T*
+[(93:)-599.7(      })]TJ
+T*
+(94:)Tj
+T*
+[(95:)-599.7(    })]TJ
+T*
+(96:)Tj
+T*
+(97:)Tj
+T*
+(98:)Tj
+T*
+[(99:)-599.7(})]TJ
+ET
+endstream
+endobj
+14 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT8 7 0 R
+/TT12 9 0 R
+>>
+/ExtGState <<
+/GS1 10 0 R
+>>
+>>
+endobj
+10 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+15 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 676
+/Descent -250
+/Flags 262178
+/FontBBox [-168 -218 1000 935]
+/FontName /Times-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 461
+/StemH 139
+>>
+endobj
+16 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 770
+/CapHeight 718
+/Descent -229
+/Flags 262176
+/FontBBox [-170 -228 1003 962]
+/FontName /Helvetica-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 532
+/StemH 140
+>>
+endobj
+17 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 662
+/Descent -250
+/Flags 34
+/FontBBox [-168 -218 1000 898]
+/FontName /Times-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 450
+/StemH 84
+>>
+endobj
+18 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 35
+/FontBBox [-28 -250 628 805]
+/FontName /Courier
+/ItalicAngle 0
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+19 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 99
+/FontBBox [-28 -250 742 805]
+/FontName /Courier-Oblique
+/ItalicAngle -15
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+20 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 262179
+/FontBBox [-113 -250 749 801]
+/FontName /Courier-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 439
+/StemH 84
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 47
+/LastChar 58
+/Widths [278 500 500 500 0 500 500 0 500 0 0 333 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Bold
+/FontDescriptor 15 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 49
+/LastChar 50
+/Widths [556 556 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Helvetica-Bold
+/FontDescriptor 16 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 46
+/LastChar 121
+/Widths [250 278 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 722 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 444 500 444 500 444 0 0 0 278 0 0 278 778 
+0 0 500 500 333 389 278 0 0 0 0 500 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Roman
+/FontDescriptor 17 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 125
+/Widths [600 600 0 0 0 0 600 0 600 600 0 0 0 0 600 0 
+600 600 600 600 600 600 600 600 600 600 600 0 0 600 0 600 
+0 600 600 600 0 600 0 0 600 600 0 0 600 0 0 0 
+0 600 600 600 0 0 0 600 0 0 0 600 0 600 0 600 
+0 600 600 600 600 600 600 600 600 600 0 600 600 600 600 600 
+600 0 600 600 600 600 600 600 600 600 600 600 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+/FontDescriptor 18 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 121
+/Widths [600 0 600 0 0 0 0 0 0 0 600 0 600 0 600 600 
+600 0 600 0 0 0 0 0 0 0 600 0 0 600 0 0 
+0 600 0 600 600 0 600 0 600 0 0 0 600 600 600 0 
+600 0 600 0 0 0 0 0 0 600 0 0 0 0 0 600 
+0 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 0 0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Oblique
+/FontDescriptor 19 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 146
+/Widths [600 600 600 0 0 0 0 0 0 0 0 0 0 600 600 600 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 600 0 600 0 0 0 0 0 0 600 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 600 
+0 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 0 600 600 600 600 600 600 600 600 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Bold
+/FontDescriptor 20 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 14 0 R
+/Contents 13 0 R
+>>
+endobj
+21 0 obj
+<<
+/S /D
+>>
+endobj
+22 0 obj
+<<
+/Nums [0 21 0 R ]
+>>
+endobj
+11 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 12 0 R]
+/Count 2
+/MediaBox [0 0 595 842]
+>>
+endobj
+23 0 obj
+<<
+/CreationDate (D:20200413160335-04'00')
+/ModDate (D:20200413160335-04'00')
+/Producer (Apple pstopdf)
+>>
+endobj
+24 0 obj
+<<
+/Type /Catalog
+/Pages 11 0 R
+/PageLabels 22 0 R
+>>
+endobj
+xref
+0 25
+0000000000 65535 f 
+0000011493 00000 n 
+0000000016 00000 n 
+0000005855 00000 n 
+0000009379 00000 n 
+0000009581 00000 n 
+0000009755 00000 n 
+0000010109 00000 n 
+0000010580 00000 n 
+0000011021 00000 n 
+0000008039 00000 n 
+0000011726 00000 n 
+0000011574 00000 n 
+0000006008 00000 n 
+0000007897 00000 n 
+0000008180 00000 n 
+0000008382 00000 n 
+0000008588 00000 n 
+0000008785 00000 n 
+0000008976 00000 n 
+0000009177 00000 n 
+0000011658 00000 n 
+0000011686 00000 n 
+0000011815 00000 n 
+0000011938 00000 n 
+trailer
+<<
+/Size 25
+/Root 24 0 R
+/Info 23 0 R
+/ID [<f360230ad95bf795adb65f744b0e5a66><f360230ad95bf795adb65f744b0e5a66>]
+>>
+startxref
+12008
+%%EOF
