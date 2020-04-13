@@ -1,0 +1,1891 @@
+%PDF-1.3
+%âãÏÓ
+2 0 obj
+<<
+/Length 5128
+>>
+stream
+0.95 g
+/GS1 gs
+24 800 547 -18 re
+f
+0.7 g
+24 818 72 -36 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 38.666 802 Tm
+0 g
+0 Tc
+0 Tw
+(04/12/20)Tj
+-0.0552 -1.0667 TD
+(17:18:28)Tj
+ET
+0.7 g
+499 818 72 -36 re
+f
+BT
+/TT4 1 Tf
+28.8 0 0 28.8 526.9914 789.2 Tm
+1 g
+(1)Tj
+/TT6 1 Tf
+14 0 0 14 220.7222 786.5 Tm
+0 g
+(/carberry/partials/Dash.qml)Tj
+3.5537 1.2857 TD
+(Dash.qml)Tj
+/TT8 1 Tf
+10 0 0 10 54 769 Tm
+(1:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(/*)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(2:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(* File: Dash.qml)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(3:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(* Description: Dashboard \(main screen\) component. Contains speed gauge, rpm)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(4:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(*               gauge, and thermometer)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(5:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(* Project: Carberry Pi)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(6:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(* Author: Ryan McHugh)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(7:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(* Year: 2020)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(8:)Tj
+/TT10 1 Tf
+1.8 0 TD
+(*/)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(9:)Tj
+/TT12 1 Tf
+1.8 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( QtQuick 2.11)Tj
+-6 -1.1 TD
+(10:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( QtQuick.Window 2.4)Tj
+-6 -1.1 TD
+(11:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( QtQuick.Controls 2.4)Tj
+-6 -1.1 TD
+(12:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( QtQuick.Controls.Styles 1.4)Tj
+-6 -1.1 TD
+(13:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( QtQuick.Layouts 1.3)Tj
+-6 -1.1 TD
+(14:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( QtQuick.Extras 1.4)Tj
+-6 -1.1 TD
+(15:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( )Tj
+/TT12 1 Tf
+0.6 0 TD
+("../js/rectCreation.js")Tj
+/TT8 1 Tf
+13.8 0 TD
+( as RectScript)Tj
+-20.4 -1.1 TD
+(16:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+3.6 0 TD
+( )Tj
+/TT12 1 Tf
+0.6 0 TD
+("../items")Tj
+/TT8 1 Tf
+6 0 TD
+( as Items)Tj
+-12.6 -1.1 TD
+(17:)Tj
+T*
+(18:)Tj
+T*
+[(19:)-599.7(Frame{)]TJ
+T*
+[(20:)-599.7(    id: root_dash)]TJ
+T*
+[(21:)-599.7(    property )]TJ
+/TT12 1 Tf
+10.2 0 TD
+(var)Tj
+/TT8 1 Tf
+1.8 0 TD
+( context: )Tj
+/TT12 1 Tf
+6 0 TD
+(null)Tj
+/TT8 1 Tf
+-18 -1.1 TD
+(22:)Tj
+T*
+[(23:)-599.7(    )]TJ
+/TT10 1 Tf
+4.8 0 TD
+(// Test alias)Tj
+/TT8 1 Tf
+-4.8 -1.1 TD
+[(24:)-599.7(    property alias speedVal: speedGauge.value)]TJ
+T*
+[(25:)-599.7(    property alias rpmVal: rpmGauge.value)]TJ
+T*
+[(26:)-599.7(    property alias coolantVal: coolantGauge.value)]TJ
+T*
+(27:)Tj
+T*
+[(28:)-599.7(    clip: )]TJ
+/TT12 1 Tf
+8.4 0 TD
+(true)Tj
+/TT8 1 Tf
+-8.4 -1.1 TD
+(29:)Tj
+T*
+[(30:)-599.7(    implicitWidth: 700)]TJ
+T*
+[(31:)-599.7(    implicitHeight: 420)]TJ
+T*
+(32:)Tj
+T*
+[(33:)-599.7(    Item{)]TJ
+T*
+(34:)Tj
+T*
+[(35:)-599.7(        )]TJ
+/TT10 1 Tf
+7.2 0 TD
+(// anchors.fill: parent)Tj
+/TT8 1 Tf
+-7.2 -1.1 TD
+[(36:)-599.7(        id: grid)]TJ
+T*
+[(37:)-599.7(        anchors.fill: parent)]TJ
+T*
+(38:)Tj
+T*
+[(39:)-599.7(        )]TJ
+/TT10 1 Tf
+7.2 0 TD
+(// flow: GridView.FlowTopToBottom)Tj
+/TT8 1 Tf
+-7.2 -1.1 TD
+(40:)Tj
+T*
+[(41:)-599.7(        )]TJ
+/TT10 1 Tf
+7.2 0 TD
+(// model: context)Tj
+/TT8 1 Tf
+-7.2 -1.1 TD
+(42:)Tj
+T*
+[(43:)-599.7(        )]TJ
+/TT10 1 Tf
+7.2 0 TD
+(// delegate: dashDelegate)Tj
+/TT8 1 Tf
+-7.2 -1.1 TD
+(44:)Tj
+T*
+[(45:)-599.7(        )]TJ
+/TT10 1 Tf
+7.2 0 TD
+(// Loader { sourceComponent: dashDelegate; dash_context: context })Tj
+/TT8 1 Tf
+-7.2 -1.1 TD
+(46:)Tj
+T*
+[(47:)-599.7(        )]TJ
+/TT10 1 Tf
+7.2 0 TD
+(// Component {)Tj
+/TT8 1 Tf
+-7.2 -1.1 TD
+[(48:)-599.7(        )]TJ
+/TT10 1 Tf
+7.2 0 TD
+(//     id: dashDelegate)Tj
+/TT8 1 Tf
+-7.2 -1.1 TD
+[(49:)-599.7(        Component.onCompleted: )]TJ
+/TT12 1 Tf
+21 0 TD
+(function)Tj
+/TT8 1 Tf
+4.8 0 TD
+(\(\) {)Tj
+-25.8 -1.1 TD
+[(50:)-599.7(          )]TJ
+/TT12 1 Tf
+8.4 0 TD
+(if)Tj
+/TT8 1 Tf
+1.2 0 TD
+(\(context == )Tj
+/TT12 1 Tf
+7.2 0 TD
+(null)Tj
+/TT8 1 Tf
+2.4 0 TD
+(\))Tj
+-19.2 -1.1 TD
+[(51:)-599.7(            )]TJ
+/TT12 1 Tf
+9.6 0 TD
+(return)Tj
+/TT8 1 Tf
+-9.6 -1.1 TD
+(52:)Tj
+T*
+[(53:)-599.7(          grid.state = context.config[)]TJ
+/TT12 1 Tf
+25.2 0 TD
+(’style’)Tj
+/TT8 1 Tf
+4.2 0 TD
+(][)Tj
+/TT12 1 Tf
+1.2 0 TD
+(’current’)Tj
+/TT8 1 Tf
+5.4 0 TD
+(])Tj
+-36 -1.1 TD
+[(54:)-599.7(        })]TJ
+T*
+(55:)Tj
+T*
+[(56:)-599.7(            Column{)]TJ
+T*
+[(57:)-599.7(              id: dashboard)]TJ
+T*
+[(58:)-599.7(              )]TJ
+/TT10 1 Tf
+10.8 0 TD
+(// Component.onCompleted: RectScript.rectCreation\(dashboard, model\))Tj
+/TT8 1 Tf
+-10.8 -1.1 TD
+[(59:)-599.7(              anchors.horizontalCenter: parent.horizontalCenter)]TJ
+T*
+[(60:)-599.7(              Row{)]TJ
+T*
+[(61:)-599.7(                  leftPadding: 20)]TJ
+T*
+[(62:)-599.7(                  )]TJ
+/TT10 1 Tf
+13.2 0 TD
+(// Label{text: "Speed: " + model.speedValue})Tj
+/TT8 1 Tf
+-13.2 -1.1 TD
+[(63:)-599.7(                  Column {)]TJ
+T*
+[(64:)-599.7(                    padding: 10)]TJ
+T*
+[(65:)-599.7(                    CircularGauge {)]TJ
+T*
+[(66:)-599.7(                      id: speedGauge)]TJ
+T*
+[(67:)-599.7(                      objectName: )]TJ
+/TT12 1 Tf
+22.8 0 TD
+("gauge_speed")Tj
+/TT8 1 Tf
+-22.8 -1.1 TD
+[(68:)-599.7(                      property )]TJ
+/TT12 1 Tf
+21 0 TD
+(var)Tj
+/TT8 1 Tf
+1.8 0 TD
+( prop_color: )Tj
+/TT12 1 Tf
+7.8 0 TD
+("black")Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT8 7 0 R
+/TT10 8 0 R
+/TT12 9 0 R
+>>
+/ExtGState <<
+/GS1 10 0 R
+>>
+>>
+endobj
+13 0 obj
+<<
+/Length 6279
+>>
+stream
+0.95 g
+/GS1 gs
+24 800 547 -18 re
+f
+0.7 g
+24 818 72 -36 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 38.666 802 Tm
+0 g
+0 Tc
+0 Tw
+(04/12/20)Tj
+-0.0552 -1.0667 TD
+(17:18:28)Tj
+ET
+0.7 g
+499 818 72 -36 re
+f
+BT
+/TT4 1 Tf
+28.8 0 0 28.8 526.9914 789.2 Tm
+1 g
+(2)Tj
+/TT6 1 Tf
+14 0 0 14 220.7222 786.5 Tm
+0 g
+(/carberry/partials/Dash.qml)Tj
+3.5537 1.2857 TD
+(Dash.qml)Tj
+/TT8 1 Tf
+10 0 0 10 48 769 Tm
+[(69:)-599.7(                      value: context.handler[)]TJ
+/TT12 1 Tf
+29.4 0 TD
+(’speed’)Tj
+/TT8 1 Tf
+4.2 0 TD
+(])Tj
+-33.6 -1.1 TD
+[(70:)-599.7(                      minimumValue: 0)]TJ
+T*
+[(71:)-599.7(                      maximumValue: context.config[)]TJ
+/TT12 1 Tf
+33 0 TD
+(’locality’)Tj
+/TT8 1 Tf
+6 0 TD
+(][)Tj
+/TT12 1 Tf
+1.2 0 TD
+(’current’)Tj
+/TT8 1 Tf
+5.4 0 TD
+(] == )Tj
+/TT12 1 Tf
+3 0 TD
+("en-U)Tj
+-50.5 -1.1 TD
+(S")Tj
+/TT8 1 Tf
+1.2 0 TD
+( ? 140 : 250)Tj
+0.7 -1.1 TD
+(72:)Tj
+T*
+[(73:)-599.7(                      style: CircularGaugeStyle{)]TJ
+T*
+[(74:)-599.7(                        tickmark: Rectangle {)]TJ
+T*
+[(75:)-599.7(                          implicitWidth: outerRadius * 0.02)]TJ
+T*
+[(76:)-599.7(                          implicitHeight: outerRadius * 0.05)]TJ
+T*
+[(77:)-599.7(                          color: speedGauge.prop_color)]TJ
+T*
+[(78:)-599.7(                          antialiasing: )]TJ
+/TT12 1 Tf
+26.4 0 TD
+(true)Tj
+/TT8 1 Tf
+-26.4 -1.1 TD
+[(79:)-599.7(                        })]TJ
+T*
+(80:)Tj
+T*
+[(81:)-599.7(                        labelStepSize: context.config[)]TJ
+/TT12 1 Tf
+34.8 0 TD
+(’locality’)Tj
+/TT8 1 Tf
+6 0 TD
+(][)Tj
+/TT12 1 Tf
+1.2 0 TD
+(’current’)Tj
+/TT8 1 Tf
+5.4 0 TD
+(] == )Tj
+/TT12 1 Tf
+3 0 TD
+("e)Tj
+-52.3 -1.1 TD
+(n-US")Tj
+/TT8 1 Tf
+3 0 TD
+( ? 10 : parent.maximumValue )Tj
+/TT12 1 Tf
+16.8 0 TD
+(/ 10)Tj
+/TT8 1 Tf
+-17.9 -1.1 TD
+(82:)Tj
+T*
+(83:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(                        tickmarkLabel: Text{)Tj
+/TT8 1 Tf
+-2.4 -1.1 TD
+(84:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(                          font.pixelSize: Math.max\(6, outerRadius * 0.1\))Tj
+/TT8 1 Tf
+-2.4 -1.1 TD
+(85:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(                          text: styleData.value)Tj
+/TT8 1 Tf
+-2.4 -1.1 TD
+(86:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(                          color: speedGauge.prop_color)Tj
+/TT8 1 Tf
+-2.4 -1.1 TD
+(87:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(                        })Tj
+/TT8 1 Tf
+-2.4 -1.1 TD
+(88:)Tj
+T*
+(89:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(                        minorTickmark: Rectangle {)Tj
+/TT8 1 Tf
+-2.4 -1.1 TD
+(90:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(                          implicitWidth: outerRadius * 0.01)Tj
+/TT8 1 Tf
+-2.4 -1.1 TD
+(91:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(                          implicitHeight: outerRadius * 0.03)Tj
+/TT8 1 Tf
+-2.4 -1.1 TD
+(92:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(                          color: speedGauge.prop_color)Tj
+/TT8 1 Tf
+-2.4 -1.1 TD
+(93:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(                          antialiasing: true)Tj
+/TT8 1 Tf
+-2.4 -1.1 TD
+(94:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(                        })Tj
+/TT8 1 Tf
+-2.4 -1.1 TD
+(95:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(                      })Tj
+/TT8 1 Tf
+-2.4 -1.1 TD
+(96:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(                      Items.Label{)Tj
+/TT8 1 Tf
+-2.4 -1.1 TD
+(97:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(                        style: context.config[’style’][’current’] + "_grey")Tj
+/TT8 1 Tf
+-2.4 -1.1 TD
+(98:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(                        text: context.config[’locality’][’current’] == "en-US" ? ")Tj
+-4.3 -1.1 TD
+(mph" : "km /)Tj
+/TT8 1 Tf
+7.2 0 TD
+( h)Tj
+/TT12 1 Tf
+1.2 0 TD
+(")Tj
+/TT8 1 Tf
+-6.5 -1.1 TD
+(99:)Tj
+/TT12 1 Tf
+2.4 0 TD
+(                        anchors.horizontalCenter: parent.horizontalCenter)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(100:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        anchors.bottom: parent.bottom)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(101:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        anchors.bottomMargin: 20)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(102:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        padding: 0)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(103:)Tj
+/TT12 1 Tf
+3 0 TD
+(                      })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(104:)Tj
+T*
+(105:)Tj
+/TT12 1 Tf
+3 0 TD
+(                    })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(106:)Tj
+T*
+(107:)Tj
+T*
+(108:)Tj
+T*
+(109:)Tj
+/TT12 1 Tf
+3 0 TD
+(                  })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(110:)Tj
+T*
+(111:)Tj
+/TT12 1 Tf
+3 0 TD
+(                  Column {)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(112:)Tj
+/TT12 1 Tf
+3 0 TD
+(                    padding: 10)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(113:)Tj
+/TT12 1 Tf
+3 0 TD
+(                    // Label{text: ")Tj
+/TT8 1 Tf
+21.6 0 TD
+(RPM: )Tj
+/TT12 1 Tf
+3 0 TD
+(" + model.rpmValue})Tj
+/TT8 1 Tf
+-27.6 -1.1 TD
+(114:)Tj
+/TT12 1 Tf
+3 0 TD
+(                    CircularGauge {)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(115:)Tj
+/TT12 1 Tf
+3 0 TD
+(                      id: rpmGauge)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(116:)Tj
+/TT12 1 Tf
+3 0 TD
+(                      objectName: ")Tj
+/TT8 1 Tf
+21 0 TD
+(gauge_rpm)Tj
+/TT12 1 Tf
+5.4 0 TD
+(")Tj
+/TT8 1 Tf
+-29.4 -1.1 TD
+(117:)Tj
+/TT12 1 Tf
+3 0 TD
+(                      property var prop_color: ")Tj
+/TT8 1 Tf
+28.8 0 TD
+(black)Tj
+/TT12 1 Tf
+3 0 TD
+(")Tj
+/TT8 1 Tf
+-34.8 -1.1 TD
+(118:)Tj
+/TT12 1 Tf
+3 0 TD
+(                      value: context.handler[’rpm’])Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(119:)Tj
+/TT12 1 Tf
+3 0 TD
+(                      minimumValue: 0)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(120:)Tj
+/TT12 1 Tf
+3 0 TD
+(                      maximumValue: 8000)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(121:)Tj
+T*
+(122:)Tj
+/TT12 1 Tf
+3 0 TD
+(                      style: CircularGaugeStyle{)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(123:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        labelStepSize: 1000)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(124:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        tickmarkStepSize: 500)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(125:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        minorTickmarkCount: 10)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(126:)Tj
+T*
+(127:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        tickmark: Rectangle {)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(128:)Tj
+/TT12 1 Tf
+3 0 TD
+(                          implicitWidth: outerRadius * 0.02)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(129:)Tj
+/TT12 1 Tf
+3 0 TD
+(                          implicitHeight: outerRadius * 0.05)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(130:)Tj
+/TT12 1 Tf
+3 0 TD
+(                          color: rpmGauge.prop_color)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(131:)Tj
+/TT12 1 Tf
+3 0 TD
+(                          antialiasing: true)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(132:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(133:)Tj
+ET
+endstream
+endobj
+14 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT8 7 0 R
+/TT12 9 0 R
+>>
+/ExtGState <<
+/GS1 10 0 R
+>>
+>>
+endobj
+16 0 obj
+<<
+/Length 6572
+>>
+stream
+0.95 g
+/GS1 gs
+24 800 547 -18 re
+f
+0.7 g
+24 818 72 -36 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 38.666 802 Tm
+0 g
+0 Tc
+0 Tw
+(04/12/20)Tj
+-0.0552 -1.0667 TD
+(17:18:28)Tj
+ET
+0.7 g
+499 818 72 -36 re
+f
+BT
+/TT4 1 Tf
+28.8 0 0 28.8 526.9914 789.2 Tm
+1 g
+(3)Tj
+/TT6 1 Tf
+14 0 0 14 220.7222 786.5 Tm
+0 g
+(/carberry/partials/Dash.qml)Tj
+3.5537 1.2857 TD
+(Dash.qml)Tj
+/TT8 1 Tf
+10 0 0 10 42 769 Tm
+(134:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        tickmarkLabel: Text{)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(135:)Tj
+/TT12 1 Tf
+3 0 TD
+(                          font.pixelSize: Math.max\(6, outerRadius * 0.1\))Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(136:)Tj
+/TT12 1 Tf
+3 0 TD
+(                          text: styleData.value)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(137:)Tj
+/TT12 1 Tf
+3 0 TD
+(                          color: rpmGauge.prop_color)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(138:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(139:)Tj
+T*
+(140:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        minorTickmark: Rectangle {)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(141:)Tj
+/TT12 1 Tf
+3 0 TD
+(                          implicitWidth: outerRadius * 0.01)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(142:)Tj
+/TT12 1 Tf
+3 0 TD
+(                          implicitHeight: outerRadius * 0.03)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(143:)Tj
+/TT12 1 Tf
+3 0 TD
+(                          color: rpmGauge.prop_color)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(144:)Tj
+/TT12 1 Tf
+3 0 TD
+(                          antialiasing: true)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(145:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(146:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        // needle: Rectangle{)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(147:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        //   y: outerRadius * 0.15)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(148:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        //   implicitWidth: outerRadius * 0.03)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(149:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        //   implicitHeight: outerRadius * 0.9)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(150:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        //   antialiasing: true)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(151:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        //   color: ")Tj
+/TT8 1 Tf
+22.2 0 TD
+(blue)Tj
+/TT12 1 Tf
+2.4 0 TD
+(")Tj
+/TT8 1 Tf
+-27.6 -1.1 TD
+(152:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        // })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(153:)Tj
+/TT12 1 Tf
+3 0 TD
+(                      })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(154:)Tj
+/TT12 1 Tf
+3 0 TD
+(                      Items.Label{)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(155:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        style: context.config[’style’][’current’] + ")Tj
+/TT8 1 Tf
+41.4 0 TD
+(_grey)Tj
+/TT12 1 Tf
+3 0 TD
+(")Tj
+/TT8 1 Tf
+-47.4 -1.1 TD
+(156:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        text: ’rpm’)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(157:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        anchors.horizontalCenter: parent.horizontalCenter)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(158:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        anchors.bottom: parent.bottom)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(159:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        anchors.bottomMargin: 20)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(160:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        padding: 0)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(161:)Tj
+/TT12 1 Tf
+3 0 TD
+(                      })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(162:)Tj
+/TT12 1 Tf
+3 0 TD
+(                    })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(163:)Tj
+T*
+(164:)Tj
+/TT12 1 Tf
+3 0 TD
+(                  })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(165:)Tj
+T*
+(166:)Tj
+T*
+(167:)Tj
+/TT12 1 Tf
+3 0 TD
+(              })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(168:)Tj
+T*
+(169:)Tj
+T*
+(170:)Tj
+/TT12 1 Tf
+3 0 TD
+(              Column{)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(171:)Tj
+/TT12 1 Tf
+3 0 TD
+(                anchors.horizontalCenter: parent.horizontalCenter)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(172:)Tj
+/TT12 1 Tf
+3 0 TD
+(                anchors.horizontalCenterOffset: -75)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(173:)Tj
+/TT12 1 Tf
+3 0 TD
+(                Row{)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(174:)Tj
+/TT12 1 Tf
+3 0 TD
+(                  Items.Label{)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(175:)Tj
+/TT12 1 Tf
+3 0 TD
+(                      Component.onCompleted: function\(\){)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(176:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        var loc = context.config[’locality’][’current’])Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(177:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        if\(loc == ")Tj
+/TT8 1 Tf
+21 0 TD
+(en-US)Tj
+/TT12 1 Tf
+3 0 TD
+("\))Tj
+/TT8 1 Tf
+-27 -1.1 TD
+(178:)Tj
+/TT12 1 Tf
+3 0 TD
+(                          text = ")Tj
+/TT8 1 Tf
+20.4 0 TD
+(Engine Temp \(Â°F\))Tj
+/TT12 1 Tf
+10.2 0 TD
+(")Tj
+/TT8 1 Tf
+-33.6 -1.1 TD
+(179:)Tj
+/TT12 1 Tf
+3 0 TD
+(                        else)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(180:)Tj
+/TT12 1 Tf
+3 0 TD
+(                          text = ")Tj
+/TT8 1 Tf
+20.4 0 TD
+(Engine Temp \(Â°C\))Tj
+/TT12 1 Tf
+10.2 0 TD
+(")Tj
+/TT8 1 Tf
+-33.6 -1.1 TD
+(181:)Tj
+/TT12 1 Tf
+3 0 TD
+(                      })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(182:)Tj
+/TT12 1 Tf
+3 0 TD
+(                      text: ")Tj
+/TT8 1 Tf
+17.4 0 TD
+(Engine Temp)Tj
+/TT12 1 Tf
+6.6 0 TD
+(" ;)Tj
+/TT8 1 Tf
+-27 -1.1 TD
+(183:)Tj
+/TT12 1 Tf
+3 0 TD
+(                      padding: 30;)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(184:)Tj
+/TT12 1 Tf
+3 0 TD
+(                      style: context.config[’style’][’current’] + ")Tj
+/TT8 1 Tf
+40.2 0 TD
+(_grey)Tj
+/TT12 1 Tf
+3 0 TD
+(")Tj
+/TT8 1 Tf
+-46.2 -1.1 TD
+(185:)Tj
+/TT12 1 Tf
+3 0 TD
+(                    })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(186:)Tj
+/TT12 1 Tf
+3 0 TD
+(                  Items.Thermometer{)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(187:)Tj
+/TT12 1 Tf
+3 0 TD
+(                    id: coolantGauge)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(188:)Tj
+/TT12 1 Tf
+3 0 TD
+(                    value: context.handler[’engine_temp’])Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(189:)Tj
+/TT12 1 Tf
+3 0 TD
+(                    context_style: context.config[’style’][’current’])Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(190:)Tj
+/TT12 1 Tf
+3 0 TD
+(                    })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(191:)Tj
+/TT12 1 Tf
+3 0 TD
+(                })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(192:)Tj
+T*
+(193:)Tj
+/TT12 1 Tf
+3 0 TD
+(                // Row{)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(194:)Tj
+/TT12 1 Tf
+3 0 TD
+(                //   leftPadding: 40)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(195:)Tj
+/TT12 1 Tf
+3 0 TD
+(                //   Items.Thermometer{value: context.diagnostics[’OIL_TEMP’]; con)Tj
+-4.3 -1.1 TD
+(text_style: context.config[’style’][’current’]})Tj
+/TT8 1 Tf
+1.3 -1.1 TD
+(196:)Tj
+/TT12 1 Tf
+3 0 TD
+(                //   Items.Label{text: ")Tj
+/TT8 1 Tf
+24 0 TD
+(Oil Temp)Tj
+/TT12 1 Tf
+4.8 0 TD
+("; padding: 30;)Tj
+/TT8 1 Tf
+-31.8 -1.1 TD
+(197:)Tj
+/TT12 1 Tf
+3 0 TD
+(                //       style: context.config[’style’][’current’]})Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(198:)Tj
+/TT12 1 Tf
+3 0 TD
+(                // })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(199:)Tj
+T*
+(200:)Tj
+ET
+endstream
+endobj
+17 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT8 7 0 R
+/TT12 9 0 R
+>>
+/ExtGState <<
+/GS1 10 0 R
+>>
+>>
+endobj
+19 0 obj
+<<
+/Length 3025
+>>
+stream
+0.95 g
+/GS1 gs
+24 800 547 -18 re
+f
+0.7 g
+24 818 72 -36 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 38.666 802 Tm
+0 g
+0 Tc
+0 Tw
+(04/12/20)Tj
+-0.0552 -1.0667 TD
+(17:18:28)Tj
+ET
+0.7 g
+499 818 72 -36 re
+f
+BT
+/TT4 1 Tf
+28.8 0 0 28.8 526.9914 789.2 Tm
+1 g
+(4)Tj
+/TT6 1 Tf
+14 0 0 14 220.7222 786.5 Tm
+0 g
+(/carberry/partials/Dash.qml)Tj
+3.5537 1.2857 TD
+(Dash.qml)Tj
+/TT8 1 Tf
+10 0 0 10 42 769 Tm
+(201:)Tj
+/TT12 1 Tf
+3 0 TD
+(              })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(202:)Tj
+T*
+(203:)Tj
+T*
+(204:)Tj
+/TT12 1 Tf
+3 0 TD
+(            // })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(205:)Tj
+T*
+(206:)Tj
+T*
+(207:)Tj
+T*
+(208:)Tj
+T*
+(209:)Tj
+/TT12 1 Tf
+3 0 TD
+(          })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(210:)Tj
+T*
+(211:)Tj
+/TT12 1 Tf
+3 0 TD
+(          states: [)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(212:)Tj
+/TT12 1 Tf
+3 0 TD
+(            State {)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(213:)Tj
+/TT12 1 Tf
+3 0 TD
+(              name: ")Tj
+/TT8 1 Tf
+12.6 0 TD
+(dark)Tj
+/TT12 1 Tf
+2.4 0 TD
+(")Tj
+/TT8 1 Tf
+-18 -1.1 TD
+(214:)Tj
+/TT12 1 Tf
+3 0 TD
+(              PropertyChanges {)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(215:)Tj
+/TT12 1 Tf
+3 0 TD
+(                target: speedGauge)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(216:)Tj
+/TT12 1 Tf
+3 0 TD
+(                prop_color: ")Tj
+/TT8 1 Tf
+17.4 0 TD
+(white)Tj
+/TT12 1 Tf
+3 0 TD
+(")Tj
+/TT8 1 Tf
+-23.4 -1.1 TD
+(217:)Tj
+/TT12 1 Tf
+3 0 TD
+(              })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(218:)Tj
+/TT12 1 Tf
+3 0 TD
+(              PropertyChanges {)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(219:)Tj
+/TT12 1 Tf
+3 0 TD
+(                target: rpmGauge)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(220:)Tj
+/TT12 1 Tf
+3 0 TD
+(                prop_color: ")Tj
+/TT8 1 Tf
+17.4 0 TD
+(white)Tj
+/TT12 1 Tf
+3 0 TD
+(")Tj
+/TT8 1 Tf
+-23.4 -1.1 TD
+(221:)Tj
+/TT12 1 Tf
+3 0 TD
+(              })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(222:)Tj
+/TT12 1 Tf
+3 0 TD
+(            },)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(223:)Tj
+/TT12 1 Tf
+3 0 TD
+(            State {)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(224:)Tj
+/TT12 1 Tf
+3 0 TD
+(              name: ")Tj
+/TT8 1 Tf
+12.6 0 TD
+(light)Tj
+/TT12 1 Tf
+3 0 TD
+(")Tj
+/TT8 1 Tf
+-18.6 -1.1 TD
+(225:)Tj
+/TT12 1 Tf
+3 0 TD
+(              PropertyChanges {)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(226:)Tj
+/TT12 1 Tf
+3 0 TD
+(                target: speedGauge)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(227:)Tj
+/TT12 1 Tf
+3 0 TD
+(                prop_color: ")Tj
+/TT8 1 Tf
+17.4 0 TD
+(black)Tj
+/TT12 1 Tf
+3 0 TD
+(")Tj
+/TT8 1 Tf
+-23.4 -1.1 TD
+(228:)Tj
+/TT12 1 Tf
+3 0 TD
+(              })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(229:)Tj
+/TT12 1 Tf
+3 0 TD
+(              PropertyChanges {)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(230:)Tj
+/TT12 1 Tf
+3 0 TD
+(                target: rpmGauge)Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(231:)Tj
+/TT12 1 Tf
+3 0 TD
+(                prop_color: ")Tj
+/TT8 1 Tf
+17.4 0 TD
+(black)Tj
+/TT12 1 Tf
+3 0 TD
+(")Tj
+/TT8 1 Tf
+-23.4 -1.1 TD
+(232:)Tj
+/TT12 1 Tf
+3 0 TD
+(              })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(233:)Tj
+/TT12 1 Tf
+3 0 TD
+(            })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(234:)Tj
+/TT12 1 Tf
+3 0 TD
+(          ])Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(235:)Tj
+T*
+(236:)Tj
+T*
+(237:)Tj
+/TT12 1 Tf
+3 0 TD
+(    })Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(238:)Tj
+T*
+(239:)Tj
+T*
+(240:)Tj
+T*
+(241:)Tj
+/TT12 1 Tf
+3 0 TD
+(})Tj
+/TT8 1 Tf
+-3 -1.1 TD
+(242:)Tj
+ET
+endstream
+endobj
+20 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT8 7 0 R
+/TT12 9 0 R
+>>
+/ExtGState <<
+/GS1 10 0 R
+>>
+>>
+endobj
+10 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+21 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 676
+/Descent -250
+/Flags 262178
+/FontBBox [-168 -218 1000 935]
+/FontName /Times-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 461
+/StemH 139
+>>
+endobj
+22 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 770
+/CapHeight 718
+/Descent -229
+/Flags 262176
+/FontBBox [-170 -228 1003 962]
+/FontName /Helvetica-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 532
+/StemH 140
+>>
+endobj
+23 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 662
+/Descent -250
+/Flags 34
+/FontBBox [-168 -218 1000 898]
+/FontName /Times-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 450
+/StemH 84
+>>
+endobj
+24 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 35
+/FontBBox [-28 -250 628 805]
+/FontName /Courier
+/ItalicAngle 0
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+25 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 99
+/FontBBox [-28 -250 742 805]
+/FontName /Courier-Oblique
+/ItalicAngle -15
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+26 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 262179
+/FontBBox [-113 -250 749 801]
+/FontName /Courier-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 439
+/StemH 84
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 47
+/LastChar 58
+/Widths [278 500 500 500 0 500 0 0 500 500 0 333 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Bold
+/FontDescriptor 21 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 49
+/LastChar 52
+/Widths [556 556 556 556 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Helvetica-Bold
+/FontDescriptor 22 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 46
+/LastChar 121
+/Widths [250 278 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 722 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 444 500 444 0 444 0 0 500 278 0 0 278 778 
+0 0 500 500 333 389 278 0 0 0 0 500 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Roman
+/FontDescriptor 23 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 194
+/Widths [600 0 0 0 0 0 0 0 600 600 600 0 0 600 600 0 
+600 600 600 600 600 600 600 600 600 600 600 0 0 600 0 600 
+0 0 0 600 0 600 600 600 600 600 0 0 600 600 600 600 
+600 600 600 600 600 600 600 600 0 0 0 600 0 600 0 600 
+0 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 0 600 600 600 600 600 600 600 600 600 600 0 600 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+/FontDescriptor 24 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 125
+/Widths [600 0 600 0 0 0 0 0 600 600 600 600 600 0 600 600 
+600 0 600 0 0 0 0 0 0 0 600 600 0 0 0 0 
+0 600 600 600 600 0 600 600 600 0 0 0 600 600 0 0 
+600 0 600 600 600 0 600 0 0 600 0 0 0 0 0 600 
+0 600 600 600 600 600 600 600 600 600 600 0 600 600 600 600 
+600 600 600 600 600 600 0 600 600 600 0 600 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Oblique
+/FontDescriptor 25 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 146
+/Widths [600 0 600 0 0 0 0 0 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 0 600 0 600 
+0 0 0 600 600 600 0 600 600 600 0 0 600 600 600 600 
+600 0 600 600 600 600 600 600 0 0 0 600 0 600 0 600 
+0 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 0 600 600 600 600 600 600 600 600 600 600 0 600 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Bold
+/FontDescriptor 26 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 14 0 R
+/Contents 13 0 R
+>>
+endobj
+15 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 17 0 R
+/Contents 16 0 R
+>>
+endobj
+18 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 20 0 R
+/Contents 19 0 R
+>>
+endobj
+27 0 obj
+<<
+/S /D
+>>
+endobj
+28 0 obj
+<<
+/Nums [0 27 0 R ]
+>>
+endobj
+11 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 12 0 R 15 0 R 18 0 R]
+/Count 4
+/MediaBox [0 0 595 842]
+>>
+endobj
+29 0 obj
+<<
+/CreationDate (D:20200413160335-04'00')
+/ModDate (D:20200413160335-04'00')
+/Producer (Apple pstopdf)
+>>
+endobj
+30 0 obj
+<<
+/Type /Catalog
+/Pages 11 0 R
+/PageLabels 28 0 R
+>>
+endobj
+xref
+0 31
+0000000000 65535 f 
+0000025537 00000 n 
+0000000016 00000 n 
+0000005196 00000 n 
+0000023150 00000 n 
+0000023352 00000 n 
+0000023534 00000 n 
+0000023888 00000 n 
+0000024522 00000 n 
+0000024991 00000 n 
+0000021810 00000 n 
+0000025938 00000 n 
+0000025618 00000 n 
+0000005349 00000 n 
+0000011681 00000 n 
+0000025702 00000 n 
+0000011823 00000 n 
+0000018448 00000 n 
+0000025786 00000 n 
+0000018590 00000 n 
+0000021668 00000 n 
+0000021951 00000 n 
+0000022153 00000 n 
+0000022359 00000 n 
+0000022556 00000 n 
+0000022747 00000 n 
+0000022948 00000 n 
+0000025870 00000 n 
+0000025898 00000 n 
+0000026041 00000 n 
+0000026164 00000 n 
+trailer
+<<
+/Size 31
+/Root 30 0 R
+/Info 29 0 R
+/ID [<e9b40c291b13aa0dda3d8cbb772e825a><e9b40c291b13aa0dda3d8cbb772e825a>]
+>>
+startxref
+26234
+%%EOF
