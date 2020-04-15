@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# File: start.sh
+# File: start_carberry.sh
 # Description: Bash executable for running the application
 # Project: Carberry Pi
 # Author: Ryan McHugh
@@ -9,4 +9,4 @@
 
 cd "$CARLOC"
 
-sudo ./start_loop.sh
+sudo ./start_loop.sh $1

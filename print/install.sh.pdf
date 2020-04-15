@@ -2,7 +2,7 @@
 %‚„œ”
 2 0 obj
 <<
-/Length 1160
+/Length 1753
 >>
 stream
 0.95 g
@@ -20,7 +20,7 @@ BT
 0 Tw
 (04/15/20)Tj
 -0.0552 -1.0667 TD
-(13:16:55)Tj
+(13:30:36)Tj
 ET
 0.7 g
 499 818 72 -36 re
@@ -31,17 +31,17 @@ BT
 1 g
 (1)Tj
 /TT6 1 Tf
-14 0 0 14 236.8584 786.5 Tm
+14 0 0 14 268.7207 786.5 Tm
 0 g
-(./src/start_carberry.sh)Tj
-0.9858 1.2857 TD
-(start_carberry.sh)Tj
+(./install.sh)Tj
+0.2639 1.2857 TD
+(install.sh)Tj
 /TT8 1 Tf
 10 0 0 10 54 769 Tm
 (1:)Tj
 /TT10 1 Tf
 1.8 0 TD
-(#!/bin/sh)Tj
+(#!/bin/bash)Tj
 /TT8 1 Tf
 -1.8 -1.1 TD
 (2:)Tj
@@ -53,13 +53,13 @@ BT
 (3:)Tj
 /TT12 1 Tf
 1.8 0 TD
-(# File: start_carberry.sh)Tj
+(# File: install.sh)Tj
 /TT8 1 Tf
 -1.8 -1.1 TD
 (4:)Tj
 /TT12 1 Tf
 1.8 0 TD
-(# Description: Bash executable for running the application)Tj
+(# Description: Bash executable for setting up all dependencies)Tj
 /TT8 1 Tf
 -1.8 -1.1 TD
 (5:)Tj
@@ -88,21 +88,63 @@ BT
 -1.8 -1.1 TD
 (9:)Tj
 -0.6 -1.1 TD
-(10:)Tj
+[(10:)-599.7(PACKAGES= )]TJ
 /TT10 1 Tf
-2.4 0 TD
-(cd)Tj
+8.4 0 TD
+("qml Python3-pyqt5 Python3-pyqt5.qtquick Qml-module-qtquick* Python3-set)Tj
+-10.3 -1.1 TD
+(uptools")Tj
 /TT8 1 Tf
-1.2 0 TD
+1.9 -1.1 TD
+(11:)Tj
+T*
+[(12:)-599.7(sudo apt-get install )]TJ
+/TT10 1 Tf
+15 0 TD
+("$PACKAGES")Tj
+/TT8 1 Tf
+6.6 0 TD
+( )Tj
+-21.6 -1.1 TD
+(13:)Tj
+T*
+[(14:)-599.7(sudo )]TJ
+/TT10 1 Tf
+5.4 0 TD
+(echo)Tj
+/TT8 1 Tf
+2.4 0 TD
 ( )Tj
 /TT10 1 Tf
 0.6 0 TD
-("$CARLOC")Tj
+("export CARLOC=ëpwdë/src/")Tj
 /TT8 1 Tf
--4.2 -1.1 TD
-(11:)Tj
+15.6 0 TD
+( >> ./bashrc)Tj
+-24 -1.1 TD
+(15:)Tj
 T*
-[(12:)-599.7(sudo ./start_loop.sh $1)]TJ
+[(16:)-599.7(sudo )]TJ
+/TT10 1 Tf
+5.4 0 TD
+(echo)Tj
+/TT8 1 Tf
+2.4 0 TD
+( )Tj
+/TT10 1 Tf
+0.6 0 TD
+("@/usr/bin/bash ëpwdë/src/start_carberry.sh")Tj
+/TT8 1 Tf
+26.4 0 TD
+( >> /etc/xdg/lxsession/LXDE/)Tj
+-36.7 -1.1 TD
+(autostart)Tj
+/TT10 1 Tf
+5.4 0 TD
+(")Tj
+/TT8 1 Tf
+-3.5 -1.1 TD
+(17:)Tj
 ET
 endstream
 endobj
@@ -255,12 +297,12 @@ endobj
 /Type /Font
 /Subtype /TrueType
 /FirstChar 46
-/LastChar 121
+/LastChar 116
 /Widths [250 278 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-0 500 0 444 500 444 0 444 0 0 500 0 0 0 0 0 
-0 0 0 0 333 389 278 0 0 0 0 500 ]
+0 0 0 444 0 0 0 0 0 0 500 278 0 0 278 0 
+500 0 0 0 0 389 278 ]
 /Encoding /WinAnsiEncoding
 /BaseFont /Times-Roman
 /FontDescriptor 14 0 R
@@ -271,13 +313,13 @@ endobj
 /Type /Font
 /Subtype /TrueType
 /FirstChar 32
-/LastChar 117
-/Widths [600 0 0 0 600 0 0 0 0 0 0 0 0 0 600 600 
-600 600 600 600 600 600 600 600 600 600 600 0 0 0 0 0 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 600 
-0 600 0 0 600 0 0 0 600 0 0 0 600 0 0 600 
-600 0 600 600 600 600 ]
+/LastChar 120
+/Widths [600 0 0 0 0 0 0 0 0 0 0 0 0 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 0 0 600 600 0 
+0 600 0 600 600 600 0 600 0 0 0 600 600 0 0 0 
+600 0 0 600 0 0 0 0 600 0 0 0 0 0 0 0 
+0 600 600 600 600 600 0 600 600 600 0 0 600 0 600 600 
+600 0 600 600 600 600 0 0 600 ]
 /Encoding /WinAnsiEncoding
 /BaseFont /Courier
 /FontDescriptor 15 0 R
@@ -287,14 +329,16 @@ endobj
 <<
 /Type /Font
 /Subtype /TrueType
-/FirstChar 33
-/LastChar 115
-/Widths [600 600 600 600 0 0 0 0 0 0 0 0 0 0 600 0 
+/FirstChar 32
+/LastChar 145
+/Widths [600 600 600 600 600 0 0 0 0 0 600 0 0 600 600 600 
+0 0 0 600 0 600 0 0 0 0 0 0 0 600 0 0 
+600 600 0 600 0 600 0 600 0 0 0 600 600 0 0 600 
+600 600 600 600 0 0 0 0 0 0 0 0 0 0 0 600 
+0 600 600 600 600 600 0 0 600 600 0 600 600 600 600 600 
+600 600 600 600 600 600 0 600 600 600 0 0 0 0 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-600 0 600 0 0 0 0 0 0 0 0 600 0 0 600 0 
-0 600 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-0 600 600 600 0 0 0 600 600 0 0 0 0 600 0 0 
-0 0 600 ]
+0 600 ]
 /Encoding /WinAnsiEncoding
 /BaseFont /Courier-Bold
 /FontDescriptor 16 0 R
@@ -309,8 +353,8 @@ endobj
 /Widths [600 0 0 600 0 0 0 0 0 0 0 0 0 0 600 0 
 600 0 600 0 0 0 0 0 0 0 600 0 0 0 0 0 
 0 600 600 600 600 0 600 0 600 0 0 0 0 600 0 0 
-600 0 600 0 0 0 0 0 0 600 0 0 0 0 0 600 
-0 600 600 600 0 600 600 600 600 600 600 0 600 0 600 600 
+600 0 600 0 0 0 0 0 0 600 0 0 0 0 0 0 
+0 600 600 600 600 600 600 600 600 600 600 0 600 0 600 600 
 600 0 600 600 600 600 0 0 600 600 ]
 /Encoding /WinAnsiEncoding
 /BaseFont /Courier-Oblique
@@ -345,8 +389,8 @@ endobj
 endobj
 20 0 obj
 <<
-/CreationDate (D:20200415132524-04'00')
-/ModDate (D:20200415132524-04'00')
+/CreationDate (D:20200415133045-04'00')
+/ModDate (D:20200415133045-04'00')
 /Producer (Apple pstopdf)
 >>
 endobj
@@ -360,34 +404,34 @@ endobj
 xref
 0 22
 0000000000 65535 f 
-0000004623 00000 n 
+0000005366 00000 n 
 0000000016 00000 n 
-0000001228 00000 n 
-0000002721 00000 n 
-0000002925 00000 n 
-0000003095 00000 n 
-0000003439 00000 n 
-0000003828 00000 n 
-0000004198 00000 n 
-0000001381 00000 n 
-0000004772 00000 n 
-0000001522 00000 n 
-0000001724 00000 n 
-0000001930 00000 n 
-0000002127 00000 n 
-0000002318 00000 n 
-0000002520 00000 n 
-0000004704 00000 n 
-0000004732 00000 n 
-0000004854 00000 n 
-0000004977 00000 n 
+0000001821 00000 n 
+0000003314 00000 n 
+0000003518 00000 n 
+0000003688 00000 n 
+0000004016 00000 n 
+0000004447 00000 n 
+0000004941 00000 n 
+0000001974 00000 n 
+0000005515 00000 n 
+0000002115 00000 n 
+0000002317 00000 n 
+0000002523 00000 n 
+0000002720 00000 n 
+0000002911 00000 n 
+0000003113 00000 n 
+0000005447 00000 n 
+0000005475 00000 n 
+0000005597 00000 n 
+0000005720 00000 n 
 trailer
 <<
 /Size 22
 /Root 21 0 R
 /Info 20 0 R
-/ID [<26fc7ae1cad9daf7c138ff4657ac95a7><26fc7ae1cad9daf7c138ff4657ac95a7>]
+/ID [<b258be0c2f8dd86911c7595c24d8dc93><b258be0c2f8dd86911c7595c24d8dc93>]
 >>
 startxref
-5047
+5790
 %%EOF

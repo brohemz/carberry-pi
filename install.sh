@@ -12,3 +12,5 @@ PACKAGES= "qml Python3-pyqt5 Python3-pyqt5.qtquick Qml-module-qtquick* Python3-s
 sudo apt-get install "$PACKAGES" 
 
 sudo echo "export CARLOC=`pwd`/src/" >> ./bashrc
+
+sudo echo "@/usr/bin/bash `pwd`/src/start_carberry.sh" >> /etc/xdg/lxsession/LXDE/autostart"
