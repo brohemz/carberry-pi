@@ -1,13 +1,19 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{amsmath}
 
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
+\numberwithin{figure}{section}
+
 \title{Carberry Pi Documentation}
 \author{Ryan McHugh}
 \date{April 2020}
+
 
 \begin{document}
 
@@ -33,7 +39,7 @@
     111111111111111111111111
     1111001111111111110011111
       100001        100001
-        00              00            
+        00            00
 \end{verbatim}
 
 \hypertarget{outline-of-this-document}{%
@@ -55,7 +61,7 @@
   3.3 \protect\hyperlink{configuration}{Configuration}
 
   3.4 \protect\hyperlink{architecture}{Architecture}
-  
+
 \item
   \protect\hyperlink{connecting-the-pieces}{Connecting the Pieces}
 \item
@@ -76,7 +82,7 @@
 \hypertarget{hardware}{%
 \section{Hardware}\label{hardware}}
 
-Carberry Pi requires a few tools of the trade.
+Carberry Pi requires a few tools of the trade.\\
 
 ~~~~Namely:
 
@@ -92,57 +98,64 @@ Carberry Pi requires a few tools of the trade.
   (Real Time Clock)
 \end{itemize}
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\columnwidth]{./diagrams/architecture/architecture_diagram.png}
+\caption{Hardware Overview}
+\end{figure}
+
 \hypertarget{carberry-pi-software}{%
 \section{Carberry Pi Software}\label{carberry-pi-software}}
 
 \hypertarget{dashboard}{%
 \subsubsection{Dashboard}\label{dashboard}}
+Displays a speedometer, tachometer, and coolant temperature gauge.
 
-\begin{figure}
+\begin{figure}[H]
 \centering
-\includegraphics{./resources/dash.png}
+\includegraphics[width=0.7\columnwidth]{./resources/dash.png}
 \caption{Dashboard}
 \end{figure}
 
 \hypertarget{diagnostics}{%
 \subsubsection{Diagnostics}\label{diagnostics}}
+Displays a list of all data points provided by the Car Computer.
 
-\begin{figure}
+\begin{figure}[H]
 \centering
-\includegraphics{./resources/diagnostics.png}
+\includegraphics[width=0.7\columnwidth]{./resources/diagnostics.png}
 \caption{Diagnostics}
 \end{figure}
 
 \hypertarget{configuration}{%
 \subsubsection{Configuration}\label{configuration}}
 
-\begin{figure}
+\begin{figure}[H]
 \centering
-\includegraphics{./resources/configuration.png}
+\includegraphics[width=0.7\columnwidth]{./resources/configuration.png}
 \caption{Configuration}
 \end{figure}
-
-
-
 
 \subparagraph{Manage the settings of the application.}
 
 \begin{itemize}
-  \item 
+  \item
     locality: Region-based conversion of units (main dashboard only)
 \end{itemize}
 \begin{itemize}
-  \item 
+  \item
     fullscreen: Toggle for fullscreen on startup (only works on
 \end{itemize}
 \begin{itemize}
-  \item 
+  \item
     style: Manages the overall theme of the application (toggle between light and dark modes)
 \end{itemize}
 \begin{itemize}
-  \item 
+  \item
     time: Show/Hide the time in the header bar
 \end{itemize}
+
+Application must be restarted for some preference changes to take effect.
 
 \hypertarget{architecture}{%
 \subsubsection{Architecture}\label{architecture}}
@@ -206,15 +219,89 @@ Carberry Pi requires a few tools of the trade.
     \end{itemize}
 \end{itemize}
 
+\subparagraph{Runtime Overview}
+{
+  \emph{run.py} lasts the runtime of the program. It initializes the GUI through the pyqt application     engine. Then the front end initializes communication with \emph{run.qml}.  In the meantime, \emph{run.py}
+     (backend) begins syncing between the car and the application.  This data is then read into a dictionary object, then passed to \emph{context.py} - a middleman between the backend and frontend.
+     The GUI is then updated, and the process of \emph{read, update, display} is repeated through the runtime of the program.
+}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\columnwidth]{./diagrams/sequence/diagram_sequence.png}
+\caption{Sequence Diagram}
+\end{figure}
+
+
+
 
 
 \hypertarget{connecting-the-pieces}{%
 \section{Connecting the Pieces}\label{connecting-the-pieces}}
 
-// tutorial with picture layout of connecting each component
+\subsection{Step 1: Gather the Equipment}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\columnwidth]{./resources/comp-0.jpeg}
+\caption{Step 1}
+\end{figure}
+
+\subsection{Step 2: Getting Connection}
+\begin{itemize}
+  \item Screw the raspberry pi into the board posts at the rear of the screen.
+  \item Connect the displayport cable from the screen to the Pi (the white ribbon cable)
+  \item Connect the pins from the GPIO pins to the screen as pictured in \emph{Figure 4.2}. [pins 1,2 --$>$ pins 1,5]
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\columnwidth]{./resources/comp-1.jpeg}
+\caption{Step 2}
+\end{figure}
+
+\subsection{Step 3: RTC Module}
+\begin{itemize}
+  \item Attach the RTC module to the first four GPIO pins parallel to the previously-connected cables.
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\columnwidth]{./resources/comp-2.jpeg}
+\caption{Step 3}
+\end{figure}
+
+\subsection{Step 4: Screwing It All Together}
+\begin{itemize}
+  \item Line up the back casing with the raspberry pi.
+  \item Place the screws into each of the four highlighted holes in \emph{Figure 4.4}
+  \item Attach the back cover
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\columnwidth]{./resources/comp-3.jpeg}
+\caption{Step 4-1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\columnwidth]{./resources/comp-4.jpeg}
+\caption{Step 4-2}
+\end{figure}
+
+\subsection{Final Product}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\columnwidth]{./resources/comp-5.jpeg}
+\caption{Final Product}
+\end{figure}
+
 
 \hypertarget{getting-up-and-running}{%
 \section{Getting Up and Running}\label{getting-up-and-running}}
+
+
 
 \hypertarget{recommended-os-dietpi}{%
 \paragraph{Recommended OS: DietPi}\label{recommended-os-dietpi}}
@@ -239,11 +326,13 @@ that suits the limited hardware of the Raspberry Pi wonderfully.
 command that executes the \emph{start\_carberry.sh} script to the
 startup file of the respective DE.}
 
+\paragraph{Note: The RTC Module requires the installation of a module-specific driver}
+
 \subsubsection{Installation}
 \begin{enumerate}
     \def\labelenumi{\arabic{enumi}.}
     \item   Clone the repo from \url{https://github.com/brohemz/carberry-pi}
-    \item   Run \emph{install.sh} in the \emph{src} folder as SuperUser
+    \item   Run \emph{install.sh} in the \emph{/} folder as SuperUser
     \begin{itemize}
         \item Note: The \emph{autostart} functionality of the installation script
                     requires LXDE.
@@ -251,7 +340,7 @@ startup file of the respective DE.}
     \item In order to ensure proper \emph{autostart} functionality, restart the computer now.
     \item Run the application \emph{start\_carberry.sh} from \emph{src} folder.
 \end{enumerate}
-\paragraph{You should now see the main dashboard.}
+\paragraph{The application should now launch to the main dashboard.}
 
 
 
