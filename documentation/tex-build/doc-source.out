@@ -1,0 +1,16 @@
+\BOOKMARK [2][-]{subsection.0.1}{Outline of this Document}{}% 1
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 2
+\BOOKMARK [1][-]{section.2}{Hardware}{}% 3
+\BOOKMARK [1][-]{section.3}{Carberry Pi Software}{}% 4
+\BOOKMARK [2][-]{section*.1}{Dashboard}{section.3}% 5
+\BOOKMARK [3][-]{section*.2}{Diagnostics}{section*.1}% 6
+\BOOKMARK [3][-]{section*.3}{Configuration}{section*.1}% 7
+\BOOKMARK [3][-]{section*.5}{Architecture}{section*.1}% 8
+\BOOKMARK [1][-]{section.4}{Connecting the Pieces}{}% 9
+\BOOKMARK [2][-]{subsection.4.1}{Step 1: Gather the Equipment}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.2}{Step 2: Getting Connection}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.3}{Step 3: RTC Module}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.4}{Step 4: Screwing It All Together}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.5}{Final Product}{section.4}% 14
+\BOOKMARK [1][-]{section.5}{Getting Up and Running}{}% 15
+\BOOKMARK [2][-]{section*.14}{Installation}{section.5}% 16

@@ -2,7 +2,7 @@
 %‚„œ”
 2 0 obj
 <<
-/Length 1756
+/Length 1160
 >>
 stream
 0.95 g
@@ -18,9 +18,9 @@ BT
 0 g
 0 Tc
 0 Tw
-(04/12/20)Tj
+(04/15/20)Tj
 -0.0552 -1.0667 TD
-(18:28:55)Tj
+(13:16:55)Tj
 ET
 0.7 g
 499 818 72 -36 re
@@ -31,135 +31,78 @@ BT
 1 g
 (1)Tj
 /TT6 1 Tf
-14 0 0 14 234.3257 786.5 Tm
+14 0 0 14 236.8584 786.5 Tm
 0 g
-(/carberry/start_loop.sh)Tj
-1.9431 1.2857 TD
-(start_loop.sh)Tj
+(./src/start_carberry.sh)Tj
+0.9858 1.2857 TD
+(start_carberry.sh)Tj
 /TT8 1 Tf
 10 0 0 10 54 769 Tm
 (1:)Tj
 /TT10 1 Tf
 1.8 0 TD
-(#!/bin/bash)Tj
+(#!/bin/sh)Tj
 /TT8 1 Tf
 -1.8 -1.1 TD
 (2:)Tj
-/TT10 1 Tf
+/TT12 1 Tf
 1.8 0 TD
-(IFS)Tj
+(#)Tj
 /TT8 1 Tf
-1.8 0 TD
-(=)Tj
--3.6 -1.1 TD
+-1.8 -1.1 TD
 (3:)Tj
-T*
-[(4:)-599.8(mainScript\(\){)]TJ
-T*
-[(5:)-599.8( out=ësudo python3 run.py $1ë)]TJ
-T*
-[(6:)-599.8(})]TJ
-T*
+/TT12 1 Tf
+1.8 0 TD
+(# File: start_carberry.sh)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(4:)Tj
+/TT12 1 Tf
+1.8 0 TD
+(# Description: Bash executable for running the application)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(5:)Tj
+/TT12 1 Tf
+1.8 0 TD
+(# Project: Carberry Pi)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(6:)Tj
+/TT12 1 Tf
+1.8 0 TD
+(# Author: Ryan McHugh)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
 (7:)Tj
-T*
-[(8:)-599.8(mainScript $1)]TJ
-T*
+/TT12 1 Tf
+1.8 0 TD
+(# Year: 2020)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
+(8:)Tj
+/TT12 1 Tf
+1.8 0 TD
+(#)Tj
+/TT8 1 Tf
+-1.8 -1.1 TD
 (9:)Tj
 -0.6 -1.1 TD
 (10:)Tj
-T*
-(11:)Tj
 /TT10 1 Tf
 2.4 0 TD
-(while)Tj
-/TT8 1 Tf
-3 0 TD
-( [ 1 -eq 1 ])Tj
--5.4 -1.1 TD
-(12:)Tj
-/TT10 1 Tf
-2.4 0 TD
-(do)Tj
-/TT8 1 Tf
--2.4 -1.1 TD
-[(13:)-599.7(  exit_st=ë)]TJ
-/TT10 1 Tf
-9 0 TD
-(echo)Tj
-/TT8 1 Tf
-2.4 0 TD
-( {$out} | grep -m 1 )Tj
-/TT10 1 Tf
-12 0 TD
-("exit_status")Tj
-/TT8 1 Tf
-7.8 0 TD
-(ë)Tj
--31.2 -1.1 TD
-(14:)Tj
-T*
-[(15:)-599.7(  )]TJ
-/TT10 1 Tf
-3.6 0 TD
-(if)Tj
+(cd)Tj
 /TT8 1 Tf
 1.2 0 TD
-(  [[ )Tj
-/TT10 1 Tf
-3 0 TD
-("$exit_st")Tj
-/TT8 1 Tf
-6 0 TD
-( == *)Tj
-/TT10 1 Tf
-3 0 TD
-("restart")Tj
-/TT8 1 Tf
-5.4 0 TD
-(* ]])Tj
--22.2 -1.1 TD
-[(16:)-599.7(  )]TJ
-/TT10 1 Tf
-3.6 0 TD
-(then)Tj
-/TT8 1 Tf
--3.6 -1.1 TD
-[(17:)-599.7(        mainScript $1)]TJ
-T*
-[(18:)-599.7(  )]TJ
-/TT10 1 Tf
-3.6 0 TD
-(else)Tj
-/TT8 1 Tf
--3.6 -1.1 TD
-[(19:)-599.7(        )]TJ
-/TT10 1 Tf
-7.2 0 TD
-(echo)Tj
-/TT8 1 Tf
-2.4 0 TD
 ( )Tj
 /TT10 1 Tf
 0.6 0 TD
-("goodbye")Tj
+("$CARLOC")Tj
 /TT8 1 Tf
--10.2 -1.1 TD
-[(20:)-599.7(        )]TJ
-/TT10 1 Tf
-7.2 0 TD
-(break)Tj
-/TT8 1 Tf
--7.2 -1.1 TD
-[(21:)-599.7(  )]TJ
-/TT10 1 Tf
-3.6 0 TD
-(fi)Tj
-/TT8 1 Tf
--3.6 -1.1 TD
-(22:)Tj
-/TT10 1 Tf
-2.4 0 TD
-(done)Tj
+-4.2 -1.1 TD
+(11:)Tj
+T*
+[(12:)-599.7(sudo ./start_loop.sh $1)]TJ
 ET
 endstream
 endobj
@@ -172,13 +115,14 @@ endobj
 /TT6 6 0 R
 /TT8 7 0 R
 /TT10 8 0 R
+/TT12 9 0 R
 >>
 /ExtGState <<
-/GS1 9 0 R
+/GS1 10 0 R
 >>
 >>
 endobj
-9 0 obj
+10 0 obj
 <<
 /Type /ExtGState
 /SA false
@@ -192,7 +136,7 @@ endobj
 /TR2 /Default
 >>
 endobj
-11 0 obj
+12 0 obj
 <<
 /Type /FontDescriptor
 /Ascent 750
@@ -207,7 +151,7 @@ endobj
 /StemH 139
 >>
 endobj
-12 0 obj
+13 0 obj
 <<
 /Type /FontDescriptor
 /Ascent 770
@@ -222,7 +166,7 @@ endobj
 /StemH 140
 >>
 endobj
-13 0 obj
+14 0 obj
 <<
 /Type /FontDescriptor
 /Ascent 750
@@ -237,7 +181,7 @@ endobj
 /StemH 84
 >>
 endobj
-14 0 obj
+15 0 obj
 <<
 /Type /FontDescriptor
 /Ascent 753
@@ -252,7 +196,7 @@ endobj
 /StemH 51
 >>
 endobj
-15 0 obj
+16 0 obj
 <<
 /Type /FontDescriptor
 /Ascent 753
@@ -267,16 +211,31 @@ endobj
 /StemH 84
 >>
 endobj
+17 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 99
+/FontBBox [-28 -250 742 805]
+/FontName /Courier-Oblique
+/ItalicAngle -15
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
 4 0 obj
 <<
 /Type /Font
 /Subtype /TrueType
 /FirstChar 47
 /LastChar 58
-/Widths [278 500 500 500 0 500 500 0 0 500 0 333 ]
+/Widths [278 500 500 500 500 500 500 500 0 0 0 333 ]
 /Encoding /WinAnsiEncoding
 /BaseFont /Times-Bold
-/FontDescriptor 11 0 R
+/FontDescriptor 12 0 R
 >>
 endobj
 5 0 obj
@@ -288,7 +247,7 @@ endobj
 /Widths [556 ]
 /Encoding /WinAnsiEncoding
 /BaseFont /Helvetica-Bold
-/FontDescriptor 12 0 R
+/FontDescriptor 13 0 R
 >>
 endobj
 6 0 obj
@@ -300,11 +259,11 @@ endobj
 /Widths [250 278 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-0 500 0 444 500 444 0 444 0 0 500 0 0 0 278 0 
-0 500 500 0 333 389 278 0 0 0 0 500 ]
+0 500 0 444 500 444 0 444 0 0 500 0 0 0 0 0 
+0 0 0 0 333 389 278 0 0 0 0 500 ]
 /Encoding /WinAnsiEncoding
 /BaseFont /Times-Roman
-/FontDescriptor 13 0 R
+/FontDescriptor 14 0 R
 >>
 endobj
 7 0 obj
@@ -312,18 +271,16 @@ endobj
 /Type /Font
 /Subtype /TrueType
 /FirstChar 32
-/LastChar 145
-/Widths [600 0 0 0 600 0 0 0 600 600 600 0 0 600 600 0 
-600 600 600 600 600 600 600 600 600 600 600 0 0 600 0 0 
+/LastChar 117
+/Widths [600 0 0 0 600 0 0 0 0 0 0 0 0 0 600 600 
+600 600 600 600 600 600 600 600 600 600 600 0 0 0 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-0 0 0 600 0 0 0 0 0 0 0 600 0 600 0 600 
-0 600 0 600 600 600 0 600 600 600 0 0 0 600 600 600 
-600 600 600 600 600 600 0 0 600 600 0 600 600 600 0 0 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-0 600 ]
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 600 
+0 600 0 0 600 0 0 0 600 0 0 0 600 0 0 600 
+600 0 600 600 600 600 ]
 /Encoding /WinAnsiEncoding
 /BaseFont /Courier
-/FontDescriptor 14 0 R
+/FontDescriptor 15 0 R
 >>
 endobj
 8 0 obj
@@ -331,37 +288,54 @@ endobj
 /Type /Font
 /Subtype /TrueType
 /FirstChar 33
-/LastChar 121
+/LastChar 115
 /Widths [600 600 600 600 0 0 0 0 0 0 0 0 0 0 600 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-0 0 0 0 0 600 0 0 600 0 0 0 0 0 0 0 
-0 0 600 0 0 0 0 0 0 0 0 0 0 0 600 0 
-600 600 600 600 600 600 600 600 600 0 600 600 0 600 600 0 
-0 600 600 600 600 0 600 600 600 ]
+600 0 600 0 0 0 0 0 0 0 0 600 0 0 600 0 
+0 600 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 600 600 600 0 0 0 600 600 0 0 0 0 600 0 0 
+0 0 600 ]
 /Encoding /WinAnsiEncoding
 /BaseFont /Courier-Bold
-/FontDescriptor 15 0 R
+/FontDescriptor 16 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 121
+/Widths [600 0 0 600 0 0 0 0 0 0 0 0 0 0 600 0 
+600 0 600 0 0 0 0 0 0 0 600 0 0 0 0 0 
+0 600 600 600 600 0 600 0 600 0 0 0 0 600 0 0 
+600 0 600 0 0 0 0 0 0 600 0 0 0 0 0 600 
+0 600 600 600 0 600 600 600 600 600 600 0 600 0 600 600 
+600 0 600 600 600 600 0 0 600 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Oblique
+/FontDescriptor 17 0 R
 >>
 endobj
 1 0 obj
 <<
 /Type /Page
-/Parent 10 0 R
+/Parent 11 0 R
 /Resources 3 0 R
 /Contents 2 0 R
 >>
 endobj
-16 0 obj
+18 0 obj
 <<
 /S /D
 >>
 endobj
-17 0 obj
+19 0 obj
 <<
-/Nums [0 16 0 R ]
+/Nums [0 18 0 R ]
 >>
 endobj
-10 0 obj
+11 0 obj
 <<
 /Type /Pages
 /Kids [1 0 R]
@@ -369,49 +343,51 @@ endobj
 /MediaBox [0 0 595 842]
 >>
 endobj
-18 0 obj
+20 0 obj
 <<
-/CreationDate (D:20200413160437-04'00')
-/ModDate (D:20200413160437-04'00')
+/CreationDate (D:20200415132524-04'00')
+/ModDate (D:20200415132524-04'00')
 /Producer (Apple pstopdf)
 >>
 endobj
-19 0 obj
+21 0 obj
 <<
 /Type /Catalog
-/Pages 10 0 R
-/PageLabels 17 0 R
+/Pages 11 0 R
+/PageLabels 19 0 R
 >>
 endobj
 xref
-0 20
+0 22
 0000000000 65535 f 
-0000004715 00000 n 
+0000004623 00000 n 
 0000000016 00000 n 
-0000001824 00000 n 
-0000003102 00000 n 
-0000003304 00000 n 
-0000003474 00000 n 
-0000003824 00000 n 
-0000004309 00000 n 
-0000001964 00000 n 
-0000004864 00000 n 
-0000002104 00000 n 
-0000002306 00000 n 
-0000002512 00000 n 
-0000002709 00000 n 
-0000002900 00000 n 
-0000004796 00000 n 
-0000004824 00000 n 
-0000004946 00000 n 
-0000005069 00000 n 
+0000001228 00000 n 
+0000002721 00000 n 
+0000002925 00000 n 
+0000003095 00000 n 
+0000003439 00000 n 
+0000003828 00000 n 
+0000004198 00000 n 
+0000001381 00000 n 
+0000004772 00000 n 
+0000001522 00000 n 
+0000001724 00000 n 
+0000001930 00000 n 
+0000002127 00000 n 
+0000002318 00000 n 
+0000002520 00000 n 
+0000004704 00000 n 
+0000004732 00000 n 
+0000004854 00000 n 
+0000004977 00000 n 
 trailer
 <<
-/Size 20
-/Root 19 0 R
-/Info 18 0 R
-/ID [<af305922a400b6e9df01a226285d2514><af305922a400b6e9df01a226285d2514>]
+/Size 22
+/Root 21 0 R
+/Info 20 0 R
+/ID [<26fc7ae1cad9daf7c138ff4657ac95a7><26fc7ae1cad9daf7c138ff4657ac95a7>]
 >>
 startxref
-5139
+5047
 %%EOF

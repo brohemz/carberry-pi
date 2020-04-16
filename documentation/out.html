@@ -1,0 +1,142 @@
+
+<p>(1,0)<span>300</span></p>
+
+<p><strong>Carberry Pi</strong></p>
+<pre><code>
+         11111111
+        11   11   1
+     111     11    1111
+    111111111111111111111111
+    1111001111111111110011111
+      100001        100001
+        00              00</code></pre>
+<div id="outline-of-this-document">
+<h2 id="outline-of-this-document">Outline of this Document</h2>
+</div>
+<ol>
+<li><p><a href="#introduction">Introduction</a></p></li>
+<li><p><a href="#hardware">Hardware</a></p></li>
+<li><p><a href="#software">Carberry Pi Software</a></p>
+<p>3.1 <a href="#dashboard">Dashboard</a></p>
+<p>3.2 <a href="#diagnostics">Diagnostics</a></p>
+<p>3.3 <a href="#configuration">Configuration</a></p>
+<p>3.4 <a href="#architecture">Architecture</a></p></li>
+<li><p><a href="#connecting-the-pieces">Connecting the Pieces</a></p></li>
+<li><p><a href="#getting-up-and-running">Getting Up and Running</a></p></li>
+</ol>
+<h1 id="introduction">Introduction</h1>
+<ul>
+<li><p><em>Carberry Pi</em> is an automotive application of a mini-computer in the car. As the quintessential project for my undergraduate studies, this concept provides a deep-dive into an area of future interest.</p></li>
+</ul>
+<h1 id="hardware">Hardware</h1>
+<p>Carberry Pi requires a few tools of the trade.<br />
+    Namely:</p>
+<ul>
+<li><p>Raspberry Pi (this project uses a Raspberry Pi 3 model B)</p></li>
+<li><p>Professional Grade OBDII Cable</p></li>
+<li><p>Raspberry Pi Touchscreen</p></li>
+<li><p><a href="https://thepihut.com/products/mini-rtc-module-for-raspberry-pi">DS3231 RTC IC</a> (Real Time Clock)</p></li>
+</ul>
+<h1 id="carberry-pi-software">Carberry Pi Software</h1>
+<div id="dashboard">
+<h3 id="dashboard">Dashboard</h3>
+</div>
+<p>Displays a speedometer, tachometer, and coolant temperature gauge.</p>
+
+<figure>
+<img src="./resources/dash.png" alt="Dashboard" /><figcaption>Dashboard</figcaption>
+</figure>
+<div id="diagnostics">
+<h3 id="diagnostics">Diagnostics</h3>
+</div>
+<p>Displays a list of all data points provided by the Car Computer.</p>
+
+<figure>
+<img src="./resources/diagnostics.png" alt="Diagnostics" /><figcaption>Diagnostics</figcaption>
+</figure>
+<div id="configuration">
+<h3 id="configuration">Configuration</h3>
+</div>
+
+<figure>
+<img src="./resources/configuration.png" alt="Configuration" /><figcaption>Configuration</figcaption>
+</figure>
+<h5 id="manage-the-settings-of-the-application.">Manage the settings of the application.</h5>
+<ul>
+<li><p>locality: Region-based conversion of units (main dashboard only)</p></li>
+</ul>
+<ul>
+<li><p>fullscreen: Toggle for fullscreen on startup (only works on</p></li>
+</ul>
+<ul>
+<li><p>style: Manages the overall theme of the application (toggle between light and dark modes)</p></li>
+</ul>
+<ul>
+<li><p>time: Show/Hide the time in the header bar</p></li>
+</ul>
+<div id="architecture">
+<h3 id="architecture">Architecture</h3>
+</div>
+<div id="toolkit">
+<h5 id="Toolkit">Toolkit</h5>
+</div>
+<ul>
+<li><p>Backend: Python</p>
+<ul>
+<li><p>Utilizes <a href="https://python-obd.readthedocs.io/en/latest/">python-obd</a> library for OBD information</p></li>
+</ul></li>
+<li><p>Frontend: PyQt (Qt-Quick) + QML Javascript</p></li>
+</ul>
+<div id="interface-architecture">
+<h5 id="interface-architecture">Interface Architecture</h5>
+</div>
+<ul>
+<li><p>Dynamic loading allows react.js style module instantiation and destruction</p>
+<ul>
+<li><p>Each component is loaded into a <em>view</em> as a separate entity</p></li>
+<li><p>These components can then be pushed/popped onto or from the main<em>stackview</em></p></li>
+<li><p>A separate script (javascript) manages the creation/destruction of the <em>back</em> button</p></li>
+</ul></li>
+<li><p>Time</p>
+<ul>
+<li><p>The time is based on the RTC (Real Time Clock) of the Raspberry Pi itself.</p></li>
+<li><p>As such, changing the locality has no effect on the time value.</p></li>
+</ul></li>
+</ul>
+<h5 id="directory-structure-file-enumeration">Directory Structure File Enumeration</h5>
+<ul>
+<li><p><em>documentation</em>: Stores the source files and compiled containers for this documentation<br />
+</p></li>
+<li><p><em>src</em>: Contains the Project Source files</p>
+<ul>
+<li><p><em>items</em>: reusable _custom_ QML items</p></li>
+<li><p><em>js</em>: JavaScript scripts (primarily for object creation and destruction)</p></li>
+<li><p><em>log</em>: storage for log output <em>(YYYY-MM-DD)</em></p></li>
+<li><p><em>partials</em>: QML partials (snippets)</p></li>
+<li><p><em>resources</em>: assets icons</p></li>
+</ul></li>
+</ul>
+<h1 id="connecting-the-pieces">Connecting the Pieces</h1>
+<p>// tutorial with picture layout of connecting each component</p>
+<h1 id="getting-up-and-running">Getting Up and Running</h1>
+<div id="recommended-os-dietpi">
+<h4 id="recommended-os-dietpi">Recommended OS: DietPi</h4>
+</div>
+<p>The <a href="https://dietpi.com"><em>DietPi</em></a> (debian-based) operating system distribution acts as a lightweight desktop environment for running GUIs on the Pi.</p>
+<p>Of Course, you may run this application on another operating system of your choosing.</p>
+<div id="recommended-de-lxde">
+<h4 id="recommended-de-lxde">Recommended DE: LXDE</h4>
+</div>
+<p>This project uses <a href="https://wiki.lxde.org/en/Main_Page"><em>LXDE</em></a>. It is a lightweight desktop environment that suits the limited hardware of the Raspberry Pi wonderfully.</p>
+<h4 id="the-use-of-another-desktop-environment-will-require-appending-a-command-that-executes-the-start_carberry.sh-script-to-the-startup-file-of-the-respective-de.">The use of another desktop environment will require appending a command that executes the <em>start_carberry.sh</em> script to the startup file of the respective DE.</h4>
+<h3 id="installation">Installation</h3>
+<ol>
+<li><p>Clone the repo from <a href="https://github.com/brohemz/carberry-pi" class="uri">https://github.com/brohemz/carberry-pi</a></p></li>
+<li><p>Run <em>install.sh</em> in the <em>/</em> folder as SuperUser</p>
+<ul>
+<li><p>Note: The <em>autostart</em> functionality of the installation script requires LXDE.</p></li>
+</ul></li>
+<li><p>In order to ensure proper <em>autostart</em> functionality, restart the computer now.</p></li>
+<li><p>Run the application <em>start_carberry.sh</em> from <em>src</em> folder.</p></li>
+</ol>
+<h4 id="you-should-now-see-the-main-dashboard.">You should now see the main dashboard.</h4>

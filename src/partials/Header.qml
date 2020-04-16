@@ -84,7 +84,7 @@ Rectangle {
         id: header_engine_code_component
         Items.Alert{
           id: header_alert
-          amount: 2
+          amount: 1
           style: loader_style
           stack: internal_rectangle.list['stack']
           context: internal_rectangle.context

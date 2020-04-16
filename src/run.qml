@@ -26,7 +26,7 @@ ApplicationWindow {
     visible: true
     width: 800
     height: 480
-    title: "Carberry Pi [Development]"
+    title: "Carberry Pi [Final]"
 
     // Variables
     property var style: main.config['style']['current']
