@@ -1,0 +1,571 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html >
+<head><title>Carberry Pi Documentation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="TeX4ht (https://tug.org/tex4ht/)">
+<meta name="originator" content="TeX4ht (https://tug.org/tex4ht/)">
+<!-- html -->
+<meta name="src" content="doc-source.tex">
+<link rel="stylesheet" type="text/css" href="doc-source.css">
+</head><body
+>
+   <div class="maketitle">
+
+
+
+
+
+
+
+<h2 class="titleHead">Carberry Pi Documentation</h2>
+<div class="author" ><span
+class="cmr-12">Ryan McHugh</span></div><br />
+<div class="date" ><span
+class="cmr-12">April 2020</span></div>
+   </div>
+<div class="center"
+>
+<!--l. 23--><p class="noindent" >
+<!--l. 24--><p class="noindent" >_________________________________________________________</div>
+<!--l. 32--><p class="indent" >   <span
+class="cmbx-10">Carberry Pi</span>
+
+
+
+   <div class="verbatim" id="verbatim-1">
+&#x00A0;<br />&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;11111111
+&#x00A0;<br />&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;11&#x00A0;&#x00A0;&#x00A0;11&#x00A0;&#x00A0;&#x00A0;1
+&#x00A0;<br />&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;111&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;11&#x00A0;&#x00A0;&#x00A0;&#x00A0;1111
+&#x00A0;<br />&#x00A0;&#x00A0;&#x00A0;&#x00A0;111111111111111111111111
+&#x00A0;<br />&#x00A0;&#x00A0;&#x00A0;&#x00A0;1111001111111111110011111
+&#x00A0;<br />&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;100001&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;100001
+&#x00A0;<br />&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;00&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;00
+</div>
+
+<h5> <a href="https://github.com/brohemz/carberry-pi"> View this project on Github </a> </h5>
+
+<h5> <a href="https://github.com/brohemz/carberry-pi/blob/master/documentation/doc-source.pdf"> View this document as a PDF </a> </h5>
+
+<!--l. 43--><p class="nopar" >
+<!--l. 46--><p class="indent" >   <a
+ id="outline-of-this-document"></a>
+   <h4 class="subsectionHead"><span class="titlemark">0.1   </span> <a
+ id="x1-10000.1"></a>Outline of this Document</h4>
+<!--l. 48--><p class="noindent" >
+     <ol  class="enumerate1" >
+     <li
+  class="enumerate" id="x1-1002x1"><a
+href="#introduction">Introduction</a>
+     </li>
+     <li
+  class="enumerate" id="x1-1004x2"><a
+href="#hardware">Hardware</a>
+     </li>
+     <li
+  class="enumerate" id="x1-1006x3"><a
+href="#software">Carberry Pi Software</a>
+     <!--l. 57--><p class="noindent" >3.1 <a
+href="#dashboard">Dashboard</a>
+     <!--l. 59--><p class="noindent" >3.2 <a
+href="#diagnostics">Diagnostics</a>
+     <!--l. 61--><p class="noindent" >3.3 <a
+href="#configuration">Configuration</a>
+     <!--l. 63--><p class="noindent" >3.4 <a
+href="#architecture">Architecture</a>
+     </li>
+     <li
+  class="enumerate" id="x1-1008x4"><a
+href="#connecting-the-pieces">Connecting the Pieces</a>
+     </li>
+     <li
+  class="enumerate" id="x1-1010x5"><a
+href="#getting-up-and-running">Getting Up and Running</a></li></ol>
+<!--l. 72--><p class="noindent" ><a
+ id="introduction"></a>
+   <h3 class="sectionHead"><span class="titlemark">1   </span> <a
+ id="x1-20001"></a>Introduction</h3>
+
+
+
+     <ul class="itemize1">
+     <li class="itemize"><span
+class="cmti-10">Carberry Pi </span>is an automotive application of a mini-computer in the car.
+     As the quintessential project for my undergraduate studies, this concept
+     provides a deep-dive into an area of future interest.</li></ul>
+<!--l. 83--><p class="noindent" ><a
+ id="hardware"></a>
+   <h3 class="sectionHead"><span class="titlemark">2   </span> <a
+ id="x1-30002"></a>Hardware</h3>
+<!--l. 85--><p class="noindent" >Carberry Pi requires a few tools of the trade.<br
+class="newline" />
+<!--l. 87--><p class="indent" >   &#x00A0;&#x00A0;&#x00A0;&#x00A0;Namely:
+     <ul class="itemize1">
+     <li class="itemize">Raspberry Pi (this project uses a Raspberry Pi 3 model B)
+     </li>
+     <li class="itemize">Professional Grade OBDII Cable
+     </li>
+     <li class="itemize">Raspberry Pi Touchscreen
+     </li>
+     <li class="itemize"><a
+href="https://thepihut.com/products/mini-rtc-module-for-raspberry-pi" >DS3231 RTC IC</a> (Real Time Clock)</li></ul>
+<!--l. 101--><p class="indent" >   <hr class="figure"><div class="figure"
+>
+
+
+
+<a
+ id="x1-3001r1"></a>
+
+
+
+<!--l. 103--><p class="noindent" ><img
+src="https://github.com/brohemz/carberry-pi/raw/master/documentation/diagrams/architecture/architecture_diagram.png" alt="PIC"
+width="345" height="345" >
+<br /> <div class="caption"
+><span class="id">Figure&#x00A0;2.1: </span><span
+class="content">Hardware Overview</span></div><!--tex4ht:label?: x1-3001r1 -->
+
+
+
+<!--l. 105--><p class="indent" >   </div><hr class="endfigure">
+<!--l. 108--><p class="indent" >   <a
+ id="carberry-pi-software"></a>
+   <h3 class="sectionHead"><span class="titlemark">3   </span> <a
+ id="x1-40003"></a>Carberry Pi Software</h3>
+<!--l. 111--><p class="noindent" ><a
+ id="dashboard"></a>
+   <h5 class="subsubsectionHead"><a
+ id="x1-50003"></a>Dashboard</h5>
+<!--l. 112--><p class="noindent" >Displays a speedometer, tachometer, and coolant temperature gauge.
+<!--l. 114--><p class="indent" >   <hr class="figure"><div class="figure"
+>
+
+
+
+<a
+ id="x1-5001r1"></a>
+
+
+
+<!--l. 116--><p class="noindent" ><img
+src="https://github.com/brohemz/carberry-pi/raw/master/documentation/resources/dash.png" alt="PIC"
+width="241" height="241" >
+<br /> <div class="caption"
+><span class="id">Figure&#x00A0;3.1: </span><span
+class="content">Dashboard</span></div><!--tex4ht:label?: x1-5001r1 -->
+
+
+
+<!--l. 118--><p class="indent" >   </div><hr class="endfigure">
+<!--l. 121--><p class="indent" >   <a
+ id="diagnostics"></a>
+   <h5 class="subsubsectionHead"><a
+ id="x1-60003"></a>Diagnostics</h5>
+<!--l. 122--><p class="noindent" >Displays a list of all data points provided by the Car Computer.
+<!--l. 124--><p class="indent" >   <hr class="figure"><div class="figure"
+>
+
+
+
+<a
+ id="x1-6001r2"></a>
+
+
+
+<!--l. 126--><p class="noindent" ><img
+src="https://github.com/brohemz/carberry-pi/raw/master/documentation/resources/diagnostics.png" alt="PIC"
+width="241" height="241" >
+<br /> <div class="caption"
+><span class="id">Figure&#x00A0;3.2: </span><span
+class="content">Diagnostics</span></div><!--tex4ht:label?: x1-6001r2 -->
+
+
+
+<!--l. 128--><p class="indent" >   </div><hr class="endfigure">
+<!--l. 131--><p class="indent" >   <a
+ id="configuration"></a>
+   <h5 class="subsubsectionHead"><a
+ id="x1-70003"></a>Configuration</h5>
+<!--l. 133--><p class="noindent" ><hr class="figure"><div class="figure"
+>
+
+
+
+<a
+ id="x1-7001r3"></a>
+
+
+
+<!--l. 135--><p class="noindent" ><img
+src="https://github.com/brohemz/carberry-pi/raw/master/documentation/resources/configuration.png" alt="PIC"
+width="241" height="241" >
+<br /> <div class="caption"
+><span class="id">Figure&#x00A0;3.3: </span><span
+class="content">Configuration</span></div><!--tex4ht:label?: x1-7001r3 -->
+
+
+
+<!--l. 137--><p class="noindent" ></div><hr class="endfigure">
+<!--l. 139--><p class="indent" >   <span class="subparagraphHead"> <a
+ id="x1-80003"></a><span
+class="cmbx-10">Manage the settings of the application.</span></span>
+     <ul class="itemize1">
+     <li class="itemize">locality: Region-based conversion of units (main dashboard only)</li></ul>
+     <ul class="itemize1">
+     <li class="itemize">fullscreen: Toggle for fullscreen on startup (only works on</li></ul>
+     <ul class="itemize1">
+     <li class="itemize">style: Manages the overall theme of the application (toggle between light
+     and dark modes)</li></ul>
+     <ul class="itemize1">
+     <li class="itemize">time: Show/Hide the time in the header bar</li></ul>
+<!--l. 158--><p class="indent" >   Application must be restarted for some preference changes to take effect.
+<!--l. 161--><p class="indent" >   <a
+ id="architecture"></a>
+   <h5 class="subsubsectionHead"><a
+ id="x1-90003"></a>Architecture</h5>
+<!--l. 164--><p class="noindent" ><a
+ id="toolkit"></a>
+<!--l. 164--><p class="indent" >   <span class="subparagraphHead"> <a
+ id="x1-100003"></a><span
+class="cmbx-10">Toolkit</span></span>
+     <ul class="itemize1">
+     <li class="itemize">Backend: Python
+         <ul class="itemize2">
+         <li class="itemize">Utilizes <a
+href="https://python-obd.readthedocs.io/en/latest/" >python-obd</a> library for OBD information</li></ul>
+     </li>
+     <li class="itemize">Frontend: PyQt (Qt-Quick) + QML <span
+class="cmsy-10">| </span>Javascript</li></ul>
+<!--l. 180--><p class="indent" >   <a
+ id="interface-architecture"></a>
+<!--l. 180--><p class="indent" >   <span class="subparagraphHead"> <a
+ id="x1-110003"></a><span
+class="cmbx-10">Interface Architecture</span></span>
+     <ul class="itemize1">
+     <li class="itemize">Dynamic loading allows react.js style module instantiation and destruction
+
+
+
+         <ul class="itemize2">
+         <li class="itemize">Each component is loaded into a <span
+class="cmti-10">view </span>as a separate entity
+         </li>
+         <li class="itemize">These  components  can  then  be  pushed/popped  onto  or  from  the
+         main<span
+class="cmti-10">stackview</span>
+         </li>
+         <li class="itemize">A separate script (javascript) manages the creation/destruction of
+         the <span
+class="cmti-10">back </span>button</li></ul>
+     </li>
+     <li class="itemize">Time
+         <ul class="itemize2">
+         <li class="itemize">The time is based on the RTC (Real Time Clock) of the Raspberry
+         Pi itself.
+         </li>
+         <li class="itemize">As such, changing the locality has no effect on the time value.</li></ul>
+     </li></ul>
+<!--l. 208--><p class="indent" >   <span class="subparagraphHead"> <a
+ id="x1-120003"></a><span
+class="cmbx-10">Directory Structure </span><span
+class="cmbsy-10">| </span><span
+class="cmbx-10">File Enumeration</span></span>
+     <ul class="itemize1">
+     <li class="itemize"><span
+class="cmti-10">documentation</span>: Stores the source files and compiled containers for this
+     documentation<br
+class="newline" />
+     </li>
+     <li class="itemize"><span
+class="cmti-10">src</span>: Contains the Project Source files
+         <ul class="itemize2">
+         <li class="itemize"><span
+class="cmti-10">items</span>: reusable _custom_ QML items
+         </li>
+         <li class="itemize"><span
+class="cmti-10">js</span>: JavaScript scripts (primarily for object creation and destruction)
+         </li>
+         <li class="itemize"><span
+class="cmti-10">log</span>: storage for log output <span
+class="cmti-10">(YYYY-MM-DD)</span>
+         </li>
+         <li class="itemize"><span
+class="cmti-10">partials</span>: QML partials (snippets)
+         </li>
+         <li class="itemize"><span
+class="cmti-10">resources</span>: assets <span
+class="cmsy-10">| </span>icons</li></ul>
+     </li></ul>
+
+
+
+<!--l. 222--><p class="indent" >   <span class="subparagraphHead"> <a
+ id="x1-130003"></a><span
+class="cmbx-10">Runtime Overview</span></span>  <span
+class="cmti-10">run.py </span>lasts the runtime of the program. It initializes the
+GUI through the pyqt application engine. Then the front end initializes
+communication with <span
+class="cmti-10">run.qml</span>. In the meantime, <span
+class="cmti-10">run.py </span>(backend) begins syncing
+between the car and the application. This data is then read into a dictionary object,
+then passed to <span
+class="cmti-10">context.py </span>- a middleman between the backend and frontend. The
+GUI is then updated, and the process of <span
+class="cmti-10">read, update, display </span>is repeated through the
+runtime of the program.
+   <hr class="figure"><div class="figure"
+>
+
+
+
+<a
+ id="x1-13001r4"></a>
+
+
+
+<!--l. 231--><p class="noindent" ><img
+src="https://github.com/brohemz/carberry-pi/raw/master/documentation/diagrams/sequence/diagram_sequence.png" alt="PIC"
+width="345" height="345" >
+<br /> <div class="caption"
+><span class="id">Figure&#x00A0;3.4: </span><span
+class="content">Sequence Diagram</span></div><!--tex4ht:label?: x1-13001r4 -->
+
+
+
+   </div><hr class="endfigure">
+<!--l. 240--><p class="indent" >   <a
+ id="connecting-the-pieces"></a>
+   <h3 class="sectionHead"><span class="titlemark">4   </span> <a
+ id="x1-140004"></a>Connecting the Pieces</h3>
+<!--l. 242--><p class="noindent" >
+   <h4 class="subsectionHead"><span class="titlemark">4.1   </span> <a
+ id="x1-150004.1"></a>Step 1: Gather the Equipment</h4>
+<!--l. 244--><p class="noindent" ><hr class="figure"><div class="figure"
+>
+
+
+
+<a
+ id="x1-15001r1"></a>
+
+
+
+<!--l. 246--><p class="noindent" ><img
+src="https://github.com/brohemz/carberry-pi/raw/master/documentation/resources/comp-0.jpeg" alt="PIC"
+width="241" height="241" >
+<br /> <div class="caption"
+><span class="id">Figure&#x00A0;4.1: </span><span
+class="content">Step 1</span></div><!--tex4ht:label?: x1-15001r1 -->
+
+
+
+<!--l. 248--><p class="noindent" ></div><hr class="endfigure">
+   <h4 class="subsectionHead"><span class="titlemark">4.2   </span> <a
+ id="x1-160004.2"></a>Step 2: Getting Connection</h4>
+     <ul class="itemize1">
+     <li class="itemize">Screw the raspberry pi into the board posts at the rear of the screen.
+     </li>
+     <li class="itemize">Connect the displayport cable from the screen to the Pi (the white ribbon
+     cable)
+     </li>
+     <li class="itemize">Connect the pins from the GPIO pins to the screen as pictured in <span
+class="cmti-10">Figure</span>
+     <span
+class="cmti-10">4.2</span>. [pins 1,2 &#8211;<span
+class="cmmi-10">&#x003E; </span>pins 1,5]</li></ul>
+<!--l. 257--><p class="noindent" ><hr class="figure"><div class="figure"
+>
+
+
+
+<a
+ id="x1-16001r2"></a>
+
+
+
+<!--l. 259--><p class="noindent" ><img
+src="https://github.com/brohemz/carberry-pi/raw/master/documentation/resources/comp-1.jpeg" alt="PIC"
+width="241" height="241" >
+<br /> <div class="caption"
+><span class="id">Figure&#x00A0;4.2: </span><span
+class="content">Step 2</span></div><!--tex4ht:label?: x1-16001r2 -->
+
+
+
+<!--l. 261--><p class="noindent" ></div><hr class="endfigure">
+   <h4 class="subsectionHead"><span class="titlemark">4.3   </span> <a
+ id="x1-170004.3"></a>Step 3: RTC Module</h4>
+     <ul class="itemize1">
+     <li class="itemize">Attach  the  RTC  module  to  the  first  four  GPIO  pins  parallel  to  the
+     previously-connected cables.</li></ul>
+<!--l. 268--><p class="noindent" ><hr class="figure"><div class="figure"
+>
+
+
+
+<a
+ id="x1-17001r3"></a>
+
+
+
+<!--l. 270--><p class="noindent" ><img
+src="https://github.com/brohemz/carberry-pi/raw/master/documentation/resources/comp-2.jpeg" alt="PIC"
+width="241" height="241" >
+<br /> <div class="caption"
+><span class="id">Figure&#x00A0;4.3: </span><span
+class="content">Step 3</span></div><!--tex4ht:label?: x1-17001r3 -->
+
+
+
+<!--l. 272--><p class="noindent" ></div><hr class="endfigure">
+   <h4 class="subsectionHead"><span class="titlemark">4.4   </span> <a
+ id="x1-180004.4"></a>Step 4: Screwing It All Together</h4>
+     <ul class="itemize1">
+     <li class="itemize">Line up the back casing with the raspberry pi.
+     </li>
+     <li class="itemize">Place the screws into each of the four highlighted holes in <span
+class="cmti-10">Figure 4.4</span>
+     </li>
+     <li class="itemize">Attach the back cover</li></ul>
+<!--l. 281--><p class="noindent" ><hr class="figure"><div class="figure"
+>
+
+
+
+<a
+ id="x1-18001r4"></a>
+
+
+
+<!--l. 283--><p class="noindent" ><img
+src="https://github.com/brohemz/carberry-pi/raw/master/documentation/resources/comp-3.jpeg" alt="PIC"
+width="241" height="241" >
+<br /> <div class="caption"
+><span class="id">Figure&#x00A0;4.4: </span><span
+class="content">Step 4-1</span></div><!--tex4ht:label?: x1-18001r4 -->
+
+
+
+<!--l. 285--><p class="noindent" ></div><hr class="endfigure">
+<!--l. 287--><p class="indent" >   <hr class="figure"><div class="figure"
+>
+
+
+
+<a
+ id="x1-18002r5"></a>
+
+
+
+<!--l. 289--><p class="noindent" ><img
+src="https://github.com/brohemz/carberry-pi/raw/master/documentation/resources/comp-4.jpeg" alt="PIC"
+width="241" height="241" >
+<br /> <div class="caption"
+><span class="id">Figure&#x00A0;4.5: </span><span
+class="content">Step 4-2</span></div><!--tex4ht:label?: x1-18002r5 -->
+
+
+
+<!--l. 291--><p class="indent" >   </div><hr class="endfigure">
+   <h4 class="subsectionHead"><span class="titlemark">4.5   </span> <a
+ id="x1-190004.5"></a>Final Product</h4>
+<!--l. 294--><p class="noindent" ><hr class="figure"><div class="figure"
+>
+
+
+
+<a
+ id="x1-19001r6"></a>
+
+
+
+<!--l. 296--><p class="noindent" ><img
+src="https://github.com/brohemz/carberry-pi/raw/master/documentation/resources/comp-5.jpeg" alt="PIC"
+width="172" height="172" >
+<br /> <div class="caption"
+><span class="id">Figure&#x00A0;4.6: </span><span
+class="content">Final Product</span></div><!--tex4ht:label?: x1-19001r6 -->
+
+
+
+<!--l. 298--><p class="noindent" ></div><hr class="endfigure">
+<!--l. 302--><p class="indent" >   <a
+ id="getting-up-and-running"></a>
+   <h3 class="sectionHead"><span class="titlemark">5   </span> <a
+ id="x1-200005"></a>Getting Up and Running</h3>
+<!--l. 307--><p class="noindent" ><a
+ id="recommended-os-dietpi"></a>
+<!--l. 307--><p class="noindent" ><span class="paragraphHead"><a
+ id="x1-210005"></a><span
+class="cmbx-10">Recommended OS: DietPi</span></span>
+   The <a
+href="https://dietpi.com" ><span
+class="cmti-10">DietPi</span></a> (debian-based) operating system distribution acts as a lightweight
+desktop environment for running GUIs on the Pi.
+<div class="flushleft"
+>
+<!--l. 312--><p class="noindent" >
+ Of Course, you may run this application on another operating system of your
+choosing.</div>
+<!--l. 320--><p class="indent" >   <a
+ id="recommended-de-lxde"></a>
+<!--l. 320--><p class="noindent" ><span class="paragraphHead"><a
+ id="x1-220005"></a><span
+class="cmbx-10">Recommended DE: LXDE</span></span>
+   This project uses <a
+href="https://wiki.lxde.org/en/Main_Page" ><span
+class="cmti-10">LXDE</span></a>. It is a lightweight desktop environment that suits the
+limited hardware of the Raspberry Pi wonderfully.
+<!--l. 327--><p class="noindent" ><span class="paragraphHead"><a
+ id="x1-230005"></a><span
+class="cmbx-10">The use of another desktop environment will require appending a</span>
+<span
+class="cmbx-10">command that executes the </span><span
+class="cmbxti-10">start</span><span
+class="cmbxti-10">_carberry.sh </span><span
+class="cmbx-10">script to the startup file of</span>
+<span
+class="cmbx-10">the respective DE.</span></span>
+<!--l. 329--><p class="noindent" ><span class="paragraphHead"><a
+ id="x1-240005"></a><span
+class="cmbx-10">Note: The RTC Module requires the installation of a module-specific</span>
+<span
+class="cmbx-10">driver</span></span>
+<!--l. 331--><p class="noindent" >
+   <h5 class="subsubsectionHead"><a
+ id="x1-250005"></a>Installation</h5>
+<!--l. 332--><p class="noindent" >
+     <ol  class="enumerate1" >
+     <li
+  class="enumerate" id="x1-25002x1">Clone the repo from <a
+href="https://github.com/brohemz/carberry-pi" class="url" ><span
+class="cmtt-10">https://github.com/brohemz/carberry-pi</span></a>
+     </li>
+     <li
+  class="enumerate" id="x1-25004x2">Run <span
+class="cmti-10">install.sh </span>in the <span
+class="cmti-10">/ </span>folder as SuperUser
+         <ul class="itemize1">
+         <li class="itemize">Note: The <span
+class="cmti-10">autostart </span>functionality of the installation script requires
+         LXDE.</li></ul>
+
+
+
+     </li>
+     <li
+  class="enumerate" id="x1-25006x3">In order to ensure proper <span
+class="cmti-10">autostart </span>functionality, restart the computer
+     now.
+     </li>
+     <li
+  class="enumerate" id="x1-25008x4">Run the application <span
+class="cmti-10">start</span><span
+class="cmti-10">_carberry.sh </span>from <span
+class="cmti-10">src </span>folder.</li></ol>
+<!--l. 343--><p class="noindent" ><span class="paragraphHead"><a
+ id="x1-260005"></a><span
+class="cmbx-10">The application should now launch to the main dashboard.</span></span>
+
+</body></html>
