@@ -1,7 +1,9 @@
 # carberry-pi
 Raspberry Pi in the Car!
 
-[View the Documentation](https://github.com/brohemz/carberry-pi/blob/master/documentation/doc-source.pdf)
+[View the Documentation](https://brohemz.github.io/carberry-pi)
+\\
+[View (PDF)](https://github.com/brohemz/carberry-pi/blob/master/documentation/doc-source.pdf)
 
 <hr>
 This is the research project for my undergraduate degree.
