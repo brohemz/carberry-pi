@@ -1,11 +1,5 @@
-#!/bin/sh
-#
-# File: start_loop.sh
-# Description: Bash executable for looping the application (for restart)
-# Project: Carberry Pi
-# Author: Ryan McHugh
-# Year: 2020
-#
+#!/bin/bash
+IFS=
 
 mainScript(){
  out=`sudo python3 run.py $1`

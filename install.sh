@@ -13,4 +13,4 @@ pip3 install obd
 
 sudo echo "export CARLOC=`pwd`/src/" >> ~/.bashrc
 
-sudo echo "@/usr/bin/bash `pwd`/src/start_carberry.sh" >> "/etc/xdg/lxsession/LXDE/autostart"
+sudo echo "@/bin/bash `pwd`/src/start_carberry.sh" >> "/etc/xdg/lxsession/LXDE/autostart"
